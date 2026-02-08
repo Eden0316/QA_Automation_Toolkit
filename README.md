@@ -32,7 +32,7 @@ Airtest / Poco 기반 UI 자동화와 ADB 로그 분석, GUI 도구를 결합하
 ## 📁 프로젝트 폴더 구조
 
 ```text
-Tools/
+Toolkit/
 ├─ 00_install/                    # 환경 설정 및 설치
 │  ├─ run_setup_env.bat           # 통합 설치 실행 파일 (exe 변환 대상)
 │  ├─ setup_env.ps1               # 패키지 설치 / ADB 점검
