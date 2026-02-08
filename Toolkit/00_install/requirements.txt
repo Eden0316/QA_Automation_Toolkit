@@ -1,0 +1,36 @@
+# =================================================
+# QA Toolkit - requirements.txt
+# 👤 Author: Eden Kim
+# 📅 Date: 2026-02-06 - v1.0.6
+#   - 구글 드라이브 관련 API 설치 추가
+# =================================================
+#   - QA Toolkit 실행/배포에 필요한 Python 패키지를 "재현 가능"하게 관리
+#   - setup_env.ps1에서 QA_PYTHON(권장: Python 3.11.x) 기준으로 아래 requirements 설치
+# =================================================
+
+# ==== Core QA Automation ====
+airtest>=1.3,<2.0
+pywin32>=306; platform_system == "Windows"
+
+# ==== Reporting / Visualization ====
+matplotlib>=3.7,<3.9
+reportlab>=3.6,<4.0
+
+# ==== Google Drive API(대용량 파일 전송용) ====
+google-api-python-client>=2.0,<3.0
+google-auth>=2.0,<3.0
+google-auth-oauthlib>=1.0,<2.0
+google-auth-httplib2>=0.2,<1.0
+
+# ==== Office / Document IO ====
+openpyxl>=3.1,<4.0
+python-docx>=0.8.11,<1.0
+python-pptx>=0.6.21,<1.0
+
+# ==== (Optional) Document conversion ====
+# pypandoc는 Pandoc 바이너리 별도 설치 필요(미설치 시 오류 가능)
+pypandoc>=1.13,<2.0
+odfpy>=1.4,<2.0
+
+pandas>=2.0,<3.0
+numpy>=1.24,<2.0
