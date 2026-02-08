@@ -1,0 +1,1431 @@
+[2026-02-06 17:35:05]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 38.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      135,252 kB       135,252 kB         
+[2026-02-06 17:35:08]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 44.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      138,196 kB       138,196 kB         
+[2026-02-06 17:35:10]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 32.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      139,916 kB       139,916 kB         
+[2026-02-06 17:35:13]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 31.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      142,960 kB       142,960 kB         
+[2026-02-06 17:35:15]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 37.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      146,868 kB       146,868 kB         
+[2026-02-06 17:35:17]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 35.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      148,732 kB       148,732 kB         
+[2026-02-06 17:35:20]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 29.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      141,840 kB       141,840 kB         
+[2026-02-06 17:35:22]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 67.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      213,912 kB       213,912 kB         
+[2026-02-06 17:35:24]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 84.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      239,932 kB       239,932 kB         
+[2026-02-06 17:35:25]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 72.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      241,808 kB       241,808 kB         
+[2026-02-06 17:35:27]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      243,104 kB       243,104 kB         
+[2026-02-06 17:35:29]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      244,120 kB       244,120 kB         
+[2026-02-06 17:35:32]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      246,676 kB       246,676 kB         
+[2026-02-06 17:35:34]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 77.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      247,580 kB       247,580 kB         
+[2026-02-06 17:35:39]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 74.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      236,892 kB       236,892 kB         
+[2026-02-06 17:35:41]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      237,524 kB       237,524 kB         
+[2026-02-06 17:35:45]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 76.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      244,920 kB       244,920 kB         
+[2026-02-06 17:35:50]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      270,904 kB       270,904 kB         
+[2026-02-06 17:35:51]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,088 kB       271,088 kB         
+[2026-02-06 17:35:53]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,088 kB       271,088 kB         
+[2026-02-06 17:35:55]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,040 kB       271,040 kB         
+[2026-02-06 17:35:56]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,040 kB       271,040 kB         
+[2026-02-06 17:35:58]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,040 kB       271,040 kB         
+[2026-02-06 17:36:00]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      258,196 kB       258,196 kB         
+[2026-02-06 17:36:01]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      258,196 kB       258,196 kB         
+[2026-02-06 17:36:03]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 6.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      258,196 kB       258,196 kB         
+[2026-02-06 17:36:04]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      258,176 kB       258,176 kB         
+[2026-02-06 17:36:06]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 36.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,924 kB       259,924 kB         
+[2026-02-06 17:36:08]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,924 kB       259,924 kB         
+[2026-02-06 17:36:09]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,924 kB       259,924 kB         
+[2026-02-06 17:36:11]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 145.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      251,512 kB       251,512 kB         
+[2026-02-06 17:36:13]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 132.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      255,672 kB       255,672 kB         
+[2026-02-06 17:36:14]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 166.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      260,600 kB       260,600 kB         
+[2026-02-06 17:36:16]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 106.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,772 kB       259,772 kB         
+[2026-02-06 17:36:21]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 13.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      326,596 kB       326,596 kB         
+[2026-02-06 17:36:23]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 6.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      323,676 kB       323,676 kB         
+[2026-02-06 17:36:25]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 46.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      288,936 kB       288,936 kB         
+[2026-02-06 17:36:26]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 10.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      290,112 kB       290,112 kB         
+[2026-02-06 17:36:28]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      289,832 kB       289,832 kB         
+[2026-02-06 17:36:30]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      289,832 kB       289,832 kB         
+[2026-02-06 17:36:33]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 0.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      290,720 kB       290,720 kB         
+[2026-02-06 17:36:35]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 58.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      290,912 kB       290,912 kB         
+[2026-02-06 17:36:37]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 20.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      291,012 kB       291,012 kB         
+[2026-02-06 17:36:38]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      291,524 kB       291,524 kB         
+[2026-02-06 17:36:40]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      291,628 kB       291,628 kB         
+[2026-02-06 17:36:42]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 20.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      291,840 kB       291,840 kB         
+[2026-02-06 17:36:43]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      293,072 kB       293,072 kB         
+[2026-02-06 17:36:45]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      293,208 kB       293,208 kB         
+[2026-02-06 17:36:47]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 7.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      294,348 kB       294,348 kB         
+[2026-02-06 17:36:48]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      293,840 kB       293,840 kB         
+[2026-02-06 17:36:50]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 6.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      289,412 kB       289,412 kB         
+[2026-02-06 17:36:52]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 3.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      289,412 kB       289,412 kB         
+[2026-02-06 17:36:53]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 55.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      302,264 kB       302,264 kB         
+[2026-02-06 17:36:55]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      352,664 kB       352,664 kB         
+[2026-02-06 17:36:57]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 97.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      320,604 kB       320,604 kB         
+[2026-02-06 17:36:59]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      312,972 kB       312,972 kB         
+[2026-02-06 17:37:04]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 81.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      300,732 kB       300,732 kB         
+[2026-02-06 17:37:06]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 105.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      290,752 kB       290,752 kB         
+[2026-02-06 17:37:10]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 87.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      282,524 kB       282,524 kB         
+[2026-02-06 17:37:12]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 87.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      277,172 kB       277,172 kB         
+[2026-02-06 17:37:16]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 76.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      279,068 kB       279,068 kB         
+[2026-02-06 17:37:18]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 90.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      280,320 kB       280,320 kB         
+[2026-02-06 17:37:19]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 81.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      285,032 kB       285,032 kB         
+[2026-02-06 17:37:21]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 96.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      286,432 kB       286,432 kB         
+[2026-02-06 17:37:23]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 100.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      288,088 kB       288,088 kB         
+[2026-02-06 17:37:25]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 65.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      290,216 kB       290,216 kB         
+[2026-02-06 17:37:26]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 100.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      292,332 kB       292,332 kB         
+[2026-02-06 17:37:28]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      293,432 kB       293,432 kB         
+[2026-02-06 17:37:33]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 69.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      302,892 kB       302,892 kB         
+[2026-02-06 17:37:35]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 81.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      290,740 kB       290,740 kB         
+[2026-02-06 17:37:37]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 79.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      281,480 kB       281,480 kB         
+[2026-02-06 17:37:39]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 93.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      284,608 kB       284,608 kB         
+[2026-02-06 17:37:40]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 90.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      287,956 kB       287,956 kB         
+[2026-02-06 17:37:42]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      268,508 kB       268,508 kB         
+[2026-02-06 17:37:46]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 87.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      255,808 kB       255,808 kB         
+[2026-02-06 17:37:47]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 67.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      256,520 kB       256,520 kB         
+[2026-02-06 17:37:49]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 93.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,944 kB       259,944 kB         
+[2026-02-06 17:37:51]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      260,876 kB       260,876 kB         
+[2026-02-06 17:37:53]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 100.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      262,768 kB       262,768 kB         
+[2026-02-06 17:37:54]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      263,656 kB       263,656 kB         
+[2026-02-06 17:37:56]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      266,172 kB       266,172 kB         
+[2026-02-06 17:37:58]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 63.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      267,880 kB       267,880 kB         
+[2026-02-06 17:38:00]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 81.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      269,904 kB       269,904 kB         
+[2026-02-06 17:38:02]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.9 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,996 kB       271,996 kB         
+[2026-02-06 17:38:03]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 96.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      273,756 kB       273,756 kB         
+[2026-02-06 17:38:05]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      274,156 kB       274,156 kB         
+[2026-02-06 17:38:07]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 74.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      276,556 kB       276,556 kB         
+[2026-02-06 17:38:09]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 77.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      278,376 kB       278,376 kB         
+[2026-02-06 17:38:11]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 58.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      280,344 kB       280,344 kB         
+[2026-02-06 17:38:12]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 90.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      286,408 kB       286,408 kB         
+[2026-02-06 17:38:14]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 76.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      263,428 kB       263,428 kB         
+[2026-02-06 17:38:16]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      255,656 kB       255,656 kB         
+[2026-02-06 17:38:18]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.9 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      254,592 kB       254,592 kB         
+[2026-02-06 17:38:19]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 90.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      256,860 kB       256,860 kB         
+[2026-02-06 17:38:21]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,536 kB       259,536 kB         
+[2026-02-06 17:38:23]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      261,228 kB       261,228 kB         
+[2026-02-06 17:38:24]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      263,420 kB       263,420 kB         
+[2026-02-06 17:38:26]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      266,176 kB       266,176 kB         
+[2026-02-06 17:38:28]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 93.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      266,640 kB       266,640 kB         
+[2026-02-06 17:38:32]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 77.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,712 kB       271,712 kB         
+[2026-02-06 17:38:33]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 76.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      274,972 kB       274,972 kB         
+[2026-02-06 17:38:35]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 64.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      276,376 kB       276,376 kB         
+[2026-02-06 17:38:37]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 96.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      278,092 kB       278,092 kB         
+[2026-02-06 17:38:38]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 75.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      277,232 kB       277,232 kB         
+[2026-02-06 17:38:42]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 77.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      275,144 kB       275,144 kB         
+[2026-02-06 17:38:44]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 65.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      264,840 kB       264,840 kB         
+[2026-02-06 17:38:46]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 75.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      251,224 kB       251,224 kB         
+[2026-02-06 17:38:47]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 71.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      248,740 kB       248,740 kB         
+[2026-02-06 17:38:49]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      248,840 kB       248,840 kB         
+[2026-02-06 17:38:51]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 93.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      250,656 kB       250,656 kB         
+[2026-02-06 17:38:53]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 77.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      252,868 kB       252,868 kB         
+[2026-02-06 17:38:55]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 77.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      255,628 kB       255,628 kB         
+[2026-02-06 17:38:56]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 100.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      256,448 kB       256,448 kB         
+[2026-02-06 17:38:58]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 93.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      257,504 kB       257,504 kB         
+[2026-02-06 17:39:00]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 62.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,004 kB       259,004 kB         
+[2026-02-06 17:39:02]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 71.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      261,360 kB       261,360 kB         
+[2026-02-06 17:39:03]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      263,852 kB       263,852 kB         
+[2026-02-06 17:39:05]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 91.6 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      265,272 kB       265,272 kB         
+[2026-02-06 17:39:07]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 94.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      266,368 kB       266,368 kB         
+[2026-02-06 17:39:09]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 97.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      269,472 kB       269,472 kB         
+[2026-02-06 17:39:11]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 92.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      270,580 kB       270,580 kB         
+[2026-02-06 17:39:13]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      272,224 kB       272,224 kB         
+[2026-02-06 17:39:15]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 103.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      274,228 kB       274,228 kB         
+[2026-02-06 17:39:17]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      261,420 kB       261,420 kB         
+[2026-02-06 17:39:21]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 102.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      245,492 kB       245,492 kB         
+[2026-02-06 17:39:23]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      247,172 kB       247,172 kB         
+[2026-02-06 17:39:25]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 80.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      249,632 kB       249,632 kB         
+[2026-02-06 17:39:27]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 92.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      251,624 kB       251,624 kB         
+[2026-02-06 17:39:29]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 84.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      253,332 kB       253,332 kB         
+[2026-02-06 17:39:31]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      252,320 kB       252,320 kB         
+[2026-02-06 17:39:33]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.4 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      256,904 kB       256,904 kB         
+[2026-02-06 17:39:37]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 70.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      261,488 kB       261,488 kB         
+[2026-02-06 17:39:40]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 78.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      263,000 kB       263,000 kB         
+[2026-02-06 17:39:41]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 73.9 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      265,140 kB       265,140 kB         
+[2026-02-06 17:39:46]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 96.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      269,192 kB       269,192 kB         
+[2026-02-06 17:39:48]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 106.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      271,076 kB       271,076 kB         
+[2026-02-06 17:39:50]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 150.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      265,804 kB       265,804 kB         
+[2026-02-06 17:39:52]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 76.9 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,736 kB       259,736 kB         
+[2026-02-06 17:39:54]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      245,556 kB       245,556 kB         
+[2026-02-06 17:39:55]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 86.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      248,032 kB       248,032 kB         
+[2026-02-06 17:39:57]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 113.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      250,404 kB       250,404 kB         
+[2026-02-06 17:39:59]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 81.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      251,936 kB       251,936 kB         
+[2026-02-06 17:40:01]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 92.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      253,604 kB       253,604 kB         
+[2026-02-06 17:40:03]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 108.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      255,524 kB       255,524 kB         
+[2026-02-06 17:40:05]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 97.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      257,448 kB       257,448 kB         
+[2026-02-06 17:40:07]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 100.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      259,312 kB       259,312 kB         
+[2026-02-06 17:40:09]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 83.3 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      261,380 kB       261,380 kB         
+[2026-02-06 17:40:11]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 89.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      263,800 kB       263,800 kB         
+[2026-02-06 17:40:15]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 96.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      266,824 kB       266,824 kB         
+[2026-02-06 17:40:17]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 84.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      273,516 kB       273,516 kB         
+[2026-02-06 17:40:19]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 85.2 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      274,496 kB       274,496 kB         
+[2026-02-06 17:40:21]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 113.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      273,760 kB       273,760 kB         
+[2026-02-06 17:40:23]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 75.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      275,216 kB       275,216 kB         
+[2026-02-06 17:40:25]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 87.1 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      255,076 kB       255,076 kB         
+[2026-02-06 17:40:27]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 75.7 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      249,208 kB       249,208 kB         
+[2026-02-06 17:40:29]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 87.8 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      250,256 kB       250,256 kB         
+[2026-02-06 17:40:33]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 81.5 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      252,232 kB       252,232 kB         
+[2026-02-06 17:40:35]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 100.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      222,152 kB       222,152 kB         
+[2026-02-06 17:40:37]
+[Package] com.kyowon.literacy.store (PID: 17375)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+17375 u0_qa 0 0 0 0 0 S 106.0 com.kyowon.literacy.store
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL      221,812 kB       221,812 kB         

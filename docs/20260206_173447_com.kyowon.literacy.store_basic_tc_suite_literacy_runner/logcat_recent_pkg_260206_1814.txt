@@ -1,0 +1,702 @@
+02-06 18:13:29.930  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:30.141  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:30.142  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:30.142  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:30.142  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:30.142  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:30.143  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:30.143  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:30.143  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:30.846  3012  7224 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:30.899  3012  7224 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:30.906  3012  7224 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:30.910  3012  7224 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:30.939  3012  7224 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:31.241  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:31.416  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:31.416  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:31.416  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:31.417  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:31.417  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:32.459  3012  3453 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:32.628  3012  7152 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:32.628  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:32.631  3012  7152 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:32.634  3012  7152 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:32.641  3012  7152 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:32.731  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:32.731  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:32.732  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:32.732  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:32.732  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:33.138  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:33.188  3012  7152 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:33.244  3012  7152 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:33.285  3012  7224 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:33.287  3012  7224 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:33.304  3012  7224 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:33.312  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:33.312  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:33.314  3012  7224 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:33.316  3012  7224 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:33.334  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:33.476 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:33.567  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:33.568  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:33.568  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:33.568  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:33.568  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:33.900  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:34.034  3012  8912 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:34.043  3012  8912 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:34.185  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:34.821  3012  3453 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:34.824  3012  3453 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:34.850  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:34.872  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:34.872  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:34.875  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:34.902  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:34.934  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:35.095  3012  8912 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:35.117 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:35.167  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:35.171  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:35.171  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:35.171  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:35.171  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:35.171  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:35.172  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:35.172  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:35.376  3012  3453 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:35.588  3012  7159 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:35.588  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:35.590  3012  7159 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:35.592  3012  7159 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:35.602  3012  7159 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:35.691  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:35.691  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:35.691  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:35.691  3012  3453 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:35.691  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:35.691  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:36.226  3012  7309 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:36.229  3012  7309 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:36.231  3012  7309 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:36.242  3012  7309 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:36.246  3012  7309 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:36.292  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:36.494  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:36.494  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:36.494  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:36.494  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:36.494  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:37.196  3012  3323 D PkgPredictorService-NapPreloadController: [ML] Sent pkg = com.kyowon.literacy.store uid: 0 type: ml
+02-06 18:13:37.197  3012  3715 I ActivityManager: [ML][SD] app:com.kyowon.literacy.store is exist findPkgforMl:false  isOnMemory:true
+02-06 18:13:37.278  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:37.279  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:37.288  3012  3453 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:37.308  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:37.477  3012  3811 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:37.501  3012  3811 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:37.547  3012  3811 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:37.551  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:37.551  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:37.553  3012  3811 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:37.562  3012  3811 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:37.578  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:13:37.588  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:37.838  3012  3935 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:37.841  3012  3935 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:37.843  3012  3935 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:37.851  3012  3935 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:37.857  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:37.858 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:37.858  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:37.858  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:37.858  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:37.858  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:37.858  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:37.859  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:37.859  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:37.911  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:37.964  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:37.964  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:37.964  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:37.965  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:37.965  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:38.015  3012  7227 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:38.854  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:38.856  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:38.862  3012  3453 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:38.896  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:39.589  3012  3453 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:13:39.635  3012  3453 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:39.652  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:39.676  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:39.676  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:39.682  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:39.684  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:39.700  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:39.820  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:39.821  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:39.821  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:39.822  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:39.822  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:39.822  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:39.823  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:39.823  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:39.839 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:40.486  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:40.489  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:40.495  3012  3453 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:40.518  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:40.545  3012  3453 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:40.546  3012  3453 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:40.644  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:40.647  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:40.647  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:40.648  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:40.651  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:40.662  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:40.791  3012  3059 D SehCodecSolutionService: Update top [com.kyowon.literacy.store]
+02-06 18:13:40.819  3012  3935 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:41.055 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:41.196  3012  7152 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:41.206  3012  7152 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:41.309  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:42.537  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:42.537  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:42.605  3012  7150 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:42.606  3012  7150 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:42.634  3012  7150 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:42.639  3012  7150 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:42.639  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:42.639  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:42.640  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:42.640  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:42.644  3012  7150 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:42.664  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:42.832  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:42.870 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:42.872  3012  3030 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:43.154  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:43.155  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:43.155  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:43.387  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:43.387  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:43.391  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:43.392  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:43.392  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:43.817  3012  7144 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:43.988  3012  3811 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:43.990  3012  3811 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:43.992  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:43.994  3012  3811 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:44.005  3012  3811 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:44.653  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:44.653  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:44.654  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:44.655  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:44.655  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:44.664  3012  3323 D PkgPredictorService-NapPreloadController: [ML] Sent pkg = com.kyowon.literacy.store uid: 0 type: ml
+02-06 18:13:44.846  3012  7144 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:44.951  3012  3715 I ActivityManager: [ML][SD] app:com.kyowon.literacy.store is exist findPkgforMl:false  isOnMemory:true
+02-06 18:13:45.042  3012  3935 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:45.087  3012  7156 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:45.090  3012  7156 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:45.092  3012  7156 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:45.097  3012  7156 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:45.202  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:45.418  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:45.418  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:45.418  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:45.419  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:45.419  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:45.561  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:46.027  3012  8912 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:46.047  3012  8912 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:46.051  3012  8912 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:46.060  3012  8912 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:46.086  3012  8912 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:46.567  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:46.570  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:46.570  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:46.570  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:46.571  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:46.572  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:46.573  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:46.573  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:47.071  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:47.106  3012  7144 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:47.110  3012  7144 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:47.112  3012  7144 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:47.121  3012  7144 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:47.133  3012  7144 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:47.538  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:47.539  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:47.539  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:47.539  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:47.539  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:47.710  3012  7309 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:47.711  3012  7309 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:47.714  3012  7309 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:47.722  3012  7309 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:47.727  3012  7309 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:47.761  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:47.856 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:47.863 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:48.008  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:48.009  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:48.009  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:48.009  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:48.009  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:48.009  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:48.010  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:48.010  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:48.738  3012  3061 W ActivityTaskManager: Activity pause timeout for ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:48.797  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:48.888  3012  8912 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:49.259  3012  8912 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:49.532  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:49.544  3012  3454 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:49.546  3012  3454 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:49.556  3012  3454 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:49.566  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:49.566  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:49.567  3012  3454 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:49.572  3012  3454 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:49.589  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:49.753  3012  3059 D SehCodecSolutionService: Update top [com.kyowon.literacy.store]
+02-06 18:13:49.866  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:13:49.875 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:51.254  3012  7150 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:51.262  3012  7150 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:51.274  3012  7150 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:51.289  3012  7150 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:51.298  3012  8461 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:51.418  3012  8909 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:52.441  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:52.442  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:52.442  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:52.443  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:52.443  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:52.443  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:52.444  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:52.444  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:53.134  3012  3935 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:53.142  3012  8909 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:53.146  3012  8909 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:53.150  3012  8909 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:53.166  3012  8909 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:53.422  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:53.666  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:53.666  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:53.667  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:53.668  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:53.668  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:53.764  3012  3323 D PkgPredictorService-NapPreloadController: [ML] Sent pkg = com.kyowon.literacy.store uid: 0 type: ml
+02-06 18:13:53.944  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:53.980  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:53.980  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:53.980  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:53.983  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:53.983  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:53.995  3012  3715 I ActivityManager: [ML][SD] app:com.kyowon.literacy.store is exist findPkgforMl:false  isOnMemory:true
+02-06 18:13:54.892  3012  3936 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:55.031  3012  7166 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:55.034  3012  7166 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:55.036  3012  7166 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:55.040  3012  7166 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:55.141  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:55.217  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:55.217  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:55.217  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:55.218  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:55.218  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:56.326  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:56.327  3012  3936 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:56.334  3012  3936 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:56.362  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:56.824  3012  3453 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:56.825  3012  3453 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:56.827  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:56.830  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:56.830  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:56.831  3012  3453 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:56.840  3012  3453 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:56.850  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:56.969 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:57.009  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:57.018  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:57.018  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:57.019  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:57.019  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:57.019  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:57.019  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:57.019  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:57.891  3012  8912 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:58.033  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:58.085  3012  8912 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:58.092  3012  8912 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:58.095  3012  8912 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:58.108  3012  8912 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:58.115  3012  8912 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:58.235  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:58.235  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:58.236  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:58.236  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:58.236  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:58.262  3012  8912 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:58.511  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:58.602  3012  8461 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:58.626  3012  8461 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:58.977  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:58.999  3012  3565 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:59.005  3012  3565 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:59.029  3012  3565 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:59.032  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:59.032  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:59.033  3012  3565 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:59.035  3012  3565 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:59.050  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:59.113  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:13:59.182 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:13:59.183  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:59.183  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:59.183  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:59.184  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:59.184  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:59.279  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:13:59.403  9952  9952 I QA      : [STEP] [OK] save.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnersave.flag
+02-06 18:13:59.558  3012  7153 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:59.562  3012  7153 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:13:59.691  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:13:59.703  3012  7309 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:13:59.707  3012  7309 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:13:59.722  3012  7309 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:59.726  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:59.726  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:13:59.728  3012  7309 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:13:59.734  3012  7309 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:13:59.765  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:13:59.789  3012  3059 D SehCodecSolutionService: Update top [com.kyowon.literacy.store]
+02-06 18:13:59.863  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:13:59.865  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:13:59.865  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:13:59.865  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:13:59.865  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:13:59.865  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:13:59.866  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:13:59.866  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:13:59.942  3012  8909 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:13:59.967 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:00.151  3012  7309 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:00.157  3012  7309 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:00.175  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:00.191  3012  7310 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:14:00.215  3012  7310 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:00.246  3012  7310 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:00.249  3012  7310 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:00.250  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:00.251  3012  7310 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:00.252  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:00.257  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:00.444  3012  3624 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:00.456 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:01.327  3012  3565 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:01.387  3012  8461 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:01.439 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:01.469  3012  7153 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:14:01.471  3012  7153 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:01.535  3012  7153 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:01.538  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:01.538  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:01.540  3012  7153 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:01.543  3012  7153 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:01.555  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:01.655  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:01.655  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:01.655  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:01.656  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:01.656  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:01.656  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:01.656  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:01.657  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:01.787 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:01.802  3012  7153 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:02.273   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1080 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:02.399  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:02.465  3012  7153 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:02.474  3012  7153 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:05.962  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:05.970  3012  7153 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:05.981  3012  7153 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:06.015  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:06.180  3012  8912 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:06.190  3012  3571 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:06.200  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:14:06.320 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:06.397  3012  7166 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:06.409  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:06.409  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:06.411  3012  7166 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:06.413  3012  7166 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:06.436  3012  7166 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:06.461 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:06.576   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1080 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:06.604  3012  3935 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:06.762  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:06.764  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:06.765  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:06.765  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:06.766  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:06.766  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:06.767  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:06.767  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:07.493  3012  3934 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:07.507  3012  7310 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:07.509  3012  7310 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:07.513  3012  7310 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:07.519  3012  7310 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:07.769  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:07.927  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:07.927  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:07.927  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:07.927  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:07.928  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:08.964   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1710 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:09.019  3012  3323 D PkgPredictorService-NapPreloadController: [ML] Sent pkg = com.kyowon.literacy.store uid: 0 type: ml
+02-06 18:14:09.025  3012  3715 I ActivityManager: [ML][SD] app:com.kyowon.literacy.store is exist findPkgforMl:false  isOnMemory:true
+02-06 18:14:09.175  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:09.178  3012  7166 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:09.184  3012  7166 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:09.227  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:09.687  3012  3934 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:14:09.689  3012  3934 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:09.720  3012  3934 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:09.723  3012  3934 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:09.725  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:09.725  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:09.725  3012  3934 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:09.742  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:09.887  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:09.888  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:09.888  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:09.888  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:09.888  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:09.888  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:09.889  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:09.889  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:09.969 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:10.778  3012  8912 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:10.829  3012  8912 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:10.890  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:10.962  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:11.308  3012  3934 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:14:11.310  3012  3934 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:11.314  3012  3934 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:11.316  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:11.316  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:11.317  3012  3934 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:11.319  3012  3934 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:11.335  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:11.497  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:11.498  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:11.498  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:11.498  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:11.499  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:11.499  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:11.499  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:11.499  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:11.527  3012  7156 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:11.547 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:12.203  3012  3571 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:12.261  3012  7227 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:12.262  3012  7227 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:12.264  3012  7227 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:12.272  3012  7227 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:12.297  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:12.374  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:12.375  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:12.375  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:12.375  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:12.375  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:12.410  3012  3029 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:13.834  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:13.835  3012  7150 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:13.842  3012  7150 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:13.865  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:13.881  3012  3029 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:14:13.883  3012  3029 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:13.891  3012  3029 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:13.894  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:13.894  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:13.894  3012  3029 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:13.897  3012  3029 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:13.905  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:13.999  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:14:14.091 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:14.137  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:14.137  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:14.137  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:14.137  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:14.137  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:15.256  3012  3029 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:15.272  3012  3029 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:15.308  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:15.311  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:15.709  3012  7184 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:15.737  3012  7166 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:15.850 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:15.858  3012  7166 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:15.861  3012  7166 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:15.863  3012  7166 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:15.866  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:15.866  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:15.880  3012  7166 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:15.992  3012  8461 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:16.063  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:16.063  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:16.064  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:16.064  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:16.064  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:16.064  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:16.065  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:16.065  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:16.097  3012  3059 D SehCodecSolutionService: Update top [com.kyowon.literacy.store]
+02-06 18:14:16.245  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:14:16.270   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1470 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:16.493  3012  7166 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:16.736  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:16.737  3012  3185 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:16.739  3012  3185 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:16.741  3012  3185 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:16.748  3012  3185 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:16.866  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:16.867  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:16.867  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:16.867  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:16.867  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:16.956  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:17.176  3012  3185 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:17.214  3012  3185 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:17.265  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:17.664  3012  3185 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:17.687  3012  8912 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:17.733  3012  3565 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:17.737  3012  3565 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:17.739  3012  3565 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:17.744  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:17.744  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:17.746  3012  3565 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:17.826 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:17.881  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:17.882  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:17.882  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:17.882  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:17.882  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:17.882  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:17.883  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:17.883  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:17.935  3012  7184 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:18.138  3012  8912 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:18.141  3012  8912 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:18.145  3012  8912 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:18.153  3012  8912 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:18.199  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:18.300   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1080 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:18.305  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:18.305  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:18.305  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:18.305  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:18.307  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:18.429   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1710 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:18.515  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:18.730  3012  7145 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:18.748  3012  7145 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:18.772  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:19.349  3012  3936 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:19.379  3012  8909 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:19.415 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:19.467  3012  8909 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:19.470  3012  8909 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:19.473  3012  8909 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:19.476  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:19.476  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:19.498  3012  8909 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:19.605  3012  7310 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:19.605  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:19.605  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:19.605  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:19.606  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:19.606  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:19.821  3012  8461 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:19.825  3012  8461 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:19.859  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:19.873  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:19.901  3012  8461 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:19.919  3012  3061 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:19.981  3012  3936 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:19.985  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:19.985  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:19.988  3012  3936 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:19.993  3012  3936 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:20.005  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:20.012  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity
+02-06 18:14:20.126  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:20.127  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:20.127  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:20.384  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:20.384  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:20.384  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:20.385  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:20.385  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:20.627   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1710 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:21.223  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:21.402  3012  3935 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:21.405  3012  3935 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:21.409  3012  3935 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:21.442  3012  3935 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:21.456  3012  3935 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:21.736  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:21.736  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:21.736  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:21.737  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:21.737  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:22.592  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:22.609   862   862 D SurfaceFlinger:      DEVICE | 0xb400007ac04d1470 | 0002 | RGBA_8888    |    0.0    0.0 1200.0 2000.0 |    0    0 1200 2000 | com.kyowon.literacy.store/com.kyowon[...]ogin.activity.LoginActivity$_31505#0
+02-06 18:14:22.736  3012  7145 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:22.744  3012  7145 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:22.800  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:23.202  3012  3935 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.layoutAndAssignWindowLayersIfNeeded:4201 com.android.server.wm.TaskDisplayArea.positionStackAt:1016 
+02-06 18:14:23.229  3012  3185 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:23.323 31505 31505 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:14:23.364  3012  7226 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:23.372  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:23.372  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:23.373  3012  7226 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:23.377  3012  7226 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:23.396  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:23.556  3012  3061 D SemGameManager: isGamePackage(), pkgName=com.kyowon.literacy.store
+02-06 18:14:23.557  3012  3061 D GameManagerService: identifyGamePackage. com.kyowon.literacy.store, mCurrentUserId: 0, callerUserId: 0
+02-06 18:14:23.557  3012  3061 D PkgDataHelper: getGamePkgData(). com.kyowon.literacy.store
+02-06 18:14:23.558  3012  3061 D GameManagerService: noteResumeComponent(), received resumed-component: com.kyowon.literacy.store
+02-06 18:14:23.558  3012  3061 I GameSDK@LifeCycle: noteResumeComponent(): package name  : com.kyowon.literacy.store
+02-06 18:14:23.558  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_APP_RESUME, resumeComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:23.558  3012  3220 D GameManagerService:   handleResume(). pkgName: com.kyowon.literacy.store, isTunableApp: null
+02-06 18:14:23.559  3012  3220 D GameManagerService: notifyFocusInOut(). of pkg: com.kyowon.literacy.store, type: 4, isMinimized: false, isTunableApp: false
+02-06 18:14:23.632  3012  3935 V WindowManager: Relayout Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}: viewVisibility=0 req=2000x1200
+02-06 18:14:24.100  3012  3061 D GameManagerService: notePauseComponent(), received paused-component: com.kyowon.literacy.store
+02-06 18:14:24.103  3012  3185 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:24.112  3012  3185 V WindowManager: Changing focus from Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.DisplayContent.setFocusedApp:6776 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6725 
+02-06 18:14:24.139  3012  3323 D PkgPredictorService-NapClassifier: Predict result: 86.0,2.0,0.0, - [0_&_com.kyowon.literacy.store, 0_&_kr.co.kyowon.launcher, 0_&_com.android.vending]
+02-06 18:14:24.270  3012  7224 V WindowManager: Changing focus from null to Window{9cfd3d3 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:566 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6311 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:3878 com.android.server.wm.DisplayContent.removeAppToken:1434 
+02-06 18:14:24.272  3012  7224 V ActivityManager: Changed top to 10584,ProcessRecord{e78f8f2 31505:com.kyowon.literacy.store/u0a584}
+02-06 18:14:24.315  3012  7224 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:24.319  3012  3220 D GameManagerService: onLooperPrepared(), msg: MSG_TASK_FOCUSED, focusedComponent: ComponentInfo{com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity}
+02-06 18:14:24.319  3012  3220 D GameManagerService:   handleTaskFocused(), pkgName: com.kyowon.literacy.store, clsName: com.kyowon.literacy.ui.login.activity.LoginActivity, userID:0
+02-06 18:14:24.320  3012  7224 D WindowManager: rotationForOrientation, orientationSource=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}
+02-06 18:14:24.324  3012  7224 D MARsPolicyManager: onPackageResumedFG pkgName = com.kyowon.literacy.store, userId = 0
+02-06 18:14:24.338  3012  3062 D ActivityTaskManager: finishFixedRotationTransform, r=ActivityRecord{23798b2 u0 com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity t3648}, caller=com.android.server.wm.WindowToken.finishFixedRotationTransform:664 com.android.server.wm.DisplayContent$FixedRotationTransitionListener.onAppTransitionFinishedLocked:7026 com.android.server.wm.AppTransition.notifyAppTransitionFinishedLocked:543 com.android.server.wm.DisplayContent.handleAnimatingStoppedAndTransition:5836 com.android.server.wm.RootWindowContainer.checkAppTransitionReady:1264 
+02-06 18:14:24.362  3012  3462 D MdnieScenarioControlService:  packageName : com.kyowon.literacy.store    className : com.kyowon.literacy.ui.login.activity.LoginActivity

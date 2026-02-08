@@ -1,0 +1,1463 @@
+--------- beginning of main
+02-06 18:16:19.592 15428 15428 E .literacy.stor: Not starting debugger since process cannot load the jdwp agent.
+02-06 18:16:19.599 15428 15428 D ActivityThread: setConscryptValidator
+02-06 18:16:19.600 15428 15428 D ActivityThread: setConscryptValidator - put
+--------- beginning of system
+02-06 18:16:19.678 15428 15428 D ActivityThread: handleBindApplication()++ app=com.kyowon.literacy.store
+02-06 18:16:19.721 15428 15428 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:16:19.721 15428 15428 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:16:19.721 15428 15428 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:16:19.737 15428 15428 D LoadedApk: LoadedApk::makeApplication() appContext=android.app.ContextImpl@c24dd86 appContext.mOpPackageName=com.kyowon.literacy.store appContext.mBasePackageName=com.kyowon.literacy.store appContext.mPackageInfo=android.app.LoadedApk@2d55647
+02-06 18:16:19.737 15428 15428 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+02-06 18:16:19.747 15428 15428 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+02-06 18:16:19.747 15428 15428 I MultiDex: VM with version 2.1.0 has multidex support
+02-06 18:16:19.748 15428 15428 I MultiDex: Installing application
+02-06 18:16:19.748 15428 15428 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+02-06 18:16:19.889 15428 15428 D ActivityThread: handleBindApplication() -- skipGraphicsSupport=false
+02-06 18:16:19.941 15428 15428 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: QUALCOMM build                   : 02e24b95a5, I0bf67f5349
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Build Date                       : 11/06/20
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.06
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Local Branch                     : 
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Remote Branch                    : 
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Remote Branch                    : 
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Reconstruct Branch               : 
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+02-06 18:16:19.967 15428 16909 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+02-06 18:16:19.980 15428 16909 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+02-06 18:16:20.050 15428 15428 I DecorView: [INFO] isPopOver=false, config=true
+02-06 18:16:20.050 15428 15428 I DecorView: updateCaptionType >> DecorView@12c74e8[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+02-06 18:16:20.051 15428 15428 D DecorView: setCaptionType = 0, this = DecorView@12c74e8[]
+02-06 18:16:20.178 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateListenerRegistry : registerListener
+02-06 18:16:20.302 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : requestUpdateInfo(com.kyowon.literacy.store)
+02-06 18:16:20.334 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : Initiate binding to the service.
+02-06 18:16:20.380 15428 15428 D InputTransport: Input channel constructed: 'd772774', fd=82
+02-06 18:16:20.389 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: setView = com.android.internal.policy.DecorView@12c74e8 TM=true
+02-06 18:16:20.391 15428 15428 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=2, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.intro.activity.IntroActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:16:20.392 15428 15428 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=1, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.intro.activity.IntroActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:16:20.392 15428 15428 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=0, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.intro.activity.IntroActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:16:20.410 15428 15428 D ViewRootImpl@9f3bd1e[IntroActivity]: controlInsetsForCompatibility: hideByFlags=0x1, showByFlags=0x0, flags=0x81810580, sysUiVis=0x0, matchParent=true, nonAttachedAppWindow=true
+02-06 18:16:20.433 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xc2c51f6 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:20.434 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=22 res=0x7 s={true -5476376618310504448} ch=true fn=-1
+02-06 18:16:20.472 15428 15428 D LicenseClient: Connecting to the licensing service...
+02-06 18:16:20.524 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_RESIZED_REPORT: frame=(0,0,2000,1200) ci=(0,0,0,0) vi=(0,0,0,0) or=2
+02-06 18:16:20.578 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115648]
+02-06 18:16:20.578 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115648]
+02-06 18:16:20.580 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xc2c51f6 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:20.581 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202817984]
+02-06 18:16:20.581 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202817984]
+02-06 18:16:20.581 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818304]
+02-06 18:16:20.581 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818304]
+02-06 18:16:20.581 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=56 res=0x1 s={true -5476376618310504448} ch=false fn=3
+02-06 18:16:20.593 15428 15428 D LicenseClient: Connected to the licensing service.
+02-06 18:16:20.599 15428 16964 D LicenseClient: Sending request to license reporting service...
+02-06 18:16:20.625 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:20.625 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:20.625 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:20.626 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:20.626 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:20.627 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:20.628 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:20.628 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:20.646 15428 16893 D InputTransport: Input channel constructed: 'ClientS', fd=88
+02-06 18:16:20.893 15428 16964 D LicenseClient: Request to licensing reporting service sent.
+02-06 18:16:20.897 15428 16956 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115168]
+02-06 18:16:20.897 15428 16956 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115168]
+02-06 18:16:20.979 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:20.979 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:20.979 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:20.979 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:21.019 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277114848]
+02-06 18:16:21.019 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277114848]
+02-06 18:16:21.020 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115648]
+02-06 18:16:21.020 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115648]
+02-06 18:16:21.020 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+02-06 18:16:21.022 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : linkToDeath
+02-06 18:16:21.818 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:21.869 15428 16880 I .literacy.stor: Background young concurrent copying GC freed 83409(3804KB) AllocSpace objects, 3(60KB) LOS objects, 89% free, 2835KB/26MB, paused 173us total 308.551ms
+02-06 18:16:22.474 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: stopped(false) old=false
+02-06 18:16:22.475 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : requestUpdateInfo(com.kyowon.literacy.store)
+02-06 18:16:22.491 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : Already connected to the service.
+02-06 18:16:22.503 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:22.503 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:22.503 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:22.504 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:22.504 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:22.504 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:22.504 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:22.504 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:22.511 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=86
+02-06 18:16:22.511 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=88
+02-06 18:16:22.524 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115008]
+02-06 18:16:22.524 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115008]
+02-06 18:16:22.525 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xc2c51f6 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:22.526 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111328]
+02-06 18:16:22.526 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111328]
+02-06 18:16:22.526 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111808]
+02-06 18:16:22.526 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111808]
+02-06 18:16:22.526 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111968]
+02-06 18:16:22.526 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111968]
+02-06 18:16:22.526 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=11 res=0x1 s={true -5476376618310504448} ch=false fn=26
+02-06 18:16:22.860 15428 16902 I PlayCore: UID: [10584]  PID: [15428] OnRequestInstallCallback : onRequestInfo
+02-06 18:16:22.860 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : Leaving the connection open for other ongoing calls.
+02-06 18:16:22.860 15428 16893 I PlayCore: UID: [10584]  PID: [15428] OnRequestInstallCallback : onRequestInfo
+02-06 18:16:22.860 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : Unbind from service.
+02-06 18:16:23.198 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:23.307 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:23.307 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:23.307 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:23.307 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:23.307 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:23.308 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:23.308 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:23.308 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:23.311 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=87
+02-06 18:16:23.311 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=86
+02-06 18:16:23.372 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: stopped(false) old=false
+02-06 18:16:23.373 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : requestUpdateInfo(com.kyowon.literacy.store)
+02-06 18:16:23.373 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : Initiate binding to the service.
+02-06 18:16:23.411 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277114848]
+02-06 18:16:23.411 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277114848]
+02-06 18:16:23.413 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xc2c51f6 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:23.414 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618279076384]
+02-06 18:16:23.414 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618279076384]
+02-06 18:16:23.414 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618279076544]
+02-06 18:16:23.414 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618279076544]
+02-06 18:16:23.414 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115008]
+02-06 18:16:23.414 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115008]
+02-06 18:16:23.414 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=17 res=0x1 s={true -5476376618310504448} ch=false fn=38
+02-06 18:16:23.616 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+02-06 18:16:23.616 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : linkToDeath
+02-06 18:16:23.733 15428 16884 I PlayCore: UID: [10584]  PID: [15428] OnRequestInstallCallback : onRequestInfo
+02-06 18:16:23.734 15428 16940 I PlayCore: UID: [10584]  PID: [15428] AppUpdateService : Unbind from service.
+02-06 18:16:25.367 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:25.367 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:25.367 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:25.368 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:16:25.368 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:25.369 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:25.369 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:25.369 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:25.380 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=88
+02-06 18:16:25.380 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=87
+02-06 18:16:25.547 15428 17288 D ProfileInstaller: Skipping profile installation for com.kyowon.literacy.store
+02-06 18:16:25.700 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:26.039 15428 15428 I DecorView: [INFO] isPopOver=false, config=true
+02-06 18:16:26.039 15428 15428 I DecorView: updateCaptionType >> DecorView@9bb0f08[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+02-06 18:16:26.039 15428 15428 D DecorView: setCaptionType = 0, this = DecorView@9bb0f08[]
+02-06 18:16:26.231 15428 17298 W LOTTIE  : You have 5 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.231 15428 17298 W LOTTIE  : You have 6 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.233 15428 17298 W LOTTIE  : You have 7 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.233 15428 17298 W LOTTIE  : You have 8 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.235 15428 17298 W LOTTIE  : You have 9 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.240 15428 17298 W LOTTIE  : You have 10 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.243 15428 17298 W LOTTIE  : You have 11 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.245 15428 17298 W LOTTIE  : You have 12 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.246 15428 17298 W LOTTIE  : You have 13 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.247 15428 17298 W LOTTIE  : You have 14 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.250 15428 17298 W LOTTIE  : You have 15 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.253 15428 17298 W LOTTIE  : You have 16 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.255 15428 17298 W LOTTIE  : You have 17 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.257 15428 17298 W LOTTIE  : You have 18 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.259 15428 17298 W LOTTIE  : You have 19 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.260 15428 17298 W LOTTIE  : You have 20 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.260 15428 17298 W LOTTIE  : You have 21 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.263 15428 17298 W LOTTIE  : You have 22 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.267 15428 17298 W LOTTIE  : You have 23 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.270 15428 17298 W LOTTIE  : You have 24 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.270 15428 17298 W LOTTIE  : You have 25 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.271 15428 17298 W LOTTIE  : You have 26 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.273 15428 17298 W LOTTIE  : You have 27 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.276 15428 17298 W LOTTIE  : You have 28 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.280 15428 17298 W LOTTIE  : You have 29 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.281 15428 17298 W LOTTIE  : You have 30 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.283 15428 17298 W LOTTIE  : You have 31 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.287 15428 17298 W LOTTIE  : You have 32 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.290 15428 17298 W LOTTIE  : You have 33 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.292 15428 17298 W LOTTIE  : You have 34 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.293 15428 17298 W LOTTIE  : You have 35 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:16:26.574 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:26.576 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:26.577 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:26.588 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:26.588 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:26.588 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:26.588 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:26.588 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:26.588 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:26.589 15428 15428 V MediaPlayer-JNI: set_session_id(): 11289
+02-06 18:16:26.589 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11289)
+02-06 18:16:26.589 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 87
+02-06 18:16:26.590 15428 15428 V MediaPlayerNative: setDataSource(87, 80149264, 611808)
+02-06 18:16:26.622 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:26.622 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:26.689 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:26.689 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:26.689 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:26.689 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:26.689 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:26.690 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:26.696 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:26.705 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:26.705 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:26.707 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:26.707 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:26.707 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:26.707 15428 15428 V MediaPlayerNative: start
+02-06 18:16:26.717 15428 15428 D InputTransport: Input channel constructed: '9717ef5', fd=100
+02-06 18:16:26.720 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: setView = com.android.internal.policy.DecorView@9bb0f08 TM=true
+02-06 18:16:26.721 15428 15428 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=2, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:16:26.721 15428 15428 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=1, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:16:26.721 15428 15428 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=0, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.login.activity.LoginActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:16:26.722 15428 15428 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+02-06 18:16:26.751 15428 15428 D ViewRootImpl@36d3ab1[LoginActivity]: controlInsetsForCompatibility: hideByFlags=0x1, showByFlags=0x0, flags=0x81810580, sysUiVis=0x0, matchParent=true, nonAttachedAppWindow=true
+02-06 18:16:26.796 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:26.797 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=45 res=0x7 s={true -5476376618310496256} ch=true fn=-1
+02-06 18:16:26.902 15428 16893 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:27.036 15428 16909 I OpenGLRenderer: Davey! duration=1034ms; Flags=1, IntendedVsync=800733002464130, Vsync=800733719130768, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=800733728850582, AnimationStart=800733728853864, PerformTraversalsStart=800733729495999, DrawStart=800733886633082, SyncQueued=800733889638551, SyncStart=800733895440634, IssueDrawCommandsStart=800733897242614, SwapBuffers=800734025828968, FrameCompleted=800734042676155, DequeueBufferDuration=9773073, QueueBufferDuration=2742240, GpuCompleted=0, 
+02-06 18:16:27.057 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:27.093 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:27.093 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:27.144 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111328]
+02-06 18:16:27.144 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111328]
+02-06 18:16:27.144 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111808]
+02-06 18:16:27.144 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111808]
+02-06 18:16:27.145 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277114848]
+02-06 18:16:27.145 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277114848]
+02-06 18:16:27.207 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 166 (msec)
+02-06 18:16:27.536 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:27.536 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:27.536 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:27.542 15428 15428 D EmergencyMode: [EmergencyManager] android createPackageContext successful: com.kyowon.literacy.store
+02-06 18:16:27.577 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:27.577 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:27.577 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:27.577 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:27.577 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:27.585 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=104
+02-06 18:16:27.585 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=88
+02-06 18:16:27.787 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202112096]
+02-06 18:16:27.787 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202112096]
+02-06 18:16:27.793 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206592]
+02-06 18:16:27.793 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206592]
+02-06 18:16:27.793 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206912]
+02-06 18:16:27.793 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206912]
+02-06 18:16:27.904 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: stopped(true) old=false
+02-06 18:16:27.947 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111968]
+02-06 18:16:27.947 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111968]
+02-06 18:16:27.972 15428 15428 I PlayCore: UID: [10584]  PID: [15428] AppUpdateListenerRegistry : unregisterListener
+02-06 18:16:27.997 15428 15428 I ViewRootImpl@9f3bd1e[IntroActivity]: dispatchDetachedFromWindow
+02-06 18:16:28.006 15428 15428 D InputTransport: Input channel destroyed: 'd772774', fd=82
+02-06 18:16:28.254 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:28.254 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:28.257 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:28.258 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:28.258 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:28.258 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:28.258 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:28.258 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:28.258 15428 17309 V MediaPlayerNative: notify(8, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:28.259 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:28.259 15428 17309 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:28.274 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:28.278 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:28.486 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:28.840 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:28.841 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:28.841 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:28.842 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:28.867 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:28.867 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:28.867 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:28.867 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:28.867 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:28.867 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:28.867 15428 15428 V MediaPlayer-JNI: set_session_id(): 11305
+02-06 18:16:28.867 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11305)
+02-06 18:16:28.867 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:28.867 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:28.878 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:28.878 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:28.901 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:28.901 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:28.906 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:28.906 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:28.906 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:28.906 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:28.913 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:28.913 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:28.914 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:28.914 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:28.914 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:28.914 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:28.914 15428 15428 V MediaPlayerNative: start
+02-06 18:16:28.948 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:28.948 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:28.950 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:28.951 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113696]
+02-06 18:16:28.951 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113696]
+02-06 18:16:28.951 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111776]
+02-06 18:16:28.951 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111776]
+02-06 18:16:28.951 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111936]
+02-06 18:16:28.951 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111936]
+02-06 18:16:28.951 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=8 res=0x1 s={true -5476376618310496256} ch=false fn=24
+02-06 18:16:28.953 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:28.953 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:28.953 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:28.955 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:28.955 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:28.955 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:28.955 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:28.955 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:28.957 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=91
+02-06 18:16:28.957 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=104
+02-06 18:16:28.957 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:29.048 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:29.144 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:29.144 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:29.247 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 164 (msec)
+02-06 18:16:31.427 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:31.427 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:31.429 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:31.429 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:31.429 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:31.429 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:31.429 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:31.430 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:31.430 15428 17309 V MediaPlayerNative: notify(8, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:31.430 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:31.430 15428 17309 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:31.455 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:31.456 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:31.541 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:31.837 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:31.890 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:32.032 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115808]
+02-06 18:16:32.033 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115808]
+02-06 18:16:32.033 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115968]
+02-06 18:16:32.033 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115968]
+02-06 18:16:32.033 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:32.033 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:32.035 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_RESIZED_REPORT: frame=(0,0,2000,1200) ci=(0,36,0,72) vi=(0,36,0,72) or=2
+02-06 18:16:32.103 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277116608]
+02-06 18:16:32.103 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277116608]
+02-06 18:16:32.105 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:32.107 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113536]
+02-06 18:16:32.107 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113536]
+02-06 18:16:32.107 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=12 res=0x1 s={true -5476376618310496256} ch=false fn=84
+02-06 18:16:32.392 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277116608]
+02-06 18:16:32.392 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277116608]
+02-06 18:16:32.446 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:32.447 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:32.447 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:32.448 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:32.448 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:32.448 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:32.448 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:32.448 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:32.529 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=90
+02-06 18:16:32.529 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=91
+02-06 18:16:32.536 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:32.537 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:32.537 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:32.538 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:32.541 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:32.541 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:32.541 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:32.541 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:32.541 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:32.541 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:32.541 15428 15428 V MediaPlayer-JNI: set_session_id(): 11321
+02-06 18:16:32.541 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11321)
+02-06 18:16:32.541 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:32.541 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:32.557 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:32.557 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:32.587 15428 16902 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:32.587 15428 16902 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:32.645 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:32.645 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:32.645 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:32.645 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:32.677 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:32.680 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:32.680 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:32.681 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:32.681 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:32.683 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:32.683 15428 15428 V MediaPlayerNative: start
+02-06 18:16:32.705 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:32.749 15428 16956 I SurfaceControl: nativeRelease nativeObject s[-5476376618277116608]
+02-06 18:16:32.749 15428 16956 I SurfaceControl: nativeRelease nativeObject e[-5476376618277116608]
+02-06 18:16:32.750 15428 16956 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113536]
+02-06 18:16:32.750 15428 16956 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113536]
+02-06 18:16:32.827 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:32.988 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:32.989 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 52 (msec)
+02-06 18:16:32.990 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:34.617 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:34.617 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:34.618 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:34.619 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:34.619 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:34.620 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:34.620 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:34.620 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:34.621 15428 17309 V MediaPlayerNative: notify(8, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:34.621 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:34.621 15428 17309 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:34.652 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:34.654 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:34.757 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:35.138 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:35.138 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:35.138 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:35.145 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:35.146 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:35.146 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:35.146 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:35.146 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:35.169 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=94
+02-06 18:16:35.170 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=90
+02-06 18:16:35.229 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:35.231 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:35.231 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:35.231 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:35.235 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:35.235 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:35.235 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:35.235 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:35.235 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:35.235 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:35.235 15428 15428 V MediaPlayer-JNI: set_session_id(): 11337
+02-06 18:16:35.235 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11337)
+02-06 18:16:35.235 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:35.235 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:35.252 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:35.253 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:35.283 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:35.283 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:35.285 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:35.285 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:35.285 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:35.285 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:35.288 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:35.289 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:35.290 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:35.290 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:35.290 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:35.291 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:35.291 15428 15428 V MediaPlayerNative: start
+02-06 18:16:35.315 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:35.315 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:35.319 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:35.320 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:16:35.320 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:16:35.320 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111616]
+02-06 18:16:35.320 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111616]
+02-06 18:16:35.320 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111936]
+02-06 18:16:35.320 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111936]
+02-06 18:16:35.320 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=19 res=0x1 s={true -5476376618310496256} ch=false fn=134
+02-06 18:16:35.324 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:35.475 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:35.564 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:35.564 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 37 (msec)
+02-06 18:16:35.593 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:35.594 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:35.594 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:37.972 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:37.972 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:37.973 15428 16902 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:37.973 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:37.974 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:37.974 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:37.974 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:37.974 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:37.974 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:38.006 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:38.008 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:38.040 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:38.040 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:38.173 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:38.426 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:38.427 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:38.427 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:38.428 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:38.428 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:38.428 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:38.428 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:38.428 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:38.459 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=90
+02-06 18:16:38.459 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=94
+02-06 18:16:38.477 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:38.478 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:38.478 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:38.479 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:38.485 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:38.485 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:38.485 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:38.485 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:38.485 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:38.485 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:38.485 15428 15428 V MediaPlayer-JNI: set_session_id(): 11353
+02-06 18:16:38.485 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11353)
+02-06 18:16:38.485 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:38.485 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:38.547 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:38.548 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:38.589 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:38.589 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:38.591 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:38.591 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:38.591 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:38.592 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:38.596 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:38.602 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:38.602 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:38.602 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:38.602 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:38.603 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:38.603 15428 15428 V MediaPlayerNative: start
+02-06 18:16:38.613 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818624]
+02-06 18:16:38.613 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818624]
+02-06 18:16:38.615 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:38.617 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:38.617 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:38.617 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206752]
+02-06 18:16:38.617 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206752]
+02-06 18:16:38.617 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115968]
+02-06 18:16:38.617 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115968]
+02-06 18:16:38.617 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=8 res=0x1 s={true -5476376618310496256} ch=false fn=206
+02-06 18:16:38.626 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:38.754 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:38.884 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:38.884 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 59 (msec)
+02-06 18:16:38.886 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:38.886 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:38.886 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:39.548 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:39.548 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:39.549 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:39.549 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:39.549 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:39.549 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:39.549 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:39.551 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:39.551 15428 17309 V MediaPlayerNative: notify(8, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:39.551 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:39.551 15428 17309 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:39.568 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:39.570 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:39.970 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:39.972 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:39.972 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:39.972 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:39.975 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:39.975 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:39.975 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:39.975 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:39.975 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:39.975 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:39.975 15428 15428 V MediaPlayer-JNI: set_session_id(): 11369
+02-06 18:16:39.975 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11369)
+02-06 18:16:39.976 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:39.976 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:39.985 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:39.985 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:40.018 15428 16902 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:40.018 15428 16902 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:40.025 15428 16902 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:40.025 15428 16902 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:40.025 15428 16902 V MediaPlayerNative: signal application thread
+02-06 18:16:40.025 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:40.026 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:40.027 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:40.027 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:40.027 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:40.027 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:40.027 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:40.027 15428 15428 V MediaPlayerNative: start
+02-06 18:16:40.030 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:40.030 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:40.030 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:40.034 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:40.034 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:40.034 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:40.034 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:40.034 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:40.039 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=95
+02-06 18:16:40.039 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=90
+02-06 18:16:40.042 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:40.042 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:40.137 15428 16902 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:40.280 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:40.280 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:40.289 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 64 (msec)
+02-06 18:16:41.377 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:41.378 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:41.378 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:41.380 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:41.382 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:41.382 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:41.382 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:41.382 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:41.383 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:41.425 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:41.426 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:41.470 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:41.470 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:41.470 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:41.472 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:41.472 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:41.472 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:41.476 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:41.476 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:41.476 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:41.476 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:41.476 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:41.476 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:41.476 15428 15428 V MediaPlayer-JNI: set_session_id(): 11385
+02-06 18:16:41.476 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11385)
+02-06 18:16:41.477 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 89
+02-06 18:16:41.477 15428 15428 V MediaPlayerNative: setDataSource(89, 80149264, 611808)
+02-06 18:16:41.495 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:41.495 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:41.535 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:41.535 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:41.537 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:41.537 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:41.537 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:41.538 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:41.560 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:41.561 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:41.561 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:41.561 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:41.561 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:41.562 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:41.562 15428 15428 V MediaPlayerNative: start
+02-06 18:16:41.608 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111936]
+02-06 18:16:41.608 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111936]
+02-06 18:16:41.610 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:41.612 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818624]
+02-06 18:16:41.612 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818624]
+02-06 18:16:41.612 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:16:41.612 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:16:41.613 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111616]
+02-06 18:16:41.613 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111616]
+02-06 18:16:41.613 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=10 res=0x1 s={true -5476376618310496256} ch=false fn=250
+02-06 18:16:41.618 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:41.686 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:41.854 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:41.854 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:41.870 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 67 (msec)
+02-06 18:16:44.894 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:44.894 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:44.895 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:44.895 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:44.896 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:44.896 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:44.896 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:44.896 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:44.896 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:44.921 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:44.921 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:44.945 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:44.945 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:45.097 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:45.380 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:45.381 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:45.381 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:45.386 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:45.387 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:45.387 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:45.387 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:45.387 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:45.395 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=91
+02-06 18:16:45.395 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=95
+02-06 18:16:45.479 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:45.481 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:45.481 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:45.481 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:45.486 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:45.486 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:45.486 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:45.486 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:45.486 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:45.486 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:45.486 15428 15428 V MediaPlayer-JNI: set_session_id(): 11401
+02-06 18:16:45.486 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11401)
+02-06 18:16:45.486 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:45.486 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:45.501 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:45.501 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:45.524 15428 16902 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:45.524 15428 16902 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:45.533 15428 16902 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:45.533 15428 16902 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:45.533 15428 16902 V MediaPlayerNative: signal application thread
+02-06 18:16:45.533 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:45.534 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:45.535 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:45.535 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:45.535 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:45.535 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:45.536 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:45.536 15428 15428 V MediaPlayerNative: start
+02-06 18:16:45.602 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115968]
+02-06 18:16:45.602 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115968]
+02-06 18:16:45.604 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:45.605 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111936]
+02-06 18:16:45.605 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111936]
+02-06 18:16:45.605 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:45.605 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:45.605 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206752]
+02-06 18:16:45.605 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206752]
+02-06 18:16:45.605 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=8 res=0x1 s={true -5476376618310496256} ch=false fn=347
+02-06 18:16:45.614 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:45.676 15428 16902 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:45.812 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:45.812 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 37 (msec)
+02-06 18:16:45.819 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:45.819 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:45.819 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:46.754 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:46.754 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:46.754 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:46.755 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:46.755 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:46.755 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:46.755 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:46.755 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:46.755 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:46.755 15428 17309 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:46.777 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:46.777 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:46.810 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:46.952 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:47.296 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:47.297 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:47.297 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:47.298 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:47.298 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:47.298 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:47.298 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:47.298 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:47.316 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=94
+02-06 18:16:47.316 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=91
+02-06 18:16:47.510 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:47.512 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:47.512 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:47.512 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:47.529 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:47.529 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:47.529 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:47.529 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:47.529 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:47.529 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:47.529 15428 15428 V MediaPlayer-JNI: set_session_id(): 11417
+02-06 18:16:47.529 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11417)
+02-06 18:16:47.530 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:47.530 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:47.555 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:47.555 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:47.589 15428 16902 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:47.589 15428 16902 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:47.592 15428 16902 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:47.592 15428 16902 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:47.592 15428 16902 V MediaPlayerNative: signal application thread
+02-06 18:16:47.592 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:47.595 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:47.596 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:47.596 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:47.597 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:47.597 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:47.597 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:47.597 15428 15428 V MediaPlayerNative: start
+02-06 18:16:47.609 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111616]
+02-06 18:16:47.609 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111616]
+02-06 18:16:47.610 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:47.611 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115968]
+02-06 18:16:47.611 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115968]
+02-06 18:16:47.611 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818624]
+02-06 18:16:47.611 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818624]
+02-06 18:16:47.611 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:16:47.611 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:16:47.611 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=9 res=0x1 s={true -5476376618310496256} ch=false fn=387
+02-06 18:16:47.621 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:47.743 15428 16902 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:47.855 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:47.856 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 37 (msec)
+02-06 18:16:47.956 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:47.957 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:47.957 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:50.009 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:50.009 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:50.009 15428 16893 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:50.010 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:50.010 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:50.010 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:50.010 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:50.010 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:50.010 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:50.010 15428 16893 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:50.030 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:50.031 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:50.078 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:50.156 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:50.368 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:50.381 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:50.381 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:50.382 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:50.402 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:50.403 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:50.403 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:50.403 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:50.403 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:50.403 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:50.403 15428 15428 V MediaPlayer-JNI: set_session_id(): 11433
+02-06 18:16:50.403 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11433)
+02-06 18:16:50.403 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:50.403 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:50.423 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:50.423 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:50.465 15428 16893 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:50.465 15428 16893 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:50.469 15428 16893 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:50.469 15428 16893 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:50.469 15428 16893 V MediaPlayerNative: signal application thread
+02-06 18:16:50.469 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:50.500 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:50.501 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:50.502 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:50.502 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:50.502 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:50.502 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:50.502 15428 15428 V MediaPlayerNative: start
+02-06 18:16:50.507 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:50.508 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:50.508 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:50.510 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:50.510 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:50.510 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:50.510 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:50.510 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:50.515 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=96
+02-06 18:16:50.515 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=94
+02-06 18:16:50.524 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:50.671 15428 16893 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:50.761 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:50.762 15428 16884 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:50.838 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 133 (msec)
+02-06 18:16:52.091 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:52.091 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:52.092 15428 16884 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:52.092 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:52.092 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:52.092 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:52.092 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:52.092 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:52.092 15428 16884 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:52.092 15428 16884 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:16:52.114 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:52.120 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:52.190 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:52.229 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:52.558 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:52.558 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:52.558 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:52.559 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:52.559 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:52.559 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:52.559 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:52.559 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:52.565 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=89
+02-06 18:16:52.565 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=96
+02-06 18:16:52.611 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:52.613 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:52.613 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:52.613 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:52.617 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:52.617 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:52.617 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:52.617 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:52.617 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:52.617 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:52.617 15428 15428 V MediaPlayer-JNI: set_session_id(): 11449
+02-06 18:16:52.617 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11449)
+02-06 18:16:52.618 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:52.618 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:52.632 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:52.633 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:52.722 15428 16884 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:52.722 15428 16884 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:52.723 15428 16884 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:52.723 15428 16884 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:52.723 15428 16884 V MediaPlayerNative: signal application thread
+02-06 18:16:52.723 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:52.744 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:52.745 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:52.745 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:52.745 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:52.745 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:52.745 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:52.745 15428 15428 V MediaPlayerNative: start
+02-06 18:16:52.764 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206752]
+02-06 18:16:52.764 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206752]
+02-06 18:16:52.765 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:52.766 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111616]
+02-06 18:16:52.766 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111616]
+02-06 18:16:52.766 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111936]
+02-06 18:16:52.766 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111936]
+02-06 18:16:52.766 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:52.766 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:52.766 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=12 res=0x1 s={true -5476376618310496256} ch=false fn=502
+02-06 18:16:52.768 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:52.859 15428 16884 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:52.978 15428 16884 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:52.979 15428 16884 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:53.031 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 105 (msec)
+02-06 18:16:55.269 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:55.269 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:55.270 15428 16884 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:55.270 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:55.270 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:55.270 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:55.270 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:55.270 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:55.294 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:55.295 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:55.321 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:55.338 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:55.852 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206752]
+02-06 18:16:55.852 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206752]
+02-06 18:16:55.852 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115808]
+02-06 18:16:55.852 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115808]
+02-06 18:16:55.852 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115968]
+02-06 18:16:55.852 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115968]
+02-06 18:16:56.147 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206432]
+02-06 18:16:56.147 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206432]
+02-06 18:16:56.150 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:56.152 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:56.152 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:56.152 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:56.160 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:56.160 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:56.160 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:56.160 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:56.160 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:56.160 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:56.160 15428 15428 V MediaPlayer-JNI: set_session_id(): 11465
+02-06 18:16:56.160 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11465)
+02-06 18:16:56.161 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:56.161 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:56.212 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:56.212 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:56.231 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:56.231 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:56.246 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:56.246 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:56.246 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:56.246 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:56.260 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:56.262 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:56.262 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:56.262 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:56.263 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:56.276 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:56.276 15428 15428 V MediaPlayerNative: start
+02-06 18:16:56.299 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:16:56.299 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:16:56.302 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:56.304 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277113568]
+02-06 18:16:56.304 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277113568]
+02-06 18:16:56.304 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:16:56.304 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:16:56.304 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111328]
+02-06 18:16:56.304 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111328]
+02-06 18:16:56.304 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=14 res=0x1 s={true -5476376618310496256} ch=false fn=575
+02-06 18:16:56.308 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:56.310 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:56.310 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:56.310 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:56.311 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:56.311 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:56.311 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:56.311 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:56.311 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:56.314 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=95
+02-06 18:16:56.314 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=89
+02-06 18:16:56.425 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:56.503 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:56.503 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:56.515 15428 16956 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206432]
+02-06 18:16:56.515 15428 16956 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206432]
+02-06 18:16:56.516 15428 16956 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115968]
+02-06 18:16:56.516 15428 16956 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115968]
+02-06 18:16:56.549 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 97 (msec)
+02-06 18:16:57.898 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:16:57.898 15428 15428 V MediaPlayerNative: stop
+02-06 18:16:57.898 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:16:57.898 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:57.904 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:16:57.904 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:16:57.904 15428 15428 V MediaPlayer-JNI: release
+02-06 18:16:57.904 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:57.904 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:57.924 15428 15428 V MediaPlayerNative: destructor
+02-06 18:16:57.924 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:16:57.976 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:57.976 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:16:58.115 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:16:58.370 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:16:58.371 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:16:58.371 15428 15428 V MediaPlayerNative: constructor
+02-06 18:16:58.372 15428 15428 V MediaPlayerNative: setListener
+02-06 18:16:58.375 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:16:58.375 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:16:58.375 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:16:58.375 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:16:58.375 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:16:58.375 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:16:58.375 15428 15428 V MediaPlayer-JNI: set_session_id(): 11481
+02-06 18:16:58.375 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11481)
+02-06 18:16:58.376 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:16:58.376 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:16:58.385 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:16:58.385 15428 15428 V MediaPlayerNative: prepare
+02-06 18:16:58.406 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:16:58.406 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:16:58.407 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:16:58.407 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:16:58.407 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:16:58.408 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:16:58.412 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:58.413 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:16:58.413 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:16:58.413 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:16:58.413 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:16:58.414 15428 15428 V MediaPlayer-JNI: start
+02-06 18:16:58.414 15428 15428 V MediaPlayerNative: start
+02-06 18:16:58.419 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:16:58.419 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:58.419 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:58.420 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:16:58.421 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:16:58.421 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:16:58.421 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:16:58.421 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:16:58.422 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=91
+02-06 18:16:58.422 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=95
+02-06 18:16:58.434 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818144]
+02-06 18:16:58.434 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818144]
+02-06 18:16:58.435 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:16:58.436 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:16:58.436 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:16:58.436 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111776]
+02-06 18:16:58.436 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111776]
+02-06 18:16:58.436 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115808]
+02-06 18:16:58.436 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115808]
+02-06 18:16:58.436 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=7 res=0x1 s={true -5476376618310496256} ch=false fn=614
+02-06 18:16:58.438 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:16:58.513 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:16:58.607 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:58.608 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:16:58.666 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 122 (msec)
+02-06 18:17:01.121 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:17:01.121 15428 15428 V MediaPlayerNative: stop
+02-06 18:17:01.121 15428 16902 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:17:01.122 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:01.123 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:17:01.123 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:17:01.123 15428 15428 V MediaPlayer-JNI: release
+02-06 18:17:01.123 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:01.123 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:01.137 15428 15428 V MediaPlayerNative: destructor
+02-06 18:17:01.139 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:01.184 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:01.184 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:01.259 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:17:01.572 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:17:01.573 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:17:01.573 15428 15428 V MediaPlayerNative: constructor
+02-06 18:17:01.573 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:01.576 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:17:01.577 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:17:01.577 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:17:01.577 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:17:01.577 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:17:01.577 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:17:01.577 15428 15428 V MediaPlayer-JNI: set_session_id(): 11497
+02-06 18:17:01.577 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11497)
+02-06 18:17:01.577 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:17:01.577 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:17:01.591 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:17:01.591 15428 15428 V MediaPlayerNative: prepare
+02-06 18:17:01.616 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:17:01.616 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:17:01.618 15428 16893 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:17:01.618 15428 16893 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:17:01.618 15428 16893 V MediaPlayerNative: signal application thread
+02-06 18:17:01.618 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:17:01.621 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:01.622 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:17:01.622 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:17:01.623 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:17:01.623 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:17:01.623 15428 15428 V MediaPlayer-JNI: start
+02-06 18:17:01.623 15428 15428 V MediaPlayerNative: start
+02-06 18:17:01.628 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:17:01.629 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:01.629 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:01.631 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:01.631 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:01.631 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:17:01.631 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:17:01.631 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:17:01.635 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=105
+02-06 18:17:01.635 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=91
+02-06 18:17:01.653 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111328]
+02-06 18:17:01.653 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111328]
+02-06 18:17:01.655 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:17:01.662 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818144]
+02-06 18:17:01.662 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818144]
+02-06 18:17:01.663 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277113568]
+02-06 18:17:01.663 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277113568]
+02-06 18:17:01.663 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:17:01.663 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:17:01.664 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=9 res=0x1 s={true -5476376618310496256} ch=false fn=683
+02-06 18:17:01.673 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:01.807 15428 16893 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:17:01.922 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:01.922 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:01.935 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 69 (msec)
+02-06 18:17:03.058 15428 15428 E AccessibilityInteractionController: remote exception in updateInfosForViewportAndReturnFindNodeResult()
+02-06 18:17:03.507 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:17:03.507 15428 15428 V MediaPlayerNative: stop
+02-06 18:17:03.508 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:17:03.509 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:03.510 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:17:03.510 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:17:03.510 15428 15428 V MediaPlayer-JNI: release
+02-06 18:17:03.510 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:03.510 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:03.535 15428 15428 V MediaPlayerNative: destructor
+02-06 18:17:03.536 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:03.581 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:03.581 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:03.763 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:17:04.123 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:17:04.123 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:04.123 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:04.125 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:04.125 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:04.125 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:17:04.125 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:17:04.125 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:17:04.129 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=91
+02-06 18:17:04.129 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=105
+02-06 18:17:04.250 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:17:04.252 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:17:04.252 15428 15428 V MediaPlayerNative: constructor
+02-06 18:17:04.252 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:04.264 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:17:04.264 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:17:04.264 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:17:04.264 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:17:04.264 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:17:04.264 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:17:04.264 15428 15428 V MediaPlayer-JNI: set_session_id(): 11513
+02-06 18:17:04.264 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11513)
+02-06 18:17:04.265 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:17:04.265 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:17:04.297 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:17:04.298 15428 15428 V MediaPlayerNative: prepare
+02-06 18:17:04.328 15428 16893 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:17:04.328 15428 16893 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:17:04.329 15428 16893 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:17:04.329 15428 16893 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:17:04.329 15428 16893 V MediaPlayerNative: signal application thread
+02-06 18:17:04.329 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:17:04.337 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:04.337 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:17:04.337 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:17:04.338 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:17:04.338 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:17:04.338 15428 15428 V MediaPlayer-JNI: start
+02-06 18:17:04.338 15428 15428 V MediaPlayerNative: start
+02-06 18:17:04.354 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115808]
+02-06 18:17:04.354 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115808]
+02-06 18:17:04.356 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:17:04.358 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111328]
+02-06 18:17:04.358 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111328]
+02-06 18:17:04.358 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:17:04.358 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:17:04.358 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111776]
+02-06 18:17:04.358 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111776]
+02-06 18:17:04.358 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=12 res=0x1 s={true -5476376618310496256} ch=false fn=724
+02-06 18:17:04.369 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:04.500 15428 16893 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:17:04.592 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:04.592 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:04.646 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 108 (msec)
+02-06 18:17:06.789 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:17:06.789 15428 15428 V MediaPlayerNative: stop
+02-06 18:17:06.790 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:17:06.791 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:06.792 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:17:06.793 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:17:06.793 15428 15428 V MediaPlayer-JNI: release
+02-06 18:17:06.793 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:06.793 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:06.808 15428 15428 V MediaPlayerNative: destructor
+02-06 18:17:06.812 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:06.847 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:06.847 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:06.992 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:17:07.140 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:17:07.140 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:07.140 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:07.142 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:07.142 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:07.142 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:17:07.142 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:17:07.142 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:17:07.153 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=94
+02-06 18:17:07.153 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=91
+02-06 18:17:07.249 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:17:07.256 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:17:07.256 15428 15428 V MediaPlayerNative: constructor
+02-06 18:17:07.257 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:07.260 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:17:07.260 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:17:07.260 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:17:07.260 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:17:07.260 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:17:07.260 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:17:07.260 15428 15428 V MediaPlayer-JNI: set_session_id(): 11529
+02-06 18:17:07.260 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11529)
+02-06 18:17:07.261 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:17:07.261 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:17:07.288 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:17:07.289 15428 15428 V MediaPlayerNative: prepare
+02-06 18:17:07.325 15428 16884 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:17:07.325 15428 16884 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:17:07.326 15428 16884 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:17:07.326 15428 16884 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:17:07.326 15428 16884 V MediaPlayerNative: signal application thread
+02-06 18:17:07.327 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:17:07.339 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:07.340 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:17:07.340 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:17:07.340 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:17:07.340 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:17:07.340 15428 15428 V MediaPlayer-JNI: start
+02-06 18:17:07.340 15428 15428 V MediaPlayerNative: start
+02-06 18:17:07.366 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:17:07.366 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:17:07.367 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:17:07.368 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115808]
+02-06 18:17:07.368 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115808]
+02-06 18:17:07.368 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202818144]
+02-06 18:17:07.368 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202818144]
+02-06 18:17:07.368 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277113568]
+02-06 18:17:07.368 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277113568]
+02-06 18:17:07.368 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=8 res=0x1 s={true -5476376618310496256} ch=false fn=784
+02-06 18:17:07.372 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:07.476 15428 16884 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:17:07.555 15428 16884 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:07.555 15428 16884 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:07.667 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 163 (msec)
+02-06 18:17:08.932 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:17:08.932 15428 15428 V MediaPlayerNative: stop
+02-06 18:17:08.933 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:17:08.933 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:17:08.933 15428 15428 V MediaPlayer-JNI: release
+02-06 18:17:08.933 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:08.933 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:08.935 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:17:08.935 15428 17309 V MediaPlayerNative: notify(8, 0, 0) callback on disconnected mediaplayer
+02-06 18:17:08.969 15428 15428 V MediaPlayerNative: destructor
+02-06 18:17:08.970 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:09.068 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:17:09.526 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:17:09.528 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:17:09.528 15428 15428 V MediaPlayerNative: constructor
+02-06 18:17:09.545 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:09.548 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:17:09.548 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:17:09.548 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:17:09.548 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:17:09.548 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:17:09.548 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:17:09.548 15428 15428 V MediaPlayer-JNI: set_session_id(): 11545
+02-06 18:17:09.548 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11545)
+02-06 18:17:09.549 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:17:09.549 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:17:09.620 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:17:09.620 15428 15428 V MediaPlayerNative: prepare
+02-06 18:17:09.648 15428 16902 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:17:09.648 15428 16902 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:17:09.650 15428 16902 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:17:09.650 15428 16902 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:17:09.650 15428 16902 V MediaPlayerNative: signal application thread
+02-06 18:17:09.650 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:17:09.666 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:09.667 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:17:09.667 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:17:09.668 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:17:09.668 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:17:09.668 15428 15428 V MediaPlayer-JNI: start
+02-06 18:17:09.668 15428 15428 V MediaPlayerNative: start
+02-06 18:17:09.671 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:17:09.671 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:09.671 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:09.674 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:09.674 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:09.674 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:17:09.674 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:17:09.674 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:17:09.676 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=91
+02-06 18:17:09.676 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=94
+02-06 18:17:09.679 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:09.844 15428 16902 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:17:09.968 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:09.968 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:10.019 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 104 (msec)
+02-06 18:17:12.100 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:17:12.100 15428 15428 V MediaPlayerNative: stop
+02-06 18:17:12.101 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:17:12.101 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:17:12.101 15428 15428 V MediaPlayer-JNI: release
+02-06 18:17:12.101 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:12.101 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:12.102 15428 17309 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:17:12.102 15428 17309 V MediaPlayerNative: notify(8, 0, 0) callback on disconnected mediaplayer
+02-06 18:17:12.102 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:12.102 15428 17309 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:17:12.142 15428 15428 V MediaPlayerNative: destructor
+02-06 18:17:12.143 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:12.344 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:17:12.678 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:17:12.678 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:12.679 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:12.680 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:12.680 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:12.680 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:17:12.680 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:17:12.680 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:17:12.682 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=90
+02-06 18:17:12.682 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=91
+02-06 18:17:12.711 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:17:12.712 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:17:12.712 15428 15428 V MediaPlayerNative: constructor
+02-06 18:17:12.712 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:12.718 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:17:12.718 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:17:12.718 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:17:12.718 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:17:12.718 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:17:12.718 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:17:12.718 15428 15428 V MediaPlayer-JNI: set_session_id(): 11561
+02-06 18:17:12.718 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11561)
+02-06 18:17:12.719 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:17:12.719 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:17:12.737 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:17:12.737 15428 15428 V MediaPlayerNative: prepare
+02-06 18:17:12.757 15428 17309 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:17:12.757 15428 17309 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:17:12.761 15428 17309 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:17:12.761 15428 17309 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:17:12.761 15428 17309 V MediaPlayerNative: signal application thread
+02-06 18:17:12.761 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:17:12.772 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:12.773 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:17:12.773 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:17:12.774 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:17:12.774 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:17:12.775 15428 15428 V MediaPlayer-JNI: start
+02-06 18:17:12.775 15428 15428 V MediaPlayerNative: start
+02-06 18:17:12.797 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111776]
+02-06 18:17:12.797 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111776]
+02-06 18:17:12.798 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:17:12.799 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277102208]
+02-06 18:17:12.799 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277102208]
+02-06 18:17:12.799 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277111328]
+02-06 18:17:12.799 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277111328]
+02-06 18:17:12.799 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202113376]
+02-06 18:17:12.799 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202113376]
+02-06 18:17:12.799 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=11 res=0x1 s={true -5476376618310496256} ch=false fn=877
+02-06 18:17:12.802 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:12.904 15428 17309 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:17:12.996 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:12.996 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 37 (msec)
+02-06 18:17:13.044 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:13.045 15428 17309 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:13.045 15428 16893 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:14.744 15428 15428 V MediaPlayer-JNI: stop
+02-06 18:17:14.744 15428 15428 V MediaPlayerNative: stop
+02-06 18:17:14.746 15428 16902 V MediaPlayerNative: message received msg=8, ext1=0, ext2=0
+02-06 18:17:14.749 15428 15428 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+02-06 18:17:14.749 15428 15428 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+02-06 18:17:14.749 15428 15428 V MediaPlayer-JNI: release
+02-06 18:17:14.749 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:14.749 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:14.751 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:14.751 15428 16902 V MediaPlayerNative: notify(211, 0, 0) callback on disconnected mediaplayer
+02-06 18:17:14.779 15428 15428 V MediaPlayerNative: destructor
+02-06 18:17:14.780 15428 15428 V MediaPlayerNative: disconnect
+02-06 18:17:14.829 15428 15428 W MediaPlayer: mediaplayer went away with unhandled events
+02-06 18:17:15.032 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:17:15.412 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:17:15.412 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:15.412 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:15.420 15428 15428 D InputMethodManager: prepareNavigationBarInfo() DecorView@9bb0f08[LoginActivity]
+02-06 18:17:15.420 15428 15428 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:17:15.420 15428 15428 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:17:15.420 15428 15428 D InputMethodManager: startInputInner - Id : 0
+02-06 18:17:15.420 15428 15428 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:17:15.431 15428 15428 D InputTransport: Input channel constructed: 'ClientS', fd=91
+02-06 18:17:15.431 15428 15428 D InputTransport: Input channel destroyed: 'ClientS', fd=90
+02-06 18:17:15.459 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: stopped(false) old=false
+02-06 18:17:15.460 15428 15428 V MediaPlayer-JNI: native_setup
+02-06 18:17:15.460 15428 15428 V MediaPlayerNative: constructor
+02-06 18:17:15.461 15428 15428 V MediaPlayerNative: setListener
+02-06 18:17:15.467 15428 15428 V MediaPlayer-JNI: setVolume: left 1.000000  right 1.000000
+02-06 18:17:15.467 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(1.000000, 1.000000)
+02-06 18:17:15.467 15428 15428 V MediaPlayer-JNI: setAuxEffectSendLevel: level 0.000000
+02-06 18:17:15.467 15428 15428 V MediaPlayerNative: MediaPlayer::setAuxEffectSendLevel(0.000000)
+02-06 18:17:15.467 15428 15428 V MediaPlayer-JNI: setParameter: key 1400
+02-06 18:17:15.467 15428 15428 V MediaPlayerNative: MediaPlayer::setParameter(1400)
+02-06 18:17:15.467 15428 15428 V MediaPlayer-JNI: set_session_id(): 11577
+02-06 18:17:15.467 15428 15428 V MediaPlayerNative: MediaPlayer::setAudioSessionId(11577)
+02-06 18:17:15.468 15428 15428 V MediaPlayer-JNI: setDataSourceFD: fd 82
+02-06 18:17:15.468 15428 15428 V MediaPlayerNative: setDataSource(82, 80149264, 611808)
+02-06 18:17:15.505 15428 15428 V MediaPlayerNative: setVideoSurfaceTexture
+02-06 18:17:15.505 15428 15428 V MediaPlayerNative: prepare
+02-06 18:17:15.567 15428 16902 V MediaPlayerNative: message received msg=200, ext1=10973, ext2=0
+02-06 18:17:15.567 15428 16902 W MediaPlayerNative: info/warning (10973, 0)
+02-06 18:17:15.569 15428 16902 V MediaPlayerNative: message received msg=1, ext1=0, ext2=0
+02-06 18:17:15.569 15428 16902 V MediaPlayerNative: MediaPlayer::notify() prepared
+02-06 18:17:15.569 15428 16902 V MediaPlayerNative: signal application thread
+02-06 18:17:15.569 15428 15428 V MediaPlayerNative: prepare complete - status=0
+02-06 18:17:15.572 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:15.573 15428 15428 V MediaPlayer-JNI: setLooping: 1
+02-06 18:17:15.573 15428 15428 V MediaPlayerNative: MediaPlayer::setLooping
+02-06 18:17:15.573 15428 15428 V MediaPlayer-JNI: setVolume: left 0.800000  right 0.800000
+02-06 18:17:15.573 15428 15428 V MediaPlayerNative: MediaPlayer::setVolume(0.800000, 0.800000)
+02-06 18:17:15.574 15428 15428 V MediaPlayer-JNI: start
+02-06 18:17:15.574 15428 15428 V MediaPlayerNative: start
+02-06 18:17:15.583 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277113568]
+02-06 18:17:15.583 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277113568]
+02-06 18:17:15.584 15428 15428 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x5e649cd / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:17:15.585 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618202111776]
+02-06 18:17:15.585 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618202111776]
+02-06 18:17:15.585 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618215206752]
+02-06 18:17:15.585 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618215206752]
+02-06 18:17:15.585 15428 15428 I SurfaceControl: nativeRelease nativeObject s[-5476376618277115808]
+02-06 18:17:15.585 15428 15428 I SurfaceControl: nativeRelease nativeObject e[-5476376618277115808]
+02-06 18:17:15.585 15428 15428 I ViewRootImpl@36d3ab1[LoginActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=7 res=0x1 s={true -5476376618310496256} ch=false fn=927
+02-06 18:17:15.589 15428 15428 V MediaPlayerNative: invoke 76
+02-06 18:17:15.775 15428 16902 V MediaPlayerNative: message received msg=6, ext1=0, ext2=0
+02-06 18:17:15.855 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:15.856 15428 16902 V MediaPlayerNative: message received msg=211, ext1=0, ext2=0
+02-06 18:17:16.038 15428 15428 V MediaPlayer-JNI: getCurrentPosition: 236 (msec)

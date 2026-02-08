@@ -1,0 +1,484 @@
+﻿timestamp,type,level,detail
+2026-02-06 17:47:53,STEP,I,보기 상자 선택 or 드래그 문제 감지 🔍
+2026-02-06 17:47:56,STEP,I,랜덤 상자 클릭: PASS ✅
+2026-02-06 17:47:59,STEP,I,랜덤 상자 드래그: PASS ✅
+2026-02-06 17:48:02,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:48:05,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:48:09,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:48:11,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:48:15,STEP,I,문제형 감지 🔍
+2026-02-06 17:48:18,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:48:20,STEP,I,퀴즈 선택형 문제 감지 🔍
+2026-02-06 17:48:23,STEP,I,랜덤 보기 클릭: 호랑이들이 다른 동물을 잡아먹지 못하도록 사람들이 막아야겠어.: PASS ✅
+2026-02-06 17:48:26,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:48:30,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:48:33,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:48:36,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:48:40,STEP,I,문제형 감지 🔍
+2026-02-06 17:48:43,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:48:45,STEP,I,보기 상자 선택 or 드래그 문제 감지 🔍
+2026-02-06 17:48:48,STEP,I,랜덤 상자 클릭: PASS ✅
+2026-02-06 17:48:51,STEP,I,랜덤 상자 드래그: PASS ✅
+2026-02-06 17:48:54,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:48:58,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:49:02,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:49:04,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:49:08,STEP,I,문제형 감지 🔍
+2026-02-06 17:49:11,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:49:13,STEP,I,보기 상자 선택 or 드래그 문제 감지 🔍
+2026-02-06 17:49:16,STEP,I,랜덤 상자 클릭: PASS ✅
+2026-02-06 17:49:19,STEP,I,랜덤 상자 드래그: PASS ✅
+2026-02-06 17:49:22,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:49:25,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:49:29,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:49:31,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:49:35,STEP,I,문제형 감지 🔍
+2026-02-06 17:49:38,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:49:40,STEP,I,보기 선택형 문제 감지 🔍
+2026-02-06 17:49:43,STEP,I,랜덤 보기 클릭: 많아요: PASS ✅
+2026-02-06 17:49:46,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:49:49,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:49:53,STEP,I,마지막 문제 다시 하기 감지 → 활동 재시작
+2026-02-06 17:49:55,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:49:59,STEP,I,문제형 감지 🔍
+2026-02-06 17:50:03,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:50:04,STEP,I,패널 선택형 문제 감지 🔍
+2026-02-06 17:50:07,STEP,I,랜덤 패널 클릭: 사냥을 하지 않고 고기를 먹을 수 있어도 호랑이들이 마냥 좋기만 한 것은 아니겠구나.: PASS ✅
+2026-02-06 17:50:10,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:50:14,STEP,I,진행률 도달: 8/8
+2026-02-06 17:50:14,STEP,I,📋 [Basic Test / 기능] 술술 읽기 훈련 독서활동: 성공
+2026-02-06 17:50:14,STEP,I,[SUB] Ct.1 - 술술 읽기 훈련 어휘 탐험
+2026-02-06 17:50:16,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:50:20,STEP,I,어휘 탐험 진입: PASS ✅
+2026-02-06 17:50:23,STEP,I,다시 하기 버튼 감지 → 학습 재시작
+2026-02-06 17:50:25,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:50:29,STEP,I,어휘 탐험어휘 나무 감지됨 🔍
+2026-02-06 17:50:34,STEP,I,과일 선택com.kyowon.literacy.store:id/btn_voca_1[1]: PASS ✅
+2026-02-06 17:50:37,STEP,I,단어: 육지
+2026-02-06 17:50:41,STEP,I,닫기 버튼 클릭: PASS ✅
+2026-02-06 17:50:44,STEP,I,과일 선택com.kyowon.literacy.store:id/btn_voca_2[0]: PASS ✅
+2026-02-06 17:50:46,STEP,I,단어: 영역
+2026-02-06 17:50:50,STEP,I,닫기 버튼 클릭: PASS ✅
+2026-02-06 17:50:53,STEP,I,과일 선택com.kyowon.literacy.store:id/btn_voca_3[2]: PASS ✅
+2026-02-06 17:50:55,STEP,I,단어: 포함하다
+2026-02-06 17:51:00,STEP,I,닫기 버튼 클릭: PASS ✅
+2026-02-06 17:51:02,STEP,I,과일 선택com.kyowon.literacy.store:id/btn_voca_4[3]: PASS ✅
+2026-02-06 17:51:04,STEP,I,단어: 비법
+2026-02-06 17:51:09,STEP,I,닫기 버튼 클릭: PASS ✅
+2026-02-06 17:51:11,STEP,I,과일 선택com.kyowon.literacy.store:id/btn_voca_6[5]: PASS ✅
+2026-02-06 17:51:14,STEP,I,단어: 가능성
+2026-02-06 17:51:18,STEP,I,닫기 버튼 클릭: PASS ✅
+2026-02-06 17:51:21,STEP,I,과일 선택com.kyowon.literacy.store:id/btn_voca_5[4]: PASS ✅
+2026-02-06 17:51:21,STEP,I,단어: 스트레스
+2026-02-06 17:51:23,STEP,I,닫기 버튼 클릭: PASS ✅
+2026-02-06 17:51:24,STEP,I,다시 하기 버튼 감지: PASS ✅
+2026-02-06 17:51:24,STEP,I,📋 [Basic Test / 기능] 술술 읽기 훈련 어휘 탐험: 성공
+2026-02-06 17:51:25,STEP,I,[SUB] Ct.1 - 술술 읽기 훈련 어휘 놀이
+2026-02-06 17:51:27,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:51:30,STEP,I,어휘 놀이 진입: PASS ✅
+2026-02-06 17:51:33,STEP,I,📋 [Basic Test / 노출] 술술 읽기 훈련 어휘 놀이: PASS ✅
+2026-02-06 17:51:36,STEP,I,다시 하기 버튼 감지최초 1회 → 활동 재시작
+2026-02-06 17:51:38,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:51:42,STEP,I,알림 닫기: PASS ✅
+2026-02-06 17:51:47,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 17:51:50,STEP,I,보기 클릭육지: PASS ✅
+2026-02-06 17:51:53,STEP,I,육지: 정답 ✅ 0 / 6 → 1 / 6
+2026-02-06 17:51:55,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 17:51:58,STEP,I,보기 클릭개울: PASS ✅
+2026-02-06 17:52:01,STEP,I,개울: 오답 ⚠️ 1 / 6
+2026-02-06 17:52:03,STEP,I,보기 클릭영역: PASS ✅
+2026-02-06 17:52:07,STEP,I,영역: 정답 ✅ 1 / 6 → 2 / 6
+2026-02-06 17:52:08,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 17:52:11,STEP,I,보기 클릭나르다: PASS ✅
+2026-02-06 17:52:14,STEP,I,나르다: 오답 ⚠️ 2 / 6
+2026-02-06 17:52:16,STEP,I,보기 클릭포함하다: PASS ✅
+2026-02-06 17:52:20,STEP,I,포함하다: 정답 ✅ 2 / 6 → 3 / 6
+2026-02-06 17:52:21,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 17:52:24,STEP,I,보기 클릭비법: PASS ✅
+2026-02-06 17:52:28,STEP,I,비법: 정답 ✅ 3 / 6 → 4 / 6
+2026-02-06 17:52:29,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 17:52:32,STEP,I,보기 클릭스트레스: PASS ✅
+2026-02-06 17:52:35,STEP,I,스트레스: 정답 ✅ 4 / 6 → 5 / 6
+2026-02-06 17:52:37,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 17:52:39,STEP,I,보기 클릭신청: PASS ✅
+2026-02-06 17:52:43,STEP,I,신청: 오답 ⚠️ 5 / 6
+2026-02-06 17:52:45,STEP,I,보기 클릭가능성: PASS ✅
+2026-02-06 17:52:49,STEP,I,가능성: 정답 ✅ 5 / 6 → 6 / 6
+2026-02-06 17:52:50,STEP,I,진행률 6 / 6 도달
+2026-02-06 17:52:51,STEP,I,📋 [Basic Test / 기능] 술술 읽기 훈련 어휘 놀이: 성공
+2026-02-06 17:52:51,STEP,I,[SUB] 술술 읽기 훈련: 일부 실패 술술 읽기 훈련1
+2026-02-06 17:52:55,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:52:58,STEP,I,나가기: PASS ✅
+2026-02-06 17:53:01,STEP,I,[MUST_CLICK] 예: PASS ✅
+2026-02-06 17:53:03,STEP,I,메인 복귀 확인: PASS ✅
+2026-02-06 17:53:03,STEP,I,[RUN] Ct.1 - 탄탄 독해 훈련
+2026-02-06 17:53:03,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 탄탄 독해 훈련 진입
+2026-02-06 17:53:03,STEP,I,타겟 주차8주차를 찾습니다...
+2026-02-06 17:53:04,STEP,I,[SCROLL] ✅ visible at cycle 1
+2026-02-06 17:53:07,STEP,I,[CLICK] ok: 8주차
+2026-02-06 17:53:14,STEP,I,8주차 다시 클릭안정성 확보: PASS ✅
+2026-02-06 17:53:15,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련: PASS ✅
+2026-02-06 17:53:17,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련: PASS ✅
+2026-02-06 17:53:18,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 탄탄 독해 훈련1
+2026-02-06 17:53:24,STEP,I,[EXC] match: 가이드 팝업 닫기다시 보지 않기
+2026-02-06 17:53:27,STEP,I,[EXC-ACT] click: com.kyowon.literacy.store:id/btn_skip_today
+2026-02-06 17:53:28,STEP,I,[EXC] match: 학습 가이드 닫기
+2026-02-06 17:53:31,STEP,I,[EXC-ACT] click: com.kyowon.literacy.store:id/btn_popup_close
+2026-02-06 17:53:32,STEP,I,[EXC] match: 가이드 팝업 닫기다시 보지 않기
+2026-02-06 17:53:35,STEP,I,[EXC-ACT] click: com.kyowon.literacy.store:id/btn_skip_today
+2026-02-06 17:53:35,STEP,I,[EXC] match: 학습 가이드 닫기
+2026-02-06 17:53:38,STEP,I,[EXC-ACT] click: com.kyowon.literacy.store:id/btn_popup_close
+2026-02-06 17:53:39,STEP,I,[CLICK_CORE] 예외 처리기로 4개 rule 처리 → 재시도
+2026-02-06 17:53:42,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:53:45,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 탄탄 독해 훈련 ①: PASS ✅
+2026-02-06 17:53:46,STEP,I,탄탄 독해 훈련 노출: PASS ✅
+2026-02-06 17:53:48,STEP,I,학습 가이드 클릭: PASS ✅
+2026-02-06 17:53:51,STEP,I,학습 가이드 닫기: PASS ✅
+2026-02-06 17:53:51,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 탄탄 독해 훈련 ①: 성공
+2026-02-06 17:53:51,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 독해 활동1
+2026-02-06 17:53:54,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:53:57,STEP,I,독해 활동1 진입: PASS ✅
+2026-02-06 17:53:59,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 독해 활동 ①: PASS ✅
+2026-02-06 17:54:05,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:54:08,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:54:12,STEP,I,활동형_순서 맞추기 감지 🔍
+2026-02-06 17:54:16,STEP,I,보기 선택스마트폰을 경찰서로 가져다주었어요.: PASS ✅
+2026-02-06 17:54:17,STEP,I,스마트폰을 경찰서로 가져다주었어요.: 오답 ⚠️ 다른 보기로 재시도
+2026-02-06 17:54:22,STEP,I,보기 선택길에 스마트폰이 떨어져 있는 걸 봤어요.: PASS ✅
+2026-02-06 17:54:24,STEP,I,길에 스마트폰이 떨어져 있는 걸 봤어요.: 순서 정답 ✅ 다음 보기 선택 진행
+2026-02-06 17:54:34,STEP,I,보기 선택스마트폰 주인을 찾았다고 연락을 받았어요.: PASS ✅
+2026-02-06 17:54:35,STEP,I,스마트폰 주인을 찾았다고 연락을 받았어요.: 오답 ⚠️ 다른 보기로 재시도
+2026-02-06 17:54:40,STEP,I,보기 선택스마트폰을 경찰서로 가져다주었어요.: PASS ✅
+2026-02-06 17:54:41,STEP,I,스마트폰을 경찰서로 가져다주었어요.: 순서 정답 ✅ 다음 보기 선택 진행
+2026-02-06 17:54:52,STEP,I,보기 선택스마트폰 주인을 찾았다고 연락을 받았어요.: PASS ✅
+2026-02-06 17:54:53,STEP,I,스마트폰 주인을 찾았다고 연락을 받았어요.: 순서 정답 ✅ 다음 보기 선택 진행
+2026-02-06 17:54:58,STEP,I,전체 순서: 정답 ✅
+2026-02-06 17:55:01,STEP,I,정답 및 풀이 팝업 닫기: PASS ✅
+2026-02-06 17:55:04,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:55:08,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:55:10,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:55:14,STEP,I,문제형 감지 🔍
+2026-02-06 17:55:18,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:55:19,STEP,I,보기 선택형 문제 감지 🔍
+2026-02-06 17:55:22,STEP,I,랜덤 보기 클릭: 혼자 있으니 외롭고 뿌듯했어요.: PASS ✅
+2026-02-06 17:55:25,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:55:29,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:55:32,STEP,I,마지막 문제 다시 하기 감지 → 활동 재시작
+2026-02-06 17:55:35,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:55:39,STEP,I,문제형 감지 🔍
+2026-02-06 17:55:42,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:55:44,STEP,I,퀴즈 선택형 문제 감지 🔍
+2026-02-06 17:55:47,STEP,I,랜덤 보기 클릭: 나도 저렇게 다른 사람의 입장을 잘 헤아리고 싶어.: PASS ✅
+2026-02-06 17:55:50,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:55:54,STEP,I,진행률 도달: 3/3
+2026-02-06 17:55:54,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 독해 활동 ①: 성공
+2026-02-06 17:55:54,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 탄탄 독해 훈련2
+2026-02-06 17:55:57,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:56:00,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 탄탄 독해 훈련 ②: PASS ✅
+2026-02-06 17:56:05,STEP,I,학습 가이드 닫기: PASS ✅
+2026-02-06 17:56:06,STEP,I,탄탄 독해 훈련 노출: PASS ✅
+2026-02-06 17:56:08,STEP,I,학습 가이드 클릭: PASS ✅
+2026-02-06 17:56:11,STEP,I,학습 가이드 닫기: PASS ✅
+2026-02-06 17:56:11,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 탄탄 독해 훈련 ②: 성공
+2026-02-06 17:56:11,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 독해 활동2
+2026-02-06 17:56:13,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:56:17,STEP,I,독해 활동2 진입: PASS ✅
+2026-02-06 17:56:19,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 독해 활동 ②: PASS ✅
+2026-02-06 17:56:24,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:56:27,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:56:31,STEP,I,활동형_보기 선택텍스트 감지 🔍
+2026-02-06 17:56:35,STEP,I,보기 선택슬픈 표정: PASS ✅
+2026-02-06 17:56:40,STEP,I,슬픈 표정: 정답 ✅
+2026-02-06 17:56:43,STEP,I,정답 및 풀이 팝업 닫기: PASS ✅
+2026-02-06 17:56:46,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:56:49,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:56:51,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:56:55,STEP,I,문제형 감지 🔍
+2026-02-06 17:56:59,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:57:01,STEP,I,보기 상자 선택 or 드래그 문제 감지 🔍
+2026-02-06 17:57:03,STEP,I,랜덤 상자 클릭: PASS ✅
+2026-02-06 17:57:07,STEP,I,랜덤 상자 드래그: PASS ✅
+2026-02-06 17:57:09,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:57:12,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:57:16,STEP,I,마지막 문제 다시 하기 감지 → 활동 재시작
+2026-02-06 17:57:18,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:57:22,STEP,I,문제형 감지 🔍
+2026-02-06 17:57:25,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:57:27,STEP,I,퀴즈 선택형 문제 감지 🔍
+2026-02-06 17:57:30,STEP,I,랜덤 보기 클릭: 수아가 웃지 못해서 많이 힘들 것 같아.: PASS ✅
+2026-02-06 17:57:33,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:57:37,STEP,I,진행률 도달: 3/3
+2026-02-06 17:57:37,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 독해 활동 ②: 성공
+2026-02-06 17:57:37,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 탄탄 독해 훈련3
+2026-02-06 17:57:39,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:57:43,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 탄탄 독해 훈련 ③: PASS ✅
+2026-02-06 17:57:48,STEP,I,학습 가이드 닫기: PASS ✅
+2026-02-06 17:57:48,STEP,I,탄탄 독해 훈련 노출: PASS ✅
+2026-02-06 17:57:50,STEP,I,학습 가이드 클릭: PASS ✅
+2026-02-06 17:57:53,STEP,I,학습 가이드 닫기: PASS ✅
+2026-02-06 17:57:53,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 탄탄 독해 훈련 ③: 성공
+2026-02-06 17:57:53,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 독해 활동3
+2026-02-06 17:57:55,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:57:59,STEP,I,독해 활동3 진입: PASS ✅
+2026-02-06 17:58:01,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 독해 활동 ③: PASS ✅
+2026-02-06 17:58:07,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:58:09,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:58:13,STEP,I,활동형_드래그2 감지 🔍
+2026-02-06 17:58:18,STEP,I,보기 선택엉금엉금: PASS ✅
+2026-02-06 17:58:24,STEP,I,엉금엉금: 오답 ⚠️
+2026-02-06 17:58:28,STEP,I,보기 선택팔딱팔딱: PASS ✅
+2026-02-06 17:58:33,STEP,I,팔딱팔딱: 정답 ✅
+2026-02-06 17:58:36,STEP,I,정답 및 풀이 팝업 닫기: PASS ✅
+2026-02-06 17:58:39,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:58:42,STEP,I,다시 하기 버튼 감지 → 활동 재시작
+2026-02-06 17:58:45,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:58:48,STEP,I,문제형 감지 🔍
+2026-02-06 17:58:52,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:58:53,STEP,I,항목 별 보기 선택 문제 감지 🔍
+2026-02-06 17:58:56,STEP,I,항목 선택망둑어는 바닷물 밖에서는 잠시도 살 수 없어요.: PASS ✅
+2026-02-06 17:58:59,STEP,I,보기 선택X: PASS ✅
+2026-02-06 17:59:03,STEP,I,항목 선택갯벌이 있는 바다는 바닷물이 들어올 때도 있고 빠질 때도 있어요.: PASS ✅
+2026-02-06 17:59:05,STEP,I,보기 선택X: PASS ✅
+2026-02-06 17:59:09,STEP,I,항목 선택망둑어는 다른 망둑어와 집을 나누어 살지 않아요.: PASS ✅
+2026-02-06 17:59:12,STEP,I,보기 선택X: PASS ✅
+2026-02-06 17:59:16,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:59:19,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 17:59:22,STEP,I,마지막 문제 다시 하기 감지 → 활동 재시작
+2026-02-06 17:59:25,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 17:59:29,STEP,I,문제형 감지 🔍
+2026-02-06 17:59:32,STEP,I,스크롤 업 드래그: PASS ✅
+2026-02-06 17:59:34,STEP,I,보기 상자 선택 or 드래그 문제 감지 🔍
+2026-02-06 17:59:36,STEP,I,랜덤 상자 클릭: PASS ✅
+2026-02-06 17:59:40,STEP,I,랜덤 상자 드래그: PASS ✅
+2026-02-06 17:59:42,STEP,I,채점하기 클릭: PASS ✅
+2026-02-06 17:59:46,STEP,I,진행률 도달: 3/3
+2026-02-06 17:59:47,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 독해 활동 ③: 성공
+2026-02-06 17:59:47,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 어휘 탐험
+2026-02-06 17:59:49,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 17:59:52,STEP,I,어휘 탐험 진입: PASS ✅
+2026-02-06 17:59:55,STEP,I,다시 하기 버튼 감지 → 학습 재시작
+2026-02-06 17:59:57,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 18:00:00,STEP,I,어휘 탐험어휘 카드/한 컷 툰 감지됨 🔍
+2026-02-06 18:00:03,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:05,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:07,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:09,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:12,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:14,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:16,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:19,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:21,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:23,STEP,I,다음 버튼 클릭: PASS ✅
+2026-02-06 18:00:23,STEP,I,다시 하기 버튼 확인
+2026-02-06 18:00:24,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 어휘 탐험: 성공
+2026-02-06 18:00:24,STEP,I,[SUB] Ct.1 - 탄탄 독해 훈련 어휘 놀이
+2026-02-06 18:00:26,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 18:00:29,STEP,I,어휘 놀이 진입: PASS ✅
+2026-02-06 18:00:32,STEP,I,📋 [Basic Test / 노출] 탄탄 독해 훈련 어휘 놀이: PASS ✅
+2026-02-06 18:00:35,STEP,I,다시 하기 버튼 감지최초 1회 → 활동 재시작
+2026-02-06 18:00:37,STEP,I,다시 하기 버튼 클릭: PASS ✅
+2026-02-06 18:00:41,STEP,I,알림 닫기: PASS ✅
+2026-02-06 18:00:47,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:00:50,STEP,I,보기 클릭다급하다: PASS ✅
+2026-02-06 18:00:54,STEP,I,다급하다: 오답 ⚠️ 0 / 8
+2026-02-06 18:00:56,STEP,I,보기 클릭편리하다: PASS ✅
+2026-02-06 18:00:59,STEP,I,편리하다: 오답 ⚠️ 0 / 8
+2026-02-06 18:01:02,STEP,I,보기 클릭기특하다: PASS ✅
+2026-02-06 18:01:06,STEP,I,기특하다: 정답 ✅ 0 / 8 → 1 / 8
+2026-02-06 18:01:07,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:01:11,STEP,I,보기 클릭튀어나와서: PASS ✅
+2026-02-06 18:01:14,STEP,I,튀어나와서: 오답 ⚠️ 1 / 8
+2026-02-06 18:01:16,STEP,I,보기 클릭잃어버려서: PASS ✅
+2026-02-06 18:01:20,STEP,I,잃어버려서: 정답 ✅ 1 / 8 → 2 / 8
+2026-02-06 18:01:22,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:01:26,STEP,I,보기 클릭안타깝다: PASS ✅
+2026-02-06 18:01:30,STEP,I,안타깝다: 오답 ⚠️ 2 / 8
+2026-02-06 18:01:33,STEP,I,보기 클릭뿌듯하다: PASS ✅
+2026-02-06 18:01:37,STEP,I,뿌듯하다: 정답 ✅ 2 / 8 → 3 / 8
+2026-02-06 18:01:39,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:01:43,STEP,I,보기 클릭짓다: PASS ✅
+2026-02-06 18:01:48,STEP,I,짓다: 정답 ✅ 3 / 8 → 4 / 8
+2026-02-06 18:01:50,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:01:53,STEP,I,보기 클릭그치다: PASS ✅
+2026-02-06 18:01:57,STEP,I,그치다: 오답 ⚠️ 4 / 8
+2026-02-06 18:01:59,STEP,I,보기 클릭튀기다: PASS ✅
+2026-02-06 18:02:03,STEP,I,튀기다: 오답 ⚠️ 4 / 8
+2026-02-06 18:02:05,STEP,I,보기 클릭튀어나오다: PASS ✅
+2026-02-06 18:02:09,STEP,I,튀어나오다: 정답 ✅ 4 / 8 → 5 / 8
+2026-02-06 18:02:10,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:02:14,STEP,I,보기 클릭팔딱팔딱: PASS ✅
+2026-02-06 18:02:17,STEP,I,팔딱팔딱: 정답 ✅ 5 / 8 → 6 / 8
+2026-02-06 18:02:19,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:02:22,STEP,I,보기 클릭부풀리다: PASS ✅
+2026-02-06 18:02:26,STEP,I,부풀리다: 오답 ⚠️ 6 / 8
+2026-02-06 18:02:28,STEP,I,보기 클릭차지하다: PASS ✅
+2026-02-06 18:02:32,STEP,I,차지하다: 정답 ✅ 6 / 8 → 7 / 8
+2026-02-06 18:02:34,STEP,I,어휘 놀이 보기 선택형 감지 🔍
+2026-02-06 18:02:37,STEP,I,보기 클릭잔뜩: PASS ✅
+2026-02-06 18:02:41,STEP,I,잔뜩: 정답 ✅ 7 / 8 → 8 / 8
+2026-02-06 18:02:43,STEP,I,진행률 8 / 8 도달
+2026-02-06 18:02:43,STEP,I,📋 [Basic Test / 기능] 탄탄 독해 훈련 어휘 놀이: 성공
+2026-02-06 18:02:43,STEP,I,[SUB] 탄탄 독해 훈련: 전체 성공
+2026-02-06 18:02:48,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 18:02:50,STEP,I,나가기: PASS ✅
+2026-02-06 18:02:53,STEP,I,[MUST_CLICK] 예: PASS ✅
+2026-02-06 18:02:55,STEP,I,메인 복귀 확인: PASS ✅
+2026-02-06 18:02:55,STEP,I,[RUN] Ct.1 - 차곡차곡 어휘 상자
+2026-02-06 18:02:58,STEP,I,차곡차곡 어휘 상자 진입: PASS ✅
+2026-02-06 18:02:58,STEP,I,📋 [Basic Test / 노출] 차곡차곡 어휘 상자: PASS ✅
+2026-02-06 18:03:00,STEP,I,[SUB] Ct.1 - 차곡차곡 어휘 상자 메인
+2026-02-06 18:03:03,STEP,I,단계 선택 클릭: PASS ✅
+2026-02-06 18:03:05,STEP,I,1단계 선택: PASS ✅
+2026-02-06 18:03:06,STEP,I,타겟 카테고리ㅎ 찾기를 시작합니다... 1회
+2026-02-06 18:03:08,STEP,I,[SCROLL] ✅ visible at cycle 2
+2026-02-06 18:03:10,STEP,I,[CLICK] ok: ㅎ
+2026-02-06 18:03:13,STEP,I,타겟훈련 찾기를 시작합니다... 1회
+2026-02-06 18:03:36,STEP,I,[SCROLL] ✅ visible at cycle 12
+2026-02-06 18:03:38,STEP,I,[CLICK] ok: 훈련
+2026-02-06 18:03:46,STEP,I,[CHECK_CORE] timeout5s → 재시도 1/2
+2026-02-06 18:03:52,STEP,I,📋 [Basic Test / 기능] 차곡차곡 어휘 상자: WARN ⚠️ timeout 5s
+2026-02-06 18:03:52,STEP,I,[SUB] Ct.1 - 차곡차곡 어휘 상자 검색
+2026-02-06 18:03:55,STEP,I,어휘 상자 검색 진입: PASS ✅
+2026-02-06 18:03:56,STEP,I,📋 [Basic Test / 노출] 차곡차곡 어휘 상자 검색: PASS ✅
+2026-02-06 18:04:01,STEP,I,검색어 입력: PASS ✅
+2026-02-06 18:04:03,STEP,I,검색 실행: PASS ✅
+2026-02-06 18:04:05,STEP,I,검색 결과 어휘 선택: PASS ✅
+2026-02-06 18:04:06,STEP,I,📋 [Basic Test / 기능] 차곡차곡 어휘 상자 검색: PASS ✅
+2026-02-06 18:04:09,STEP,I,어휘 상자 메인 복귀: PASS ✅
+2026-02-06 18:04:09,STEP,I,[SUB] Ct.1 - 차곡차곡 어휘 상자 저장한 단어
+2026-02-06 18:04:11,STEP,I,단계 선택 클릭: PASS ✅
+2026-02-06 18:04:13,STEP,I,1단계 선택: PASS ✅
+2026-02-06 18:04:14,STEP,I,"타겟 카테고리ㄱ , ㄲ 찾기를 시작합니다... 1회"
+2026-02-06 18:04:15,STEP,I,[SCROLL] ✅ visible at cycle 1
+2026-02-06 18:04:17,STEP,I,"[CLICK] ok: ㄱ , ㄲ"
+2026-02-06 18:04:19,STEP,I,타겟가족회의 찾기를 시작합니다... 1회
+2026-02-06 18:04:24,STEP,I,[SCROLL] ✅ visible at cycle 3
+2026-02-06 18:04:26,STEP,I,[CLICK] ok: com.kyowon.literacy.store:id/btnStarEmpty
+2026-02-06 18:04:27,STEP,I,타겟 카테고리ㅁ 찾기를 시작합니다... 1회
+2026-02-06 18:04:27,STEP,I,[SCROLL] ✅ visible at cycle 1
+2026-02-06 18:04:29,STEP,I,[CLICK] ok: ㅁ
+2026-02-06 18:04:31,STEP,I,타겟매력 찾기를 시작합니다... 1회
+2026-02-06 18:04:42,STEP,I,[SCROLL] ✅ visible at cycle 6
+2026-02-06 18:04:44,STEP,I,[CLICK] ok: com.kyowon.literacy.store:id/btnStarEmpty
+2026-02-06 18:04:47,STEP,I,저장한 단어 진입: PASS ✅
+2026-02-06 18:04:47,STEP,I,📋 [Basic Test / 노출] 차곡차곡 어휘 상자 저장한 단어: PASS ✅
+2026-02-06 18:04:47,STEP,I,타겟com.kyowon.literacy.store:id/btnStarEmpty 찾기를 시작합니다... 1회
+2026-02-06 18:04:48,STEP,I,[SCROLL] ✅ visible at cycle 1
+2026-02-06 18:04:50,STEP,I,[CLICK] ok: com.kyowon.literacy.store:id/btnStarEmpty
+2026-02-06 18:04:51,STEP,I,타겟com.kyowon.literacy.store:id/btnStarEmpty 찾기를 시작합니다... 1회
+2026-02-06 18:04:51,STEP,I,[SCROLL] ✅ visible at cycle 1
+2026-02-06 18:04:57,STEP,I,[CLICK] ok: com.kyowon.literacy.store:id/btnStarEmpty
+2026-02-06 18:05:00,STEP,I,어휘 상자 메인 복귀: PASS ✅
+2026-02-06 18:05:02,STEP,I,저장한 단어 재진입: PASS ✅
+2026-02-06 18:05:02,STEP,I,📋 [Basic Test / 기능] 차곡차곡 어휘 상자 저장한 단어: PASS ✅
+2026-02-06 18:05:05,STEP,I,어휘 상자 메인 복귀: PASS ✅
+2026-02-06 18:05:06,STEP,I,[SUB] 차곡차곡 어휘 상자: 전체 성공
+2026-02-06 18:05:09,STEP,I,뒤로 가기: PASS ✅
+2026-02-06 18:05:11,STEP,I,메인 복귀 확인: PASS ✅
+2026-02-06 18:05:11,STEP,I,[RUN] Ct.1 - 메뉴
+2026-02-06 18:05:11,STEP,I,[SUB] Ct.1 - 메뉴 메뉴 기본 체크
+2026-02-06 18:05:15,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 18:05:15,STEP,I,📋 [Basic Test / 노출] 메뉴: PASS ✅
+2026-02-06 18:05:18,STEP,I,📋 [Basic Test / 기능] 메뉴: PASS ✅
+2026-02-06 18:05:18,STEP,I,[SUB] Ct.1 - 메뉴 튜토리얼
+2026-02-06 18:05:22,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 18:05:24,STEP,I,메뉴 튜토리얼 진입: PASS ✅
+2026-02-06 18:05:25,STEP,I,📋 [Basic Test / 노출] 메뉴 튜토리얼: PASS ✅
+2026-02-06 18:05:27,STEP,I,📋 [Basic Test / 기능] 메뉴 튜토리얼: PASS ✅
+2026-02-06 18:05:29,STEP,I,튜토리얼 닫기: PASS ✅
+2026-02-06 18:05:30,STEP,I,[SUB] Ct.1 - 메뉴 나의 보상
+2026-02-06 18:05:34,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 18:05:37,STEP,I,메뉴 나의 보상 진입: PASS ✅
+2026-02-06 18:05:37,STEP,I,📋 [Basic Test / 노출] 메뉴 나의 보상: PASS ✅
+2026-02-06 18:05:40,STEP,I,포인트 이력 열기: PASS ✅
+2026-02-06 18:05:40,STEP,I,📋 [Basic Test / 기능] 메뉴 나의 보상: PASS ✅
+2026-02-06 18:05:42,STEP,I,포인트 이력 닫기: PASS ✅
+2026-02-06 18:05:46,STEP,I,뒤로 가기: PASS ✅
+2026-02-06 18:05:48,STEP,I,메인 복귀 확인: PASS ✅
+2026-02-06 18:05:49,STEP,I,[SUB] Ct.1 - 메뉴 학습 리포트
+2026-02-06 18:05:52,STEP,I,메뉴 오픈: PASS ✅
+2026-02-06 18:05:55,STEP,I,메뉴 학습 리포트 진입: PASS ✅
+2026-02-06 18:06:01,STEP,I,[EXC] match: 로딩 대기하기
+2026-02-06 18:06:12,STEP,I,[CHECK_CORE] 예외 처리기로 1개 rule 처리 → 재시도
+2026-02-06 18:06:14,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:06:16,STEP,I,📋 [Basic Test / 노출] 메뉴 학습 리포트: PASS ✅
+2026-02-06 18:06:19,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:06:24,STEP,I,📋 [Basic Test / 기능] 메뉴 학습 리포트: PASS ✅
+2026-02-06 18:06:30,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:06:39,STEP,I,[CHECK_CORE] timeout5s → 재시도 1/2
+2026-02-06 18:06:44,STEP,I,메인 복귀 확인: WARN ⚠️ timeout 5s
+2026-02-06 18:06:45,STEP,I,[SUB] Ct.1 - 메뉴 캐릭터 소개
+2026-02-06 18:06:46,STEP,I,[ERR] SubFlow 실패: Ct.1 - 메뉴 캐릭터 소개 - Cannot find any visible node by query UIObjectProxy of com.kyowon.literacy.store:id/top_right_menu/android.widget.ImageButton
+2026-02-06 18:06:46,STEP,I,[OK] save.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnersave.flag
+2026-02-06 18:07:05,STEP,I,[OK] slice 준비 완료: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerlogcat_slice_260206_1806.txt
+2026-02-06 18:07:05,STEP,I,[OK] report.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerreport.flag
+2026-02-06 18:07:42,STEP,I,[OK] resource 리포트 생성 완료: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerresource_report_260206_1807.pdf
+2026-02-06 18:07:42,STEP,I,"[MAIL] attachmentsnormalized=[D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerlogcat_recent_260206_1806.txt , D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerlogcat_slice_260206_1806.txt , D"
+2026-02-06 18:08:12,STEP,I,[SUB] 실패 메일 전송 완료: 캐릭터 소개
+2026-02-06 18:08:12,STEP,I,앱 재시작 중...com.kyowon.literacy.store
+2026-02-06 18:08:22,STEP,I,📋 [Basic Test / 노출] 로그인: PASS ✅
+2026-02-06 18:08:22,STEP,I,로그인 시도
+2026-02-06 18:08:29,STEP,I,[MUST_TYPE] 아이디 입력: PASS ✅
+2026-02-06 18:08:34,STEP,I,[MUST_TYPE] 비밀번호 입력: PASS ✅
+2026-02-06 18:08:36,STEP,I,로그인 버튼 클릭: PASS ✅
+2026-02-06 18:08:39,STEP,I,환영 알림 확인: PASS ✅
+2026-02-06 18:09:05,STEP,I,"[EXC] rule ERR: 자세 확인 닫기다시 보지 않기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:09:15,STEP,I,"[EXC] rule ERR: 가이드 팝업 닫기다시 보지 않기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:09:25,STEP,I,"[EXC] rule ERR: 학습 가이드 닫기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:09:36,STEP,I,"[EXC] rule ERR: 자세 확인 팝업 닫기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:09:46,STEP,I,"[EXC] rule ERR: 정답 및 풀이 팝업 닫기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:09:57,STEP,I,"[EXC] rule ERR: 로딩 대기하기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:07,STEP,I,"[EXC] rule ERR: 자동 완성 저장 팝업 닫기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:17,STEP,I,"[EXC] rule ERR: AI 술술 읽기 평가 감지 🔍 → 진행: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:27,STEP,I,"[EXC] rule ERR: 주차 이동 불가 팝업 닫기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:37,STEP,I,"[EXC] rule ERR: 리포트 닫기: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:47,STEP,I,"[EXC] rule ERR: 홈 계정 등록 팝업 출력 오류 처리: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:57,STEP,I,"[WARN] app_ready 루프 예외: TransportDisconnected: TransportDisconnectedConnectionErrorProtocolErrorConnection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:57,STEP,I,"[WARN] app_ready 중 Poco 연결 오류 감지 → 하드 리셋 시도: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:10:57,STEP,I,[FATAL] Poco 하드 리셋 시도: app_ready loop exception
+2026-02-06 18:10:58,STEP,I,[OK] 백그라운드 프로세스 종료: com.netease.open.pocoservice
+2026-02-06 18:10:59,STEP,I,[OK] 백그라운드 프로세스 종료: com.netease.nie.yosemite
+2026-02-06 18:11:01,STEP,I,[OK] yosemite service 재기동
+2026-02-06 18:11:05,STEP,I,[OK] yosemite IME 설정 완료: com.netease.nie.yosemite/.ime.ImeService
+2026-02-06 18:11:06,STEP,I,[OK] 기존 Poco 드라이버 핸들 초기화 완료
+2026-02-06 18:11:06,STEP,I,앱 재시작 중...com.kyowon.literacy.store
+2026-02-06 18:12:00,STEP,I,[RESTART][WARN] 1/3 실패: unable to launch AndroidUiautomationPoco
+2026-02-06 18:12:55,STEP,I,[RESTART][WARN] 2/3 실패: unable to launch AndroidUiautomationPoco
+2026-02-06 18:13:53,STEP,I,[RESTART][WARN] 3/3 실패: unable to launch AndroidUiautomationPoco
+2026-02-06 18:13:55,STEP,I,[FATAL] 앱 재시작 실패: RuntimeError앱 재시작 실패3회 시도: unable to launch AndroidUiautomationPoco
+2026-02-06 18:13:56,STEP,I,[FATAL] app_ready 내 poco_hard_reset 실패: PocoFatalError앱 재시작 실패: RuntimeError앱 재시작 실패3회 시도: unable to launch AndroidUiautomationPoco
+2026-02-06 18:13:57,STEP,I,[ERR] Flow 실패: Ct.1 - 메뉴 - 앱 재시작 실패: RuntimeError앱 재시작 실패3회 시도: unable to launch AndroidUiautomationPoco
+2026-02-06 18:13:57,STEP,I,[OK] save.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnersave.flag
+2026-02-06 18:14:43,STEP,I,[ERR] timeout: slice 미감지
+2026-02-06 18:14:43,STEP,I,[OK] report.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerreport.flag
+2026-02-06 18:15:17,STEP,I,[OK] resource 리포트 생성 완료: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerresource_report_260206_1814.pdf
+2026-02-06 18:15:17,STEP,I,"[MAIL] attachmentsnormalized=[D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerlogcat_recent_260206_1813.txt , D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerresource_report_260206_1814.pdf "
+2026-02-06 18:15:36,STEP,I,[RUN] 실패 메일 전송 완료: 메뉴
+2026-02-06 18:15:36,STEP,I,앱 재시작 중...com.kyowon.literacy.store
+2026-02-06 18:15:45,STEP,I,📋 [Basic Test / 노출] 로그인: PASS ✅
+2026-02-06 18:15:45,STEP,I,로그인 시도
+2026-02-06 18:15:50,STEP,I,[MUST_TYPE] 아이디 입력: PASS ✅
+2026-02-06 18:15:55,STEP,I,[MUST_TYPE] 비밀번호 입력: PASS ✅
+2026-02-06 18:15:58,STEP,I,로그인 버튼 클릭: PASS ✅
+2026-02-06 18:16:01,STEP,I,환영 알림 확인: PASS ✅
+2026-02-06 18:16:12,STEP,I,[WARN] app_ready 루프 예외: TypeError: TypeErrorsoft_fail takes 1 positional argument but 2 were given
+2026-02-06 18:16:13,STEP,I,[WARN] app_ready: 로그인/메인 화면 요소 미등장 → 앱 재시작 후 1회 재시도
+2026-02-06 18:16:13,STEP,I,앱 재시작 중...com.kyowon.literacy.store
+2026-02-06 18:16:17,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:16:27,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:16:33,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:16:46,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:16:48,STEP,I,"[ERR] 권한 체크: FAIL - Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:16:49,STEP,I,"[WARN] 재시작 후 대기on_ready 실패: Connection aborted. , RemoteDisconnectedRemote end closed connection without response"
+2026-02-06 18:16:49,STEP,I,[=]===== 모든 반복 종료 =====
+2026-02-06 18:16:50,STEP,I,⚠️ A-Test 최종 완료실패 2건 - com.kyowon.literacy.store_R9TRA0BDXEW
+2026-02-06 18:16:50,STEP,I,[OK] save.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnersave.flag
+2026-02-06 18:16:51,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:16:56,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:17:02,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:17:08,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:17:14,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:17:20,CRASH,E,com.kyowon.literacy.store
+2026-02-06 18:17:24,STEP,I,[OK] slice 준비 완료: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerlogcat_slice_260206_1817.txt
+2026-02-06 18:17:24,STEP,I,[OK] report.flag: D:dhkimQAToolsresultR9TRA0BDXEW20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runnerreport.flag
+2026-02-06 18:17:26,CRASH,E,com.kyowon.literacy.store

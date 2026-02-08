@@ -1,0 +1,19 @@
+--------- beginning of main
+02-06 18:13:01.807 31505 31505 E .literacy.stor: Not starting debugger since process cannot load the jdwp agent.
+02-06 18:13:01.814 31505 31505 D ActivityThread: setConscryptValidator
+02-06 18:13:01.814 31505 31505 D ActivityThread: setConscryptValidator - put
+--------- beginning of system
+02-06 18:13:01.865 31505 31505 D ActivityThread: handleBindApplication()++ app=com.kyowon.literacy.store
+02-06 18:13:01.980 31505 31505 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:13:01.980 31505 31505 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:13:01.980 31505 31505 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:13:02.021 31505 31505 D LoadedApk: LoadedApk::makeApplication() appContext=android.app.ContextImpl@c24dd86 appContext.mOpPackageName=com.kyowon.literacy.store appContext.mBasePackageName=com.kyowon.literacy.store appContext.mPackageInfo=android.app.LoadedApk@2d55647
+02-06 18:13:02.021 31505 31505 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+02-06 18:13:02.036 31505 31505 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+02-06 18:13:02.055 31505 31505 I MultiDex: VM with version 2.1.0 has multidex support
+02-06 18:13:02.056 31505 31505 I MultiDex: Installing application
+02-06 18:13:02.056 31505 31505 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+02-06 18:13:02.170 31505 31505 D ActivityThread: handleBindApplication() -- skipGraphicsSupport=false
+02-06 18:13:02.239 31505 31505 D LicenseClient: Connecting to the licensing service...
+02-06 18:13:02.357 31505 31505 D LicenseClient: Connected to the licensing service.
+02-06 18:13:02.375 31505  4595 D LicenseClient: Sending request to license reporting service...

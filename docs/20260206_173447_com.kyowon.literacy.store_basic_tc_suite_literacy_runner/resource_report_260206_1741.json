@@ -1,0 +1,50 @@
+{
+  "file": "resource_260206_1740.txt",
+  "range": {
+    "start": "2026-02-06 17:35:05",
+    "end": "2026-02-06 17:40:37"
+  },
+  "samples": 159,
+  "meta": {
+    "package": "com.kyowon.literacy.store",
+    "pid": 17375,
+    "serial": "R9TRA0BDXEW"
+  },
+  "criteria": {
+    "cpu_warn_percent": 480,
+    "cpu_crit_percent": 640,
+    "mem_warn_kb": 678500,
+    "mem_crit_kb": 826000,
+    "leak_suspect_kb_per_min": 50000
+  },
+  "cpu": {
+    "max": 166.0,
+    "min": 0.0,
+    "avg": 69.0540880503145,
+    "p95": 106.0,
+    "warn_spans": [],
+    "crit_spans": []
+  },
+  "mem": {
+    "max": 352664,
+    "min": 135252,
+    "avg": 263191.1446540881,
+    "p95": 294986.39999999997,
+    "warn_spans": [],
+    "crit_spans": [],
+    "slope_kb_per_min": 3033.211751249876
+  },
+  "verdict": {
+    "overall": "PASS",
+    "notes": [
+      "이상 없음"
+    ]
+  },
+  "events": {
+    "count": 62,
+    "by_type": {
+      "STEP": 49,
+      "GC": 13
+    }
+  }
+}

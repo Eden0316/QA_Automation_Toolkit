@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runner",
+  "suite": "basic_tc_suite",
+  "runner": "literacy_runner",
+  "started_at": "2026-02-06T17:34:47+09:00",
+  "ended_at": "2026-02-06T18:18:09+09:00",
+  "duration_sec": 2601,
+  "result": "FAIL",
+  "decision": {
+    "rule_version": "1.0",
+    "overall": "FAIL",
+    "reason_code": "FORCED_RESULT",
+    "reason_text": "Overall result is forced to FAIL by caller (finalize_run result parameter).",
+    "precedence": [
+      "FAIL",
+      "WARN",
+      "PASS",
+      "N/A",
+      "SKIP"
+    ],
+    "counts": {
+      "FAIL": 2,
+      "WARN": 10,
+      "PASS": 306,
+      "N/A": 0,
+      "SKIP": 0
+    }
+  },
+  "device": {
+    "serial": "R9TRA0BDXEW",
+    "model": "SM-T500",
+    "os_version": "11",
+    "sdk": "30"
+  },
+  "app": {
+    "package": "com.kyowon.literacy.store",
+    "version_name": "1.0.3",
+    "version_code": "58"
+  },
+  "counts": {
+    "pass": 306,
+    "fail": 2,
+    "warn": 10,
+    "na": 0,
+    "skip": 0
+  },
+  "artifacts": {
+    "airtest_report": "airtest_portable_260206_1818/index.html",
+    "logcat_recent": "logcat_recent_260206_1816.txt",
+    "logcat_slice": "logcat_slice_260206_1817.txt",
+    "resource_report": "resource_report_260206_1817.pdf",
+    "events_csv": "events.csv"
+  },
+  "notes": [
+    "[RISK] 재시작 후 on_ready 실패(다음 플로우 영향 가능): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  ],
+  "warnings": [
+    {
+      "time": "18:03:52",
+      "msg": "📋 [Basic Test / 기능] 차곡차곡 어휘 상자: WARN ⚠️ (timeout 5s)"
+    },
+    {
+      "time": "18:06:44",
+      "msg": "메인 복귀 확인: WARN ⚠️ (timeout 5s)"
+    },
+    {
+      "time": "18:10:56",
+      "msg": "[WARN] app_ready 루프 예외: TransportDisconnected: TransportDisconnected(ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))))"
+    },
+    {
+      "time": "18:10:57",
+      "msg": "[WARN] app_ready 중 Poco 연결 오류 감지 → 하드 리셋 시도: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "time": "18:12:00",
+      "msg": "[RESTART][WARN] 1/3 실패: unable to launch AndroidUiautomationPoco"
+    },
+    {
+      "time": "18:12:55",
+      "msg": "[RESTART][WARN] 2/3 실패: unable to launch AndroidUiautomationPoco"
+    },
+    {
+      "time": "18:13:52",
+      "msg": "[RESTART][WARN] 3/3 실패: unable to launch AndroidUiautomationPoco"
+    },
+    {
+      "time": "18:16:12",
+      "msg": "[WARN] app_ready 루프 예외: TypeError: TypeError('soft_fail() takes 1 positional argument but 2 were given')"
+    },
+    {
+      "time": "18:16:13",
+      "msg": "[WARN] app_ready: 로그인/메인 화면 요소 미등장 → 앱 재시작 후 1회 재시도"
+    },
+    {
+      "time": "18:16:48",
+      "msg": "[WARN] 재시작 후 대기(on_ready) 실패: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ],
+  "failures": [
+    {
+      "iter": "1",
+      "name": "술술 읽기 훈련",
+      "error": "다시 하기 버튼 확인: FAIL ❌ (timeout 100s)",
+      "kind": "soft_fail",
+      "flow": "술술 읽기 훈련",
+      "time": "17:40:37"
+    },
+    {
+      "iter": "1",
+      "name": "메뉴",
+      "error": "[ERR] 권한 체크: FAIL - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "kind": "soft_fail",
+      "flow": "메뉴",
+      "time": "18:16:48"
+    }
+  ]
+}

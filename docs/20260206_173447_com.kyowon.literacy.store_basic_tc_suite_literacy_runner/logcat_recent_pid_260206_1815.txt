@@ -1,0 +1,133 @@
+--------- beginning of main
+02-06 18:15:39.660  4843  4843 E .literacy.stor: Not starting debugger since process cannot load the jdwp agent.
+02-06 18:15:39.687  4843  4843 D ActivityThread: setConscryptValidator
+02-06 18:15:39.688  4843  4843 D ActivityThread: setConscryptValidator - put
+--------- beginning of system
+02-06 18:15:39.725  4843  4843 D ActivityThread: handleBindApplication()++ app=com.kyowon.literacy.store
+02-06 18:15:39.794  4843  4843 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:15:39.794  4843  4843 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:15:39.794  4843  4843 W .literacy.stor: JIT profile information will not be recorded: profile file does not exist.
+02-06 18:15:39.815  4843  4843 D LoadedApk: LoadedApk::makeApplication() appContext=android.app.ContextImpl@c24dd86 appContext.mOpPackageName=com.kyowon.literacy.store appContext.mBasePackageName=com.kyowon.literacy.store appContext.mPackageInfo=android.app.LoadedApk@2d55647
+02-06 18:15:39.815  4843  4843 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+02-06 18:15:39.822  4843  4843 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+02-06 18:15:39.849  4843  4843 I MultiDex: VM with version 2.1.0 has multidex support
+02-06 18:15:39.849  4843  4843 I MultiDex: Installing application
+02-06 18:15:39.850  4843  4843 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+02-06 18:15:39.978  4843  4843 D ActivityThread: handleBindApplication() -- skipGraphicsSupport=false
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: QUALCOMM build                   : 02e24b95a5, I0bf67f5349
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: Build Date                       : 11/06/20
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.06
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: Local Branch                     : 
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: Remote Branch                    : 
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: Remote Branch                    : 
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: Reconstruct Branch               : 
+02-06 18:15:40.012  4843 15362 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+02-06 18:15:40.013  4843 15362 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+02-06 18:15:40.033  4843 15362 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+02-06 18:15:40.038  4843  4843 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+02-06 18:15:40.085  4843  4843 I DecorView: [INFO] isPopOver=false, config=true
+02-06 18:15:40.085  4843  4843 I DecorView: updateCaptionType >> DecorView@12c74e8[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+02-06 18:15:40.085  4843  4843 D DecorView: setCaptionType = 0, this = DecorView@12c74e8[]
+02-06 18:15:40.261  4843  4843 I PlayCore: UID: [10584]  PID: [4843] AppUpdateListenerRegistry : registerListener
+02-06 18:15:40.269  4843  4843 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : requestUpdateInfo(com.kyowon.literacy.store)
+02-06 18:15:40.278  4843 15370 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : Initiate binding to the service.
+02-06 18:15:40.307  4843  4843 D InputTransport: Input channel constructed: 'cb93ceb', fd=79
+02-06 18:15:40.311  4843  4843 I ViewRootImpl@602d107[IntroActivity]: setView = com.android.internal.policy.DecorView@12c74e8 TM=true
+02-06 18:15:40.311  4843  4843 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=2, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.intro.activity.IntroActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:15:40.311  4843  4843 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=1, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.intro.activity.IntroActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:15:40.312  4843  4843 D InsetsSourceConsumer: setRequestedVisible: visible=false, type=0, host=com.kyowon.literacy.store/com.kyowon.literacy.ui.intro.activity.IntroActivity, from=android.view.InsetsSourceConsumer.hide:236 android.view.InsetsController.collectSourceControls:1172 android.view.InsetsController.controlAnimationUnchecked:1049 android.view.InsetsController.applyAnimation:1417 android.view.InsetsController.hide:984 android.view.InsetsController.hide:967 android.view.PendingInsetsController$HideRequest.replay:238 android.view.PendingInsetsController.replayAndAttach:169 android.view.ViewRootImpl.setView:1544 android.view.WindowManagerGlobal.addView:469 
+02-06 18:15:40.315  4843  4843 D LicenseClient: Connecting to the licensing service...
+02-06 18:15:40.342  4843  4843 D ViewRootImpl@602d107[IntroActivity]: controlInsetsForCompatibility: hideByFlags=0x1, showByFlags=0x0, flags=0x81810580, sysUiVis=0x0, matchParent=true, nonAttachedAppWindow=true
+02-06 18:15:40.356  4843  4843 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x7f6ce91 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:15:40.358  4843  4843 I ViewRootImpl@602d107[IntroActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=12 res=0x7 s={true -5476376615651659776} ch=true fn=-1
+02-06 18:15:40.417  4843  4843 I ViewRootImpl@602d107[IntroActivity]: MSG_RESIZED_REPORT: frame=(0,0,2000,1200) ci=(0,0,0,0) vi=(0,0,0,0) or=2
+02-06 18:15:40.418  4843  4843 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+02-06 18:15:40.421  4843 15370 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : linkToDeath
+02-06 18:15:40.444  4843  4843 I SurfaceControl: nativeRelease nativeObject s[-5476376618310097056]
+02-06 18:15:40.444  4843  4843 I SurfaceControl: nativeRelease nativeObject e[-5476376618310097056]
+02-06 18:15:40.445  4843  4843 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0x7f6ce91 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 18:15:40.445  4843  4843 I SurfaceControl: nativeRelease nativeObject s[-5476376618202823584]
+02-06 18:15:40.445  4843  4843 I SurfaceControl: nativeRelease nativeObject e[-5476376618202823584]
+02-06 18:15:40.445  4843  4843 I SurfaceControl: nativeRelease nativeObject s[-5476376618202981792]
+02-06 18:15:40.445  4843  4843 I SurfaceControl: nativeRelease nativeObject e[-5476376618202981792]
+02-06 18:15:40.445  4843  4843 I ViewRootImpl@602d107[IntroActivity]: Relayout returned: old=(0,0,2000,1200) new=(0,0,2000,1200) req=(2000,1200)0 dur=9 res=0x1 s={true -5476376615651659776} ch=false fn=3
+02-06 18:15:40.469  4843  4843 D LicenseClient: Connected to the licensing service.
+02-06 18:15:40.505  4843  4843 I ViewRootImpl@602d107[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:15:40.506  4843  4843 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:15:40.506  4843  4843 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:15:40.506  4843  4843 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:15:40.506  4843  4843 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:15:40.506  4843  4843 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:15:40.506  4843  4843 D InputMethodManager: startInputInner - Id : 0
+02-06 18:15:40.506  4843  4843 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:15:40.516  4843 15354 D InputTransport: Input channel constructed: 'ClientS', fd=88
+02-06 18:15:40.519  4843 15381 D LicenseClient: Sending request to license reporting service...
+02-06 18:15:40.612  4843 15381 D LicenseClient: Request to licensing reporting service sent.
+02-06 18:15:40.665  4843  4843 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:15:40.665  4843  4843 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:15:40.665  4843  4843 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:15:40.665  4843  4843 D InputMethodManager: startInputInner - Id : 0
+02-06 18:15:40.694  4843 15343 I PlayCore: UID: [10584]  PID: [4843] OnRequestInstallCallback : onRequestInfo
+02-06 18:15:40.694  4843 15370 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : Unbind from service.
+02-06 18:15:40.728  4843  4843 I SurfaceControl: nativeRelease nativeObject s[-5476376618310089056]
+02-06 18:15:40.728  4843  4843 I SurfaceControl: nativeRelease nativeObject e[-5476376618310089056]
+02-06 18:15:40.728  4843  4843 I SurfaceControl: nativeRelease nativeObject s[-5476376618310097056]
+02-06 18:15:40.728  4843  4843 I SurfaceControl: nativeRelease nativeObject e[-5476376618310097056]
+02-06 18:15:40.802  4843 15371 I SurfaceControl: nativeRelease nativeObject s[-5476376618310095936]
+02-06 18:15:40.803  4843 15371 I SurfaceControl: nativeRelease nativeObject e[-5476376618310095936]
+02-06 18:15:41.693  4843 15340 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.appupdate.internal.zzp
+02-06 18:15:41.693  4843 15340 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+02-06 18:15:44.559  4843  4843 I TetheringManager: registerTetheringEventCallback:com.kyowon.literacy.store
+02-06 18:15:44.559  4843  4843 D ConnectivityManager: ConnectivityManager() mContext=com.kyowon.literacy.ui.LiteracyApp@84cf870 getOpPackageName()=com.kyowon.literacy.store getBasePackageName()=com.kyowon.literacy.store getPackageName()=com.kyowon.literacy.store
+02-06 18:15:44.566  4843  4843 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : requestUpdateInfo(com.kyowon.literacy.store)
+02-06 18:15:44.567  4843 15370 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : Initiate binding to the service.
+02-06 18:15:44.585  4843  4843 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+02-06 18:15:44.586  4843 15370 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : linkToDeath
+02-06 18:15:44.621  4843 15343 I PlayCore: UID: [10584]  PID: [4843] OnRequestInstallCallback : onRequestInfo
+02-06 18:15:44.622  4843  4843 D Update  : 업데이트 없음 또는 허용되지 않은 타입
+02-06 18:15:44.623  4843 15370 I PlayCore: UID: [10584]  PID: [4843] AppUpdateService : Unbind from service.
+02-06 18:15:44.782  4843  4843 I ViewRootImpl@602d107[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+02-06 18:15:45.197  4843  4843 I ViewRootImpl@602d107[IntroActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+02-06 18:15:45.197  4843  4843 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:15:45.197  4843  4843 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:15:45.198  4843  4843 D InputMethodManager: prepareNavigationBarInfo() DecorView@12c74e8[IntroActivity]
+02-06 18:15:45.198  4843  4843 D InputMethodManager: getNavigationBarColor() -855310
+02-06 18:15:45.198  4843  4843 V InputMethodManager: Starting input: tba=com.kyowon.literacy.store ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+02-06 18:15:45.198  4843  4843 D InputMethodManager: startInputInner - Id : 0
+02-06 18:15:45.198  4843  4843 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+02-06 18:15:45.210  4843  4843 D InputTransport: Input channel constructed: 'ClientS', fd=87
+02-06 18:15:45.210  4843  4843 D InputTransport: Input channel destroyed: 'ClientS', fd=88
+02-06 18:15:45.235  4843  4843 I DecorView: [INFO] isPopOver=false, config=true
+02-06 18:15:45.235  4843  4843 I DecorView: updateCaptionType >> DecorView@3e34d6d[], isFloating=false, isApplication=true, hasWindowDecorCaption=false, hasWindowControllerCallback=true
+02-06 18:15:45.235  4843  4843 D DecorView: setCaptionType = 0, this = DecorView@3e34d6d[]
+02-06 18:15:45.339  4843 15483 W LOTTIE  : You have 5 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.340  4843 15483 W LOTTIE  : You have 6 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.341  4843 15483 W LOTTIE  : You have 7 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.341  4843 15483 W LOTTIE  : You have 8 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.342  4843 15483 W LOTTIE  : You have 9 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.342  4843 15483 W LOTTIE  : You have 10 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.343  4843 15483 W LOTTIE  : You have 11 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.352  4843 15483 W LOTTIE  : You have 12 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.352  4843 15483 W LOTTIE  : You have 13 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.352  4843 15483 W LOTTIE  : You have 14 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.353  4843 15483 W LOTTIE  : You have 15 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.355  4843 15483 W LOTTIE  : You have 16 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.355  4843 15483 W LOTTIE  : You have 17 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.356  4843 15483 W LOTTIE  : You have 18 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.357  4843 15483 W LOTTIE  : You have 19 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.357  4843 15483 W LOTTIE  : You have 20 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.357  4843 15483 W LOTTIE  : You have 21 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.358  4843 15483 W LOTTIE  : You have 22 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.359  4843 15483 W LOTTIE  : You have 23 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.359  4843 15483 W LOTTIE  : You have 24 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.360  4843 15483 W LOTTIE  : You have 25 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.360  4843 15483 W LOTTIE  : You have 26 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.360  4843 15483 W LOTTIE  : You have 27 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.361  4843 15483 W LOTTIE  : You have 28 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.362  4843 15483 W LOTTIE  : You have 29 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.362  4843 15483 W LOTTIE  : You have 30 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.363  4843 15483 W LOTTIE  : You have 31 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.377  4843 15483 W LOTTIE  : You have 32 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.377  4843 15483 W LOTTIE  : You have 33 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.378  4843 15483 W LOTTIE  : You have 34 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.
+02-06 18:15:45.378  4843 15483 W LOTTIE  : You have 35 images. Lottie should primarily be used with shapes. If you are using Adobe Illustrator, convert the Illustrator layers to shape layers.

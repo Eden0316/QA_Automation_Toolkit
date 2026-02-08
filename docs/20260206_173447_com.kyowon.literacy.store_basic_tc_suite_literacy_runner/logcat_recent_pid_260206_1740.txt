@@ -1,0 +1,135 @@
+--------- beginning of system
+02-06 17:34:53.972 17375 17375 D ActivityThread: handleBindApplication()++ app=com.kyowon.literacy.store
+02-06 17:34:54.026 17375 17375 D LoadedApk: LoadedApk::makeApplication() appContext=android.app.ContextImpl@c24dd86 appContext.mOpPackageName=com.kyowon.literacy.store appContext.mBasePackageName=com.kyowon.literacy.store appContext.mPackageInfo=android.app.LoadedApk@2d55647
+02-06 17:34:54.137 17375 17375 D ActivityThread: handleBindApplication() -- skipGraphicsSupport=false
+02-06 17:36:18.069 17375 17375 E AccessibilityInteractionController: mViewRootImpl is invalid
+--------- beginning of main
+02-06 17:37:27.940 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:37:27.956 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:37:28.359 17375 22481 W Vision  : Would have logged:
+02-06 17:37:28.359 17375 22481 W Vision  : # m73.aqh@bf1188e5
+02-06 17:37:28.371 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:37:28.382 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:37:28.399 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:37:28.409 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:37:33.025 17375 22452 D TransportRuntime.CctTransportBackend: Making request to: https://firebaselogging.googleapis.com/v0cc/log/batch?format=json_proto3
+02-06 17:37:33.030 17375 22452 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+02-06 17:37:33.030 17375 22452 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+02-06 17:37:33.761 17375 22452 I TransportRuntime.CctTransportBackend: Status Code: 200
+02-06 17:37:33.761 17375 22452 I TransportRuntime.CctTransportBackend: Content-Type: application/json; charset=UTF-8
+02-06 17:37:33.761 17375 22452 I TransportRuntime.CctTransportBackend: Content-Encoding: gzip
+02-06 17:37:43.748 17375 20520 I .literacy.stor: NativeAlloc concurrent copying GC freed 393435(11MB) AllocSpace objects, 5(212KB) LOS objects, 38% free, 39MB/63MB, paused 10.219ms total 341.586ms
+02-06 17:37:57.960 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:37:57.973 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:37:58.442 17375 23063 W Vision  : Would have logged:
+02-06 17:37:58.442 17375 23063 W Vision  : # m73.aqh@8aeefb13
+02-06 17:37:58.450 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:37:58.459 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:37:58.474 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:37:58.483 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:38:03.612 17375 17375 W Choreographer: Frame time is 0.127373 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+02-06 17:38:15.677 17375 20520 I .literacy.stor: NativeAlloc concurrent copying GC freed 384889(11MB) AllocSpace objects, 0(0B) LOS objects, 38% free, 39MB/63MB, paused 180us total 224.588ms
+02-06 17:38:27.963 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:38:27.974 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:38:28.465 17375 23229 W Vision  : Would have logged:
+02-06 17:38:28.465 17375 23229 W Vision  : # m73.aqh@825c4ff2
+02-06 17:38:28.466 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:38:28.470 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:38:28.482 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:38:28.486 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:38:45.977 17375 20520 I .literacy.stor: NativeAlloc concurrent copying GC freed 365806(10MB) AllocSpace objects, 0(0B) LOS objects, 38% free, 39MB/63MB, paused 345us total 374.743ms
+02-06 17:38:58.039 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:38:58.046 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:38:58.484 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:38:58.485 17375 23446 W Vision  : Would have logged:
+02-06 17:38:58.485 17375 23446 W Vision  : # m73.aqh@ac4b1684
+02-06 17:38:58.487 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:38:58.497 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:38:58.500 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:39:18.717 17375 20520 I .literacy.stor: NativeAlloc concurrent copying GC freed 387854(10MB) AllocSpace objects, 0(0B) LOS objects, 38% free, 39MB/63MB, paused 183us total 444.097ms
+02-06 17:39:28.238 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:39:28.242 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:39:28.566 17375 23596 W Vision  : Would have logged:
+02-06 17:39:28.566 17375 23596 W Vision  : # m73.aqh@f37477ad
+02-06 17:39:28.571 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:39:28.574 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:39:28.612 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:39:28.617 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:39:52.382 17375 20520 I .literacy.stor: NativeAlloc concurrent copying GC freed 327326(9529KB) AllocSpace objects, 0(0B) LOS objects, 38% free, 39MB/63MB, paused 954us total 413.714ms
+02-06 17:39:58.388 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:39:58.392 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:39:58.686 17375 23747 W Vision  : Would have logged:
+02-06 17:39:58.686 17375 23747 W Vision  : # m73.aqh@545fabec
+02-06 17:39:58.699 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:39:58.705 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:39:58.725 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:39:58.727 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:40:26.912 17375 20520 I .literacy.stor: NativeAlloc concurrent copying GC freed 324174(9420KB) AllocSpace objects, 0(0B) LOS objects, 38% free, 39MB/63MB, paused 244us total 702.292ms
+02-06 17:40:28.544 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:40:28.574 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:40:28.720 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:40:28.720 17375 23891 W Vision  : Would have logged:
+02-06 17:40:28.720 17375 23891 W Vision  : # m73.aqh@c718efc6
+02-06 17:40:28.760 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:40:28.775 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:40:28.789 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:40:36.368 17375 17375 I ViewRootImpl@4945bc9[LearningActivity]: ViewPostIme pointer 0
+02-06 17:40:36.465 17375 17375 I ViewRootImpl@4945bc9[LearningActivity]: ViewPostIme pointer 1
+02-06 17:40:36.489 17375 17375 D AudioTrack: createTrack_l(123): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 35183
+02-06 17:40:36.490 17375 17375 D AudioTrack: setVolume(0.600000, 0.600000) pid : 17375
+02-06 17:40:36.555 17375 17375 D InputTransport: Input channel constructed: '2090d10', fd=187
+02-06 17:40:36.558 17375 17375 I ViewRootImpl@85a8ce7[PopupWindow:7a37de8]: setView = android.widget.PopupWindow$PopupDecorView@7269094 TM=true
+02-06 17:40:36.559 17375 17375 D Dropdown: position : 3
+02-06 17:40:36.647 17375 17375 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xa5946c4 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 17:40:36.649 17375 17375 I ViewRootImpl@85a8ce7[PopupWindow:7a37de8]: Relayout returned: old=(0,36,2000,1128) new=(1630,441,1855,761) req=(225,320)0 dur=39 res=0x7 s={true -5476376629876420608} ch=true fn=-1
+02-06 17:40:36.760 17375 17375 I ViewRootImpl@4945bc9[LearningActivity]: ViewPostIme pointer 0
+02-06 17:40:36.784 17375 17375 I SurfaceControl: nativeRelease nativeObject s[-5476376619752706880]
+02-06 17:40:36.784 17375 17375 I SurfaceControl: nativeRelease nativeObject e[-5476376619752706880]
+02-06 17:40:36.785 17375 17375 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xa5946c4 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 17:40:36.785 17375 17375 I ViewRootImpl@85a8ce7[PopupWindow:7a37de8]: Relayout returned: old=(1630,441,1855,761) new=(1630,441,1855,761) req=(225,320)0 dur=9 res=0x1 s={true -5476376629876420608} ch=false fn=2
+02-06 17:40:36.825 17375 17375 I ViewRootImpl@85a8ce7[PopupWindow:7a37de8]: MSG_RESIZED_REPORT: frame=(1630,441,1855,761) ci=(0,0,0,0) vi=(0,0,0,0) or=2
+02-06 17:40:36.853 17375 17375 I SurfaceControl: nativeRelease nativeObject s[-5476376619752697760]
+02-06 17:40:36.853 17375 17375 I SurfaceControl: nativeRelease nativeObject e[-5476376619752697760]
+02-06 17:40:36.854 17375 17375 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xa5946c4 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 17:40:36.855 17375 17375 I ViewRootImpl@85a8ce7[PopupWindow:7a37de8]: Relayout returned: old=(1630,441,1855,761) new=(1630,441,1855,761) req=(225,320)0 dur=22 res=0x1 s={true -5476376629876420608} ch=false fn=3
+02-06 17:40:36.868 17375 17375 I ViewRootImpl@4945bc9[LearningActivity]: ViewPostIme pointer 1
+02-06 17:40:36.881 17375 17375 D AudioTrack: createTrack_l(123): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 35183
+02-06 17:40:36.881 17375 17375 D AudioTrack: setVolume(0.600000, 0.600000) pid : 17375
+02-06 17:40:36.901 17375 17375 I ViewRootImpl@85a8ce7[PopupWindow:7a37de8]: dispatchDetachedFromWindow
+02-06 17:40:36.901 17375 17375 I SurfaceControl: nativeRelease nativeObject s[-5476376619752706880]
+02-06 17:40:36.902 17375 17375 I SurfaceControl: nativeRelease nativeObject e[-5476376619752706880]
+02-06 17:40:36.911 17375 17375 D InputTransport: Input channel destroyed: '2090d10', fd=187
+02-06 17:40:37.476 17375 17375 I ViewRootImpl@4945bc9[LearningActivity]: ViewPostIme pointer 0
+02-06 17:40:37.579 17375 17375 I ViewRootImpl@4945bc9[LearningActivity]: ViewPostIme pointer 1
+02-06 17:40:37.582 17375 17375 D AudioTrack: setVolume(0.600000, 0.600000) pid : 17375
+02-06 17:40:37.591 17375 17375 D InputTransport: Input channel constructed: '41a771f', fd=219
+02-06 17:40:37.595 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: setView = android.widget.PopupWindow$PopupDecorView@b508ac7 TM=true
+02-06 17:40:37.596 17375 17375 D Dropdown: position : 3
+02-06 17:40:37.620 17375 17375 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xbc1a4db / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 17:40:37.620 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: Relayout returned: old=(0,36,2000,1128) new=(1630,441,1855,761) req=(225,320)0 dur=14 res=0x7 s={true -5476376629876420608} ch=true fn=-1
+02-06 17:40:37.687 17375 17375 I SurfaceControl: nativeRelease nativeObject s[-5476376619929111872]
+02-06 17:40:37.687 17375 17375 I SurfaceControl: nativeRelease nativeObject e[-5476376619929111872]
+02-06 17:40:37.688 17375 17375 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xbc1a4db / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 17:40:37.689 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: Relayout returned: old=(1630,441,1855,761) new=(1630,441,1855,761) req=(225,320)0 dur=30 res=0x1 s={true -5476376629876420608} ch=false fn=2
+02-06 17:40:37.694 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: MSG_RESIZED_REPORT: frame=(1630,441,1855,761) ci=(0,0,0,0) vi=(0,0,0,0) or=2
+02-06 17:40:37.719 17375 17375 I SurfaceControl: nativeRelease nativeObject s[-5476376619929110432]
+02-06 17:40:37.719 17375 17375 I SurfaceControl: nativeRelease nativeObject e[-5476376619929110432]
+02-06 17:40:37.720 17375 17375 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xbc1a4db / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+02-06 17:40:37.720 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: Relayout returned: old=(1630,441,1855,761) new=(1630,441,1855,761) req=(225,320)0 dur=16 res=0x1 s={true -5476376629876420608} ch=false fn=4
+02-06 17:40:39.003 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: ViewPostIme pointer 0
+02-06 17:40:39.103 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: ViewPostIme pointer 1
+02-06 17:40:39.118 17375 17375 D DROPLIST: 더 빠르게
+02-06 17:40:39.126 17375 17375 D AudioTrack: createTrack_l(123): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 23663
+02-06 17:40:39.127 17375 17375 D AudioTrack: setVolume(0.600000, 0.600000) pid : 17375
+02-06 17:40:39.162 17375 17375 I ViewRootImpl@e721406[PopupWindow:a5c2aeb]: dispatchDetachedFromWindow
+02-06 17:40:39.163 17375 17375 I SurfaceControl: nativeRelease nativeObject s[-5476376619929111872]
+02-06 17:40:39.163 17375 17375 I SurfaceControl: nativeRelease nativeObject e[-5476376619929111872]
+02-06 17:40:39.169 17375 17375 D InputTransport: Input channel destroyed: '41a771f', fd=219
+02-06 17:40:58.534 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:40:58.548 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:40:58.868 17375 24042 W Vision  : Would have logged:
+02-06 17:40:58.868 17375 24042 W Vision  : # m73.aqh@41c5f71b
+02-06 17:40:58.874 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:40:58.905 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+02-06 17:40:58.927 17375 22452 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+02-06 17:40:58.933 17375 22452 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...

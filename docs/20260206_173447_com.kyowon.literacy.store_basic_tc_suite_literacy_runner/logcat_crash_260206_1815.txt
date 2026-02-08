@@ -1,0 +1,232 @@
+--------- beginning of crash
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: FATAL EXCEPTION: main
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: Process: com.kyowon.literacy.store, PID: 18352
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at java.util.ArrayList.get(ArrayList.java:437)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.common.component.dropdown.DropDownButton.setItems(DropDownButton.java:148)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.common.component.dropdown.DropDownButton.setItems(DropDownButton.java:152)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity.setDropdownWeek(AllContentsActivity.java:308)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity.initView(AllContentsActivity.java:213)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity.-$$Nest$minitView(Unknown Source:0)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity$2.onSuccess(AllContentsActivity.java:180)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity$2.onSuccess(AllContentsActivity.java:176)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.kyowon.literacy.data.remote.network.NetworkService$1.onResponse(NetworkService.java:197)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1.lambda$onResponse$0$retrofit2-DefaultCallAdapterFactory$ExecutorCallbackCall$1(DefaultCallAdapterFactory.java:89)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:246)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8577)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+01-28 16:22:22.149 18352 18352 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: FATAL EXCEPTION: main
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: Process: com.kyowon.literacy.store, PID: 18657
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at java.util.ArrayList.get(ArrayList.java:437)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.common.component.dropdown.DropDownButton.setItems(DropDownButton.java:148)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.common.component.dropdown.DropDownButton.setItems(DropDownButton.java:152)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity.setDropdownWeek(AllContentsActivity.java:308)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity.initView(AllContentsActivity.java:213)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity.-$$Nest$minitView(Unknown Source:0)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity$2.onSuccess(AllContentsActivity.java:180)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.ui.allcontents.activity.AllContentsActivity$2.onSuccess(AllContentsActivity.java:176)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.kyowon.literacy.data.remote.network.NetworkService$1.onResponse(NetworkService.java:197)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1.lambda$onResponse$0$retrofit2-DefaultCallAdapterFactory$ExecutorCallbackCall$1(DefaultCallAdapterFactory.java:89)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:938)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:246)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8577)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+01-28 16:22:37.593 18657 18657 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 13364
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@6637938[id=-1, flags=0]
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-04 16:23:39.789 13364 13414 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 17074
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@33a013c[id=-1, flags=0]
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-04 16:48:06.062 17074 17147 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 17495
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@6637938[id=-1, flags=0]
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-04 16:48:11.918 17495 17526 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-04 17:33:45.909 23193 23195 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7ac21485f8)
+02-04 17:43:54.616 24564 24570 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7881b7e5c8)
+02-04 17:43:54.617 24564 24570 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 24570 (Binder:24564_6), pid 24564 (minicap)
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 25086
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@343f528[id=-1, flags=0]
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-04 17:44:06.997 25086 25152 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 11:24:10.354 10822 10824 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x76f1c5b5f8)
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 12358
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@343f528[id=-1, flags=0]
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 11:25:21.499 12358 12401 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 15764
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@343f528[id=-1, flags=0]
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 11:29:50.855 15764 15811 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 28753
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@6637938[id=-1, flags=0]
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 11:39:20.857 28753 28785 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 11:47:22.803   700   700 F libc    : failed to wait for crash_dump helper: No child processes
+02-06 11:52:31.566 30909 30909 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 30909 (init), pid 30909 (init)
+02-06 11:52:31.652 30909 30909 F libc    : crash_dump helper failed to exec
+02-06 11:57:38.643  4326  4326 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 4326 (init), pid 4326 (init)
+02-06 11:57:38.732  4326  4326 F libc    : crash_dump helper failed to exec
+02-06 14:59:37.836  8002  8882 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 8882 (Thread-2), pid 8002 (se.nie.yosemite)
+02-06 14:59:38.057  8957  8957 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-06 14:59:38.057  8957  8957 F DEBUG   : Build fingerprint: 'samsung/gta4lwifixx/gta4lwifi:11/RP1A.200720.012/T500XXU3BUH3:user/release-keys'
+02-06 14:59:38.057  8957  8957 F DEBUG   : Revision: '0'
+02-06 14:59:38.057  8957  8957 F DEBUG   : ABI: 'arm64'
+02-06 14:59:38.062  8957  8957 F DEBUG   : Timestamp: 2026-02-06 14:59:38+0900
+02-06 14:59:38.062  8957  8957 F DEBUG   : pid: 8002, tid: 8882, name: Thread-2  >>> com.netease.nie.yosemite <<<
+02-06 14:59:38.062  8957  8957 F DEBUG   : uid: 10355
+02-06 14:59:38.062  8957  8957 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+02-06 14:59:38.062  8957  8957 F DEBUG   : Abort message: 'JNI DETECTED ERROR IN APPLICATION: a thread (tid 8882 is making JNI calls without being attached
+02-06 14:59:38.062  8957  8957 F DEBUG   :     in call to FindClass'
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x0  0000000000000000  x1  00000000000022b2  x2  0000000000000006  x3  0000007b138a3110
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x4  271f6e722d63ff72  x5  271f6e722d63ff72  x6  271f6e722d63ff72  x7  7f7f7f7f7f7f7f7f
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x8  00000000000000f0  x9  f38bec382902d7ab  x10 0000000000000000  x11 ffffffc0fffffbdf
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x12 0000000000000001  x13 7373616c43646e69  x14 0000000000000000  x15 0000000000000000
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x16 0000007bac511948  x17 0000007bac4ee440  x18 0000007ab6ce0000  x19 0000000000001f42
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x20 00000000000022b2  x21 00000000ffffffff  x22 0000000000000000  x23 0000000000000000
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x24 0000007b28a14765  x25 0000000000000001  x26 0000007b28a2b961  x27 0000007b28feb000
+02-06 14:59:38.063  8957  8957 F DEBUG   :     x28 b400007bafd33860  x29 0000007b138a3190
+02-06 14:59:38.063  8957  8957 F DEBUG   :     lr  0000007bac49de78  sp  0000007b138a30f0  pc  0000007bac49dea4  pst 0000000000000000
+02-06 14:59:38.075  8957  8957 F DEBUG   : backtrace:
+02-06 14:59:38.075  8957  8957 F DEBUG   :       #00 pc 000000000008cea4  /apex/com.android.runtime/lib64/bionic/libc.so (abort+164) (BuildId: 208420355a489a8e9dbb64be7cd0d9bd)
+02-06 14:59:38.075  8957  8957 F DEBUG   :       #01 pc 000000000053b0a4  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+2340) (BuildId: 41265fb827fddd24a563ef678870717c)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #02 pc 000000000001394c  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+76) (BuildId: fdc879a76449eecdb87795db05dcc86a)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #03 pc 00000000000130cc  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+312) (BuildId: fdc879a76449eecdb87795db05dcc86a)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #04 pc 0000000000372930  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+2596) (BuildId: 41265fb827fddd24a563ef678870717c)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #05 pc 0000000000362014  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckAttachedThread(char const*)+184) (BuildId: 41265fb827fddd24a563ef678870717c)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #06 pc 0000000000349c2c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::FindClass(_JNIEnv*, char const*)+64) (BuildId: 41265fb827fddd24a563ef678870717c)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #07 pc 00000000000071bc  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime_jni.so (on_message(void*, unsigned long, char const*, char const*)+68) (BuildId: 349c2de75b0652712d7b8f3306517924915d7d2c)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #08 pc 00000000002552cc  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime.so (rime::Service::Notify(unsigned long, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)+140) (BuildId: a2feb498c8e0f06e25292b86f8b18e4b74912a98)
+02-06 14:59:38.076  8957  8957 F DEBUG   :       #09 pc 00000000001ab82c  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime.so (boost::signals2::detail::slot_call_iterator_t<boost::signals2::detail::variadic_slot_invoker<boost::signals2::detail::void_type, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>, std::__ndk1::__list_iterator<boost::shared_ptr<boost::signals2::detail::connection_body<std::__ndk1::pair<boost::signals2::detail::slot_meta_group, boost::optional<int> >, boost::signals2::slot<void (std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&), boost::function<void (std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)> >, boost::signals2::mutex> >, void*>, boost::signals2::detail::connection_body<std::__ndk1::pair<boost::signals2::detail::slot_meta_group, boost::optional<int> >, boost::signals2::slot<void (std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&), boost::function<void (std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)> >, boost::signals2::mutex> >::dereference() const+88) (BuildId: a2feb498c8e0f06e25292b86f8b18e4b74912a98)
+02-06 14:59:38.077  8957  8957 F DEBUG   :       #10 pc 00000000001aadd4  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime.so (boost::signals2::detail::signal_impl<void (std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&), boost::signals2::optional_last_value<void>, int, std::__ndk1::less<int>, boost::function<void (std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)>, boost::function<void (boost::signals2::connection const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)>, boost::signals2::mutex>::operator()(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)+536) (BuildId: a2feb498c8e0f06e25292b86f8b18e4b74912a98)
+02-06 14:59:38.077  8957  8957 F DEBUG   :       #11 pc 00000000001a8140  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime.so (rime::Deployer::Run()+172) (BuildId: a2feb498c8e0f06e25292b86f8b18e4b74912a98)
+02-06 14:59:38.077  8957  8957 F DEBUG   :       #12 pc 00000000001ac934  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime.so (BuildId: a2feb498c8e0f06e25292b86f8b18e4b74912a98)
+02-06 14:59:38.077  8957  8957 F DEBUG   :       #13 pc 00000000001ac9e8  /data/app/~~UDFiqfTyguTek_mpaAb7uQ==/com.netease.nie.yosemite-I_8IgA7NvISdGk862GS4_g==/lib/arm64/librime.so (BuildId: a2feb498c8e0f06e25292b86f8b18e4b74912a98)
+02-06 14:59:38.077  8957  8957 F DEBUG   :       #14 pc 00000000000f41b4  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64) (BuildId: 208420355a489a8e9dbb64be7cd0d9bd)
+02-06 14:59:38.077  8957  8957 F DEBUG   :       #15 pc 000000000008ede4  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 208420355a489a8e9dbb64be7cd0d9bd)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: FATAL EXCEPTION: main
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: Process: com.qualcomm.qti.devicestatisticsservice, PID: 3773
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/hidl/manager/V1_0/IServiceNotification$Stub;
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at com.qualcomm.qti.devicestatisticsservice.DeviceStatisticsService.onStartCommand(DeviceStatisticsService.java:83)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4758)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at android.app.ActivityThread.access$1900(ActivityThread.java:301)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2188)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:246)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8577)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: android.hidl.manager.V1_0.IServiceNotification$Stub
+02-06 15:00:43.960  3773  3773 E AndroidRuntime: 	... 10 more
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 12640
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@48bebf5[id=-1, flags=0]
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 15:01:06.664 12640 15788 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 16822
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@e7e34df[id=-1, flags=0]
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 15:01:24.408 16822 16858 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 26353
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@352a52c[id=-1, flags=0]
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 17:44:50.130 26353 26396 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 26596
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@e7e34df[id=-1, flags=0]
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 17:44:55.037 26596 26648 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 26898
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@e7e34df[id=-1, flags=0]
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 17:45:00.872 26898 26942 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 27157
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@e7e34df[id=-1, flags=0]
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 17:45:05.382 27157 27192 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 12554
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@e7e34df[id=-1, flags=0]
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 18:06:16.209 12554 12605 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 12791
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@e7e34df[id=-1, flags=0]
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 18:06:21.513 12791 12836 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: FATAL EXCEPTION: Instr: androidx.test.runner.AndroidJUnitRunner
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: Process: com.netease.open.pocoservice, PID: 13179
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: java.lang.IllegalStateException: Cannot call disconnect() while connecting UiAutomation@d0ffe2f[id=-1, flags=0]
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: 	at android.app.UiAutomation.disconnect(UiAutomation.java:293)
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: 	at android.app.Instrumentation.finish(Instrumentation.java:249)
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.finish(MonitoringInstrumentation.java:422)
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:457)
+02-06 18:06:32.097 13179 13200 E AndroidRuntime: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2218)

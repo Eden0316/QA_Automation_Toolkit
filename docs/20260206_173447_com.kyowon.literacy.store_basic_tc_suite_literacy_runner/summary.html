@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QA Run Summary</title>
+<style>
+  body { font-family: Segoe UI, Arial, sans-serif; margin: 24px; }
+  h1 { margin: 0 0 8px 0; font-size: 22px; }
+  h2 { margin-top: 18px; font-size: 16px; }
+  .small { color:#666; font-size: 12px; margin-top: 2px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+  td, th { border: 1px solid #ddd; padding: 8px; font-size: 13px; }
+  th { background: #f6f6f6; text-align:left; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .card { border: 1px solid #e5e5e5; border-radius: 10px; padding: 12px; }
+  .muted { color:#888; font-size: 13px; }
+  code { white-space: pre-wrap; }
+  /* --- Status palette --- */
+  .title { display:flex; align-items:center; gap:10px; }
+  .title .mark { font-size: 22px; }
+  .badge { display:inline-block; padding:4px 10px; border-radius: 999px; background:#eee; font-weight: 600; }
+  .badge.ok   { background:#e8f5e9; color:#1b5e20; }
+  .badge.bad  { background:#ffebee; color:#b71c1c; }
+  .badge.warn { background:#fff8e1; color:#e65100; }
+  .badge.na   { background:#eef2f7; color:#37474f; }
+  .badge.skip { background:#f3e5f5; color:#4a148c; }
+
+  .cnt { font-weight: 700; }
+  .cnt.pass { color:#1b5e20; }
+  .cnt.fail { color:#b71c1c; }
+  .cnt.warn { color:#e65100; }
+  .cnt.na   { color:#37474f; }
+  .cnt.skip { color:#4a148c; }
+
+  .pill { display:inline-block; padding:2px 8px; border-radius: 999px; border:1px solid #ddd; font-size:12px; color:#555; background:#fafafa; }
+  .prebox { background:#0b0f14; color:#e6edf3; padding:12px; border-radius:10px; overflow:auto; font-size:12px; line-height:1.5; }
+</style>
+</head>
+<body>
+  <div class="title">
+    <div class="mark">🧾</div>
+    <h1>QA Run Summary</h1>
+    <span class="pill">basic_tc_suite</span>
+    <span class="pill">literacy_runner</span>
+  </div>
+
+  <div class="small">Run ID: <b>20260206_173447_com.kyowon.literacy.store_basic_tc_suite_literacy_runner</b></div>
+  <div class="small">Result: <span class="badge bad">❌ FAIL</span></div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>📋 환경 정보</h2>
+      <div class="small">Device: SM-T500 / R9TRA0BDXEW</div>
+      <div class="small">Android: 11 (SDK 30)</div>
+      <div class="small">App: com.kyowon.literacy.store 1.0.3 (58)</div>
+    </div>
+    <div class="card">
+      <h2>⏱️ 시간</h2>
+      <div class="small">Started: 2026-02-06T17:34:47+09:00</div>
+      <div class="small">Ended: 2026-02-06T18:18:09+09:00</div>
+      <div class="small">Duration: 2601s</div>
+    </div>
+  </div>
+
+  <h2>📊 집계</h2>
+  <table>
+    <tr>
+      <th>✅ PASS</th><th>❌ FAIL</th><th>⚠️ WARN</th><th>➖ N/A</th><th>⏭️ SKIP</th>
+    </tr>
+    <tr>
+      <td class="cnt pass">306</td>
+      <td class="cnt fail">2</td>
+      <td class="cnt warn">10</td>
+      <td class="cnt na">0</td>
+      <td class="cnt skip">0</td>
+    </tr>
+  </table>
+
+  <h2>⚠️ Warnings</h2>
+  <table><tr><th>Time</th><th>Message</th></tr><tr><td>18:03:52</td><td><code>📋 [Basic Test / 기능] 차곡차곡 어휘 상자: WARN ⚠️ (timeout 5s)</code></td></tr><tr><td>18:06:44</td><td><code>메인 복귀 확인: WARN ⚠️ (timeout 5s)</code></td></tr><tr><td>18:10:56</td><td><code>[WARN] app_ready 루프 예외: TransportDisconnected: TransportDisconnected(ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))))</code></td></tr><tr><td>18:10:57</td><td><code>[WARN] app_ready 중 Poco 연결 오류 감지 → 하드 리셋 시도: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</code></td></tr><tr><td>18:12:00</td><td><code>[RESTART][WARN] 1/3 실패: unable to launch AndroidUiautomationPoco</code></td></tr><tr><td>18:12:55</td><td><code>[RESTART][WARN] 2/3 실패: unable to launch AndroidUiautomationPoco</code></td></tr><tr><td>18:13:52</td><td><code>[RESTART][WARN] 3/3 실패: unable to launch AndroidUiautomationPoco</code></td></tr><tr><td>18:16:12</td><td><code>[WARN] app_ready 루프 예외: TypeError: TypeError('soft_fail() takes 1 positional argument but 2 were given')</code></td></tr><tr><td>18:16:13</td><td><code>[WARN] app_ready: 로그인/메인 화면 요소 미등장 → 앱 재시작 후 1회 재시도</code></td></tr><tr><td>18:16:48</td><td><code>[WARN] 재시작 후 대기(on_ready) 실패: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</code></td></tr></table>
+
+  <h2>❌ Failures</h2>
+  <table><tr><th>Iter</th><th>Flow</th><th>Error</th></tr><tr><td>1</td><td>술술 읽기 훈련</td><td><code>다시 하기 버튼 확인: FAIL ❌ (timeout 100s)</code></td></tr><tr><td>1</td><td>메뉴</td><td><code>[ERR] 권한 체크: FAIL - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</code></td></tr></table>
+
+  <h2>📝 Notes</h2>
+  <ul><li>[RISK] 재시작 후 on_ready 실패(다음 플로우 영향 가능): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))</li></ul>
+
+  <h2>🗂️ Artifacts</h2>
+  <table>
+    <tr><th>Item</th><th>Link</th></tr>
+    <tr><td>meta.json</td><td><a href='meta.json'>meta.json</a></td></tr>
+<tr><td>run.log</td><td><a href='run.log'>run.log</a></td></tr>
+<tr><td>summary.html</td><td><a href='summary.html'>summary.html</a></td></tr>
+<tr><td>airtest_report</td><td><a href='airtest_portable_260206_1818/index.html'>airtest_portable_260206_1818/index.html</a></td></tr>
+<tr><td>logcat_recent</td><td><a href='logcat_recent_260206_1816.txt'>logcat_recent_260206_1816.txt</a></td></tr>
+<tr><td>logcat_slice</td><td><a href='logcat_slice_260206_1817.txt'>logcat_slice_260206_1817.txt</a></td></tr>
+<tr><td>resource_report</td><td><a href='resource_report_260206_1817.pdf'>resource_report_260206_1817.pdf</a></td></tr>
+<tr><td>events_csv</td><td><a href='events.csv'>events.csv</a></td></tr>
+  </table>
+</body>
+</html>
