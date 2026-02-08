@@ -32,18 +32,19 @@ Airtest / Poco 기반 UI 자동화와 ADB 로그 분석, GUI 도구를 결합하
 ## 📁 프로젝트 폴더 구조
 
 ```text
-Tools/
+Toolkit/
 ├─ 00_install/                    # 환경 설정 및 설치
-│  ├─ run_setup_env.bat           # 통합 설치 실행 파일 (exe 변환 대상)
+│  ├─ QA Toolkit 환경 설정기.exe   # 통합 설치 실행 파일
 │  ├─ setup_env.ps1               # 패키지 설치 / ADB 점검
 │  ├─ setup_wizard_gui.py         # 환경변수 설정 GUI
+│  ├─ requirements.txt            # 필요한 파이썬 패키지 목록
 │  ├─ qa_env_var.txt              # 환경변수 사전 세팅 파일
 │  └─ setup_logs/                 # 설치 로그
 │
 ├─ qa_common/                     # 자동화 공통 모듈 (패키지 아님)
 │  ├─ common.py                   # Airtest / Poco 공통 유틸
 │  └─ _accounts/
-│     └─ *.json                   # 앱별 계정 풀
+│     └─ *_accounts.json          # 앱별 계정 풀
 │
 ├─ 99_scripts/                    # 앱별 자동화 스크립트
 │  ├─ literacy_test.air/
@@ -71,6 +72,7 @@ Tools/
 ├─ generate_report.py             # 테스트 결과 리포트 생성
 ├─ resource_monitor_gui.py        # 리소스 모니터 GUI
 ├─ logfile_viewer_gui.py          # 로그파일 뷰어 GUI
+├─ logfile_to_html.py             # 로그파일 html 컨버터
 ├─ qa_control_center_gui.py       # QA Control Center (통합 실행 GUI)
 ├─ QA Control Center.exe          # QA Control Center 실행 파일
 ├─ 리소스 모니터 GUI.exe           # 리소스 모니터 GUI 실행 파일
