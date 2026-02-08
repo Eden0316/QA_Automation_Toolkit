@@ -71,6 +71,7 @@ Toolkit/
 ├─ generate_report.py             # 테스트 결과 리포트 생성
 ├─ resource_monitor_gui.py        # 리소스 모니터 GUI
 ├─ logfile_viewer_gui.py          # 로그파일 뷰어 GUI
+├─ logfile_to_html.py             # 로그파일 html 컨버터
 ├─ qa_control_center_gui.py       # QA Control Center (통합 실행 GUI)
 ├─ QA Control Center.exe          # QA Control Center 실행 파일
 ├─ 리소스 모니터 GUI.exe           # 리소스 모니터 GUI 실행 파일
