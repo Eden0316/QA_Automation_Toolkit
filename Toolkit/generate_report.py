@@ -1,7 +1,9 @@
 # ==========================================================
 # 🧪 Tool: QA Resource Report Generator
 # 👤 Author: Eden Kim
-# 📅 Date: 2025-12-01 - 이벤트 출력 최신 30건으로 수정
+# 📅 Date: 2026-02-09 - v1.0.6
+#   - 리포트 생성 후 자동 오픈되지 않도록 수정
+# ==========================================================
 # • 목적: 리소스 로그(txt) → PDF/CSV/JSON 보고서 + 이벤트 마커/요약
 # • 동적 임계: ADB 조회(코어/램 클래스) 기반 CPU 60%·80%, MEM 23%·28% 스케일링(실패 시 기본값)
 # • 그래프: CPU(좌)/PSS(우) + WARN/CRIT/P95 라인·음영, 시간눈금 자동, 한글/이모지 폰트 대비
@@ -776,20 +778,20 @@ def generate_report(file_path, timestamps, cpu_values, mem_pss, output_path):
             plt.close(fig)
 
     # 자동 열기(Windows 등)
-    try:
-        if platform.system() == "Windows":
-            os.startfile(pdf_path)
-        elif platform.system() == "Darwin":
-            subprocess.run(["open", pdf_path])
-        else:
-            subprocess.run(["xdg-open", pdf_path])
-    except Exception:
-        pass
+    # try:
+    #     if platform.system() == "Windows":
+    #         os.startfile(pdf_path)
+    #     elif platform.system() == "Darwin":
+    #         subprocess.run(["open", pdf_path])
+    #     else:
+    #         subprocess.run(["xdg-open", pdf_path])
+    # except Exception:
+    #     pass
 
-    print(f"[OK] PDF: {pdf_path}")
-    print(f"[OK] CSV: {csv_path}")
-    print(f"[OK] EVENTS_CSV: {ev_csv_path}")
-    print(f"[OK] JSON: {json_path}")
+    # print(f"[OK] PDF: {pdf_path}")
+    # print(f"[OK] CSV: {csv_path}")
+    # print(f"[OK] EVENTS_CSV: {ev_csv_path}")
+    # print(f"[OK] JSON: {json_path}")
 
 
 # --- [추가] 인자 파서 + 비대화형 경로 ---
