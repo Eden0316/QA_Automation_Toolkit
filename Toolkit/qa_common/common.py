@@ -8,6 +8,7 @@
 #   - 템플릿 매칭 개선 함수 추가: exists_strict_template(), pick_best_template()
 #   - Airtest 포터블 리포트 생성 추가: Airtest 없는 PC에서도 단독 실행
 #   - 리포트 첨부 파일 지원: Airtest 리포트 zip 압축 후 Google Drive 업로드 및 메일 전송 기능 추가
+#   - 템플릿 매칭 함수 수정: 컬러값 배제 후 매칭하는 옵션 추가하여 범용성 개선
 # ==========================================================
 #   - Airtest + Poco 기반 안드로이드 앱 자동화 공통 함수
 #   - 리소스 모니터링, 메일 발송, 안전 클릭/입력, 스크롤 등
@@ -5398,9 +5399,9 @@ def _tap_xy(
     *,
     env=None,
     effect_check: bool = True,          # ✅ 무반응 체크 on/off
-    effect_wait_sec: float = 0.25,      # ✅ 탭 후 반응 대기
-    effect_roi_r: int = 60,             # ✅ ROI 반경
-    effect_mean_abs_thr: float = 1.0,   # ✅ ROI 변화 임계 - 낮을 수록 엄격(1.0 ~ 4.0)(default: 2.0)
+    effect_wait_sec: float = 0.40,      # ✅ 탭 후 반응 대기(0.25~0.45) - 높을 수록 민감
+    effect_roi_r: int = 90,             # ✅ ROI 반경(60~110) - 높을 수록 민감
+    effect_mean_abs_thr: float = 0.35,  # ✅ ROI 변화 임계(0.25 ~ 2.0) - 낮을 수록 민감
     verify_fn=None,                     # ✅ (선택) 앱별 검증 콜백: (env)->bool
 ) -> bool:
     """
@@ -5630,7 +5631,7 @@ def tap_images(
     region: Optional[Tuple[int, int, int, int]] = None,
     threshold: float = 0.82,           # 템플릿 매칭 기준 올릴수록 엄격
     # 면밀 탐색 옵션
-    threshold_floor: float = 0.55,     # 1차 실패/누락 시 여기까지 낮춰 재탐색
+    threshold_floor: float = 0.35,     # 1차 실패/누락 시 여기까지 낮춰 재탐색
     threshold_step: float = 0.03,      # threshold를 내리는 간격
     max_matches: int = 100,            # find_all 결과 상한(가능하면 크게)
     region_margin_px: int = 12,        # region 가장자리 누락 방지용 마진
@@ -6206,7 +6207,9 @@ def _verify_score(
     debug: bool = False,
     color_s_min: int = 60,
     color_v_min: int = 50,
-    region_offset_xy=None
+    region_offset_xy=None,
+    use_blob: bool = True,           # ✅ 추가
+    use_color_sig: bool = True,      # ✅ 추가
 ) -> float:
     """
     후보 crop(블랍/원본/센터크롭)로 tpl과 비교해서 0~1 score 산출
@@ -6223,20 +6226,21 @@ def _verify_score(
     cands = []
 
     # ✅ blob 후보: '배지 사각형'만 뽑아서 비교 정확도 올림
-    bbox = _find_badge_rect_candidate(crop, rgb=rgb, s_min=color_s_min, v_min=color_v_min)
-    if bbox is not None:
-        x1, y1, x2, y2 = bbox
-        pad = 6
-        x1p = max(0, x1 - pad); y1p = max(0, y1 - pad)
-        x2p = min(crop.shape[1], x2 + pad); y2p = min(crop.shape[0], y2 + pad)
-        blob_crop = crop[y1p:y2p, x1p:x2p]
+    if use_blob:
+        bbox = _find_badge_rect_candidate(crop, rgb=rgb, s_min=color_s_min, v_min=color_v_min)
+        if bbox is not None:
+            x1, y1, x2, y2 = bbox
+            pad = 6
+            x1p = max(0, x1 - pad); y1p = max(0, y1 - pad)
+            x2p = min(crop.shape[1], x2 + pad); y2p = min(crop.shape[0], y2 + pad)
+            blob_crop = crop[y1p:y2p, x1p:x2p]
 
-        # meta를 넣어주면 best 글로벌 좌표 디버그도 정확히 찍힘
-        meta = (x1, y1, x2-x1, y2-y1, x1p, y1p, x2p, y2p)
-        cands.append(("blob", blob_crop, meta))
+            # meta를 넣어주면 best 글로벌 좌표 디버그도 정확히 찍힘
+            meta = (x1, y1, x2-x1, y2-y1, x1p, y1p, x2p, y2p)
+            cands.append(("blob", blob_crop, meta))
 
-        if debug:
-            log(f"[exists_strict][blob] bbox=({x1},{y1},{x2-x1},{y2-y1}) expanded=({x1p},{y1p},{x2p},{y2p})")
+            if debug:
+                log(f"[exists_strict][blob] bbox=({x1},{y1},{x2-x1},{y2-y1}) expanded=({x1p},{y1p},{x2p},{y2p})")
 
     # 0) blob 기반 후보가 있으면 meta 포함해서 append
     #    (네 코드에 이미 blob bbox/expanded bbox 계산이 있으니 거기서 ("blob", crop_blob, meta)로 넣어)
@@ -6263,15 +6267,19 @@ def _verify_score(
         c_hash = _phash_64(c_gray)
         ph = 1.0 - (_hamming64(c_hash, tpl_hash) / 64.0)  # 0~1
 
-        color = _color_signature_score(
-            c_rs, tpl,
-            rgb=rgb,
-            s_min=color_s_min,
-            v_min=color_v_min,
-            debug=debug
-        )
-
-        score = (0.40 * ncc01) + (0.25 * ph) + (0.35 * color)
+        if use_color_sig:
+            color = _color_signature_score(
+                c_rs, tpl,
+                rgb=rgb,
+                s_min=color_s_min,
+                v_min=color_v_min,
+                debug=debug
+            )
+            score = (0.40 * ncc01) + (0.25 * ph) + (0.35 * color)
+        else:
+            # ✅ 회색/저채도 아이콘 전용: 색 점수 제거(형태/구조 위주)
+            color = 0.0
+            score = (0.65 * ncc01) + (0.35 * ph)
 
         if debug:
             log(f"[exists_strict][verify] cand#{idx} tag={tag} ncc01={ncc01:.4f} ph={ph:.4f} color={color:.4f} score={score:.4f}")
@@ -6310,6 +6318,8 @@ def exists_strict_template(
     # 호출부에서 고정 region/screen 넣을 때
     screen_override=None,
     region_override=None,
+    use_blob: bool = True,
+    use_color_sig: bool = True,
     **_
 ):
     """
@@ -6361,7 +6371,9 @@ def exists_strict_template(
         debug=debug,
         color_s_min=color_s_min,
         color_v_min=color_v_min,
-        region_offset_xy=region_offset_xy
+        region_offset_xy=region_offset_xy,
+        use_blob=use_blob,
+        use_color_sig=use_color_sig,
     )
 
     ok = score >= float(threshold)
@@ -6380,6 +6392,8 @@ def pick_best_template(
     # 배지 주변을 얼마나 넓게 볼지 (배지 센터 기준)
     crop_half_w: int = 180,
     crop_half_h: int = 70,
+    use_blob: bool = True,
+    use_color_sig: bool = True,
     **exists_kwargs
 ):
     screen = G.DEVICE.snapshot()
@@ -6402,6 +6416,8 @@ def pick_best_template(
                 debug=debug,
                 screen_override=screen,
                 region_override=region_pack,
+                use_blob=use_blob,
+                use_color_sig=use_color_sig,
                 **exists_kwargs
             )
             if debug:
