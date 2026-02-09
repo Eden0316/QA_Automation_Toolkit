@@ -1,13 +1,13 @@
 # ==========================================================
 # QA 자동화 공통 모듈
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-06 - v1.0.6
+# 📅 Date: 2026-02-09 - v1.0.6
 #   - 진행률 헬퍼 추가: parse_progress()
 #   - get_label() 함수 수정: index가 있을 경우 index 포함하여 출력
 #   - tap_color_words() 함수에 오류 발생 시 예외처리 진행 추가
 #   - 템플릿 매칭 개선 함수 추가: exists_strict_template(), pick_best_template()
 #   - Airtest 포터블 리포트 생성 추가: Airtest 없는 PC에서도 단독 실행
-#   - 대용량 첨부 파일 지원: 20mb 넘어갈 경우 GoogleDrive로 전송
+#   - 리포트 첨부 파일 지원: Airtest 리포트 zip 압축 후 Google Drive 업로드 및 메일 전송 기능 추가
 # ==========================================================
 #   - Airtest + Poco 기반 안드로이드 앱 자동화 공통 함수
 #   - 리소스 모니터링, 메일 발송, 안전 클릭/입력, 스크롤 등
@@ -3317,7 +3317,12 @@ def drive_upload(path: str, *, folder_id: Optional[str]=None, make_anyone: bool=
     """
     service = _get_drive_service()
     if service is None:
-        raise RuntimeError("[GDRIVE] 비활성화 상태(QA_GDRIVE_ENABLE!=1)")
+        # ✅ Drive 비활성화면 예외로 막지 말고, 알림만 남기고 스킵
+        try:
+            step("[GDRIVE] 비활성화(QA_GDRIVE_ENABLE!=1) → 업로드 스킵")
+        except Exception:
+            pass
+        return None
 
     upload_path = _zip_any(path)  # 폴더면 zip
     fname = os.path.basename(upload_path)
@@ -3783,15 +3788,43 @@ def run_flows(
 
             step(f"[OK] Portable Airtest 리포트 생성 완료: {index_html}", env=env)
 
+            # ✅ 포터블 번들에 필요한 로그/스크린샷을 모두 복사했으면 원본 airtest_log 폴더는 제거
+            try:
+                # portable_dir 안에 airtest_log가 존재하면(복사 완료 신호) 원본 log_dir 삭제
+                bundled_log = os.path.join(portable_dir, "airtest_log")
+                if os.path.isdir(bundled_log) and os.path.isdir(log_dir):
+                    shutil.rmtree(log_dir, ignore_errors=True)
+                    step(f"[OK] 원본 airtest_log 폴더 삭제 완료: {log_dir}", env=env)
+            except Exception as e:
+                step(f"[WARN] 원본 airtest_log 폴더 삭제 실패: {e}", env=env)
+
             # ✅ 포터블 번들을 zip으로 묶어서 Drive 업로드 (메일 첨부는 하지 않음)
             try:
                 zip_path = _zip_any(portable_dir)
+
+                # ------------------------------------------------------------
+                # ✅ 런타임 강제 Drive ON, 공유설정, 폴더id (환경변수/위자드 적용 없이 "이번 실행"만)
+                # ------------------------------------------------------------
+                os.environ["QA_GDRIVE_ENABLE"] = "1"
+                os.environ["QA_GDRIVE_SHARE_ANYONE"] = "1"
+                os.environ["QA_GDRIVE_FOLDER_ID"] = "1l6y-Hbia0mkgN7wPfDwMVXNCHyCaOSKh"
+
+                # credentials/token 경로가 환경변수에 없으면 qa_common/_secrets 기본 경로로 가정
+                # common.py 위치: ...\Tools\qa_common\common.py 라는 전제
+                common_dir = Path(__file__).resolve().parent  # ...\Tools\qa_common
+                secrets_dir = common_dir / "_secrets"
+
+                os.environ.setdefault("QA_GDRIVE_CREDENTIALS", str(secrets_dir / "gdrive_credentials.json"))
+                os.environ.setdefault("QA_GDRIVE_TOKEN",       str(secrets_dir / "gdrive_token.json"))
 
                 folder_id = os.environ.get("QA_GDRIVE_FOLDER_ID", "").strip() or None
                 share_anyone = str(os.environ.get("QA_GDRIVE_SHARE_ANYONE", "0")).strip().lower() in ("1","true","yes","y","on")
 
                 airtest_drive_link = drive_upload(zip_path, folder_id=folder_id, make_anyone=share_anyone)
-                step(f"[OK] Airtest 포터블 리포트 Drive 업로드 완료: {airtest_drive_link}", env=env)
+
+                if airtest_drive_link:
+                    step(f"[OK] Airtest 포터블 리포트 Drive 업로드 완료: {airtest_drive_link}", env=env)
+
             except Exception as e:
                 step(f"[WARN] Airtest 포터블 리포트 Drive 업로드 실패: {e}", env=env)
 
