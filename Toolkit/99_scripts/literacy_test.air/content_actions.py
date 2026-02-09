@@ -8,6 +8,7 @@
 #   - 06_꼼꼼하게 읽기_끊어 읽기 수정: 포인트 이미지 1종 추가(총 5종), 무한 반복 이슈 수정
 #   - 독서/독해 활동 수정: 활동형_보기 선택 2종 추가(총 4종) 및 개선, 문제형 텍스트 입력 선택자 수정, 마지막 문제 다시하기 개선
 #   - 기능 함수 스크립트 명칭 변경: main_first_test → content_actions
+#   - 06_꼼꼼하게 읽기_끊어 읽기 로직 개선
 # =================================================
 # -*- encoding=utf8 -*-
 __author__ = "Eden Kim"
@@ -96,79 +97,113 @@ def first_training_func():
         step("꼼꼼하게 읽기_끊어 읽기 감지됨 🔍")
         layer = poco("com.kyowon.literacy:id/layout_content")
 
+        point_templates = {
+            "핫도그": r"first_06_point_1.png",
+            "지팡이": r"first_06_point_2.png",
+            "당근":  r"first_06_point_3.png",
+            "우산":  r"first_06_point_4.png",
+            "아이스바": r"first_06_point_5.png",
+        }
+
+        # ✅ 루프/재시도 없이 1회 선택 → 1회 수행
+        best_label, best_score = pick_best_template(
+            None,
+            templates=point_templates,
+            accept_threshold=0.40,  # 필요하면 0.80으로만 조절
+            use_blob=False,         # ✅ blob 후보 탐지 끔
+            use_color_sig=False,    # ✅ 색 점수 끔 (핵심)
+            debug=True,
+        )
+
+        # 전제상 실패하면 안 되지만, 혹시라도 None이면 즉시 FAIL로 올려서 원인 추적
+        if not best_label:
+            raise RuntimeError("06_꼼꼼하게 읽기_끊어 읽기: 포인트 템플릿 매칭 Fail(pick_best_template returned None)")
+
+        img_path = point_templates[best_label]
+        step(f"포인트 선택({best_label}) score={best_score:.3f} → 연속 터치 실행")
+        tap_images(img_path=img_path, layer_poco=layer, debug=False)
+
+        time.sleep(1.0)
+
+        # 완료 확인은 '대기 루프'가 아니라 단발 체크(원하면 삭제 가능)
+        if poco("com.kyowon.literacy:id/btnRetry").exists():
+            step("꼼꼼하게 읽기_끊어 읽기 완료 ✔️")
+        else:
+            step("꼼꼼하게 읽기_끊어 읽기 실패 ⚠️ - 완료 버튼 미감지")
+
         # ✅ 포인트 미감지 무한루프 방지: 연속 3회 실패 시 FAIL 처리
-        MAX_NO_POINT_TRIES = 3
-        no_point_tries = 0
+        # MAX_NO_POINT_TRIES = 3
+        # no_point_tries = 0
 
-        while(True):
-            # (선) 이미 완료 상태면 즉시 종료
-            if poco("com.kyowon.literacy:id/btnRetry").exists():
-                step("꼼꼼하게 읽기_끊어 읽기 완료 ✔️")
-                break
+        # while(True):
+        #     # (선) 이미 완료 상태면 즉시 종료
+        #     if poco("com.kyowon.literacy:id/btnRetry").exists():
+        #         step("꼼꼼하게 읽기_끊어 읽기 완료 ✔️")
+        #         break
 
-            handled = handle_exceptions()
-            if handled > 0:
-                step(f"예외 처리 완료: {handled}건")
+        #     handled = handle_exceptions()
+        #     if handled > 0:
+        #         step(f"예외 처리 완료: {handled}건")
 
-            found = False
-            cnt = 0  # 이번 루프에서 실제 탭 성공 수
+        #     found = False
+        #     cnt = 0  # 이번 루프에서 실제 탭 성공 수
 
-            if exists(Template(r"first_06_point_1.png", threshold=0.78, rgb=True)):
-                found = True
-                step("포인트(핫도그) 감지 → 연속 터치 진행")
-                cnt = tap_images(
-                    img_path=r"first_06_point_1.png",
-                    layer_poco=layer,
-                    debug=False,
-                )
-            elif exists(Template(r"first_06_point_2.png", threshold=0.78, rgb=True)):
-                found = True
-                step("포인트(지팡이) 감지 → 연속 터치 진행")
-                cnt = tap_images(
-                    img_path=r"first_06_point_2.png",
-                    layer_poco=layer,
-                    debug=False,
-                )
-            elif exists(Template(r"first_06_point_3.png", threshold=0.78, rgb=True)):
-                found = True
-                step("포인트(당근) 감지 → 연속 터치 진행")
-                cnt = tap_images(
-                    img_path=r"first_06_point_3.png",
-                    layer_poco=layer,
-                    debug=False,
-                )
-            elif exists(Template(r"first_06_point_4.png", threshold=0.78, rgb=True)):
-                found = True
-                step("포인트(우산) 감지 → 연속 터치 진행")
-                cnt = tap_images(
-                    img_path=r"first_06_point_4.png",
-                    layer_poco=layer,
-                    debug=False,
-                )
-            elif exists(Template(r"first_06_point_5.png", threshold=0.78, rgb=True)):
-                found = True
-                step("포인트(아이스바) 감지 → 연속 터치 진행")
-                cnt = tap_images(
-                    img_path=r"first_06_point_5.png",
-                    layer_poco=layer,
-                    debug=False,
-                )
-            time.sleep(1.0)
-            if poco("com.kyowon.literacy:id/btnRetry").exists():
-                step("꼼꼼하게 읽기_끊어 읽기 완료 ✔️")
-                break
+        #     if exists(Template(r"first_06_point_1.png", threshold=0.78, rgb=False)):
+        #         found = True
+        #         step("포인트(핫도그) 감지 → 연속 터치 진행")
+        #         cnt = tap_images(
+        #             img_path=r"first_06_point_1.png",
+        #             layer_poco=layer,
+        #             debug=False,
+        #         )
+        #     elif exists(Template(r"first_06_point_2.png", threshold=0.78, rgb=False)):
+        #         found = True
+        #         step("포인트(지팡이) 감지 → 연속 터치 진행")
+        #         cnt = tap_images(
+        #             img_path=r"first_06_point_2.png",
+        #             layer_poco=layer,
+        #             debug=False,
+        #         )
+        #     elif exists(Template(r"first_06_point_3.png", threshold=0.78, rgb=False)):
+        #         found = True
+        #         step("포인트(당근) 감지 → 연속 터치 진행")
+        #         cnt = tap_images(
+        #             img_path=r"first_06_point_3.png",
+        #             layer_poco=layer,
+        #             debug=False,
+        #         )
+        #     elif exists(Template(r"first_06_point_4.png", threshold=0.78, rgb=False)):
+        #         found = True
+        #         step("포인트(우산) 감지 → 연속 터치 진행")
+        #         cnt = tap_images(
+        #             img_path=r"first_06_point_4.png",
+        #             layer_poco=layer,
+        #             debug=False,
+        #         )
+        #     elif exists(Template(r"first_06_point_5.png", threshold=0.78, rgb=False)):
+        #         found = True
+        #         step("포인트(아이스바) 감지 → 연속 터치 진행")
+        #         cnt = tap_images(
+        #             img_path=r"first_06_point_5.png",
+        #             layer_poco=layer,
+        #             debug=False,
+        #         )
+        #     time.sleep(1.0)
+        #     if poco("com.kyowon.literacy:id/btnRetry").exists():
+        #         step("꼼꼼하게 읽기_끊어 읽기 완료 ✔️")
+        #         break
 
-            # ✅ 포인트 미감지 or 감지됐지만 탭 결과가 0이면 실패 카운트 증가
-            if (not found) or (cnt <= 0):
-                no_point_tries += 1
-                step(f"포인트 미감지/탭 실패: {no_point_tries}/{MAX_NO_POINT_TRIES}")
+        #     # ✅ 포인트 미감지 or 감지됐지만 탭 결과가 0이면 실패 카운트 증가
+        #     if (not found) or (cnt <= 0):
+        #         no_point_tries += 1
+        #         step(f"포인트 미감지/탭 실패: {no_point_tries}/{MAX_NO_POINT_TRIES}")
 
-                if no_point_tries >= MAX_NO_POINT_TRIES:
-                    soft_fail("꼼꼼하게 읽기_끊어 읽기: FAIL ❌ - 포인트 미감지(3회)")
-                    raise RuntimeError("[ERR] 06_꼼꼼하게 읽기_끊어 읽기 - 포인트 미감지(3회)")
-            else:
-                # 성공했으면 실패 카운트 리셋
-                no_point_tries = 0
+        #         if no_point_tries >= MAX_NO_POINT_TRIES:
+        #             soft_fail("꼼꼼하게 읽기_끊어 읽기: FAIL ❌ - 포인트 미감지(3회)")
+        #             raise RuntimeError("[ERR] 06_꼼꼼하게 읽기_끊어 읽기 - 포인트 미감지(3회)")
+        #     else:
+        #         # 성공했으면 실패 카운트 리셋
+        #         no_point_tries = 0
 
     # 07_꼼꼼하게 읽기_문장 읽기
     elif poco("com.kyowon.literacy:id/txt_training_name", text="꼼꼼하게 읽기_문장 읽기").exists():
@@ -1112,8 +1147,8 @@ def voca_play_func():
 # Test 플로우
 def flow_test():
     step("테스트 플로우1 시작")
-    # step_block(first_training_func, "술술 읽기 훈련 기능")
-    step_block(reading_act_func, "독서/독해 활동 기능")
+    step_block(first_training_func, "술술 읽기 훈련 기능")
+    # step_block(reading_act_func, "독서/독해 활동 기능")
     # step_block(voca_adv_func, "어휘 탐험 기능")
     # step_block(voca_play_func, "어휘 놀이 기능")
 
