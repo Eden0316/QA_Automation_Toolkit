@@ -1,7 +1,7 @@
 # =================================================
 # QA 자동화 스크립트 - 퍼펙트 문해 술술 읽기 훈련 기능 함수 스크립트
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-06 - v1.0.6
+# 📅 Date: 2026-02-11 - v1.0.6
 #   - 04_소리 내어 읽기_실감 읽기 수정: 녹음 버튼 클릭 후 예외처리기 추가
 #   - 어휘 놀이 다중 선택 기능 추가
 #   - 진행률 헬퍼 parse_progress() 적용
@@ -9,28 +9,32 @@
 #   - 독서/독해 활동 수정: 활동형_보기 선택 2종 추가(총 4종) 및 개선, 문제형 텍스트 입력 선택자 수정, 마지막 문제 다시하기 개선
 #   - 기능 함수 스크립트 명칭 변경: main_first_test → content_actions
 #   - 06_꼼꼼하게 읽기_끊어 읽기 로직 개선
+#   - 공통 유틸 변수 생성
 # =================================================
 # -*- encoding=utf8 -*-
 __author__ = "Eden Kim"
 
 import os, sys, random, re, time
-
-# 이 스크립트가 있는 .air 폴더 경로
-CUR_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# 여기를 파이썬 모듈 탐색 경로에 강제로 올린다
-if CUR_DIR not in sys.path:
+# 실행 범용성을 위한 Import 경로 사전 설정
+CUR_DIR = os.path.dirname(os.path.abspath(__file__)) # 이 스크립트가 있는 .air 폴더 경로
+if CUR_DIR not in sys.path:                          # 여기를 파이썬 모듈 탐색 경로에 강제로 올린다
     sys.path.insert(0, CUR_DIR)
-
-# QA_TOOLKIT도 있으면 같이 올린다
-TOOLKIT = os.getenv("QA_TOOLKIT")
+TOOLKIT = os.getenv("QA_TOOLKIT")                    # QA_TOOLKIT도 있으면 같이 올린다
 if TOOLKIT and TOOLKIT not in sys.path:
     sys.path.insert(0, TOOLKIT)
-
 from airtest.core.api import *
 from literacy_runner import *
 from common import *
 from common import _get_resolution, _get_region_from_poco
+
+# ========== 공통 유틸 변수 ==========
+SUITE_NAME = "content_actions"     # 스위트 명칭
+SUITE_MAX_REPEAT = 1               # 최대 RUN 반복 횟수
+NEED_RESTART_APP = False           # 최초 앱 재시작 필요 여부
+NEED_APP_READY = False             # 앱 준비 완료 체크 필요 여부
+NEED_RESOURCE_MONITOR = False      # 리소스 모니터링 필요 여부(logcat_log, resource_log 저장 주체)
+NEED_ON_CLOSE = False              # 종료 시 처리 필요 여부
+STOP_ON_FAIL = False               # 실패 시 중단 여부
 
 # ----- step_block: 술술 읽기 훈련 공통 함수(일반 호출로도 사용 가능)
 def first_training_func():
@@ -1161,13 +1165,12 @@ def run_content_actions(serial=None):
     run_literacy_tc(
         flows, serial=serial,
         suite="content_actions",
-        runner="literacy_runner",
         repeat=1,
-        need_restart_app=False, 
-        need_resource_monitor=False,
-        need_app_ready=False,
-        need_on_close=False,
-        stop_on_fail=False,
+        need_restart_app=NEED_RESTART_APP,
+        need_resource_monitor=NEED_RESOURCE_MONITOR,
+        need_app_ready=NEED_APP_READY,
+        need_on_close=NEED_ON_CLOSE,
+        stop_on_fail=STOP_ON_FAIL,
         )
 
 if __name__ == "__main__":
