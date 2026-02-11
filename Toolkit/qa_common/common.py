@@ -1,7 +1,7 @@
 # ==========================================================
 # QA 자동화 공통 모듈
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-09 - v1.0.6
+# 📅 Date: 2026-02-11 - v1.0.6
 #   - 진행률 헬퍼 추가: parse_progress()
 #   - get_label() 함수 수정: index가 있을 경우 index 포함하여 출력
 #   - tap_color_words() 함수에 오류 발생 시 예외처리 진행 추가
@@ -9,6 +9,8 @@
 #   - Airtest 포터블 리포트 생성 추가: Airtest 없는 PC에서도 단독 실행
 #   - 리포트 첨부 파일 지원: Airtest 리포트 zip 압축 후 Google Drive 업로드 및 메일 전송 기능 추가
 #   - 템플릿 매칭 함수 수정: 컬러값 배제 후 매칭하는 옵션 추가하여 범용성 개선
+#   - Google Drive 관련 설정 QAEnv로 이관
+#   - use_env 인자 없이도 가용하게끔 수정
 # ==========================================================
 #   - Airtest + Poco 기반 안드로이드 앱 자동화 공통 함수
 #   - 리소스 모니터링, 메일 발송, 안전 클릭/입력, 스크롤 등
@@ -60,7 +62,7 @@ def set_current_env(env: "QAEnv | None"):
 def get_current_env() -> "QAEnv | None":
     return _CURRENT_ENV
 
-def use_env(env: "QAEnv | None") -> "QAEnv | None":
+def use_env(env: "QAEnv | None" = None) -> "QAEnv | None":
     """공통 함수에서 env 인자를 안 넘겼을 때 전역 current_env 로 폴백."""
     return env if env is not None else _CURRENT_ENV
 
@@ -75,9 +77,13 @@ class QAEnv:
                  on_ready: Optional[Callable[[], None]] = None,
                  on_close: Optional[Callable[[], None]] = None,
                  airtest_script=None,
-                 suite: str = "basic",
-                 runner: str = None,
+                 suite: str = "tc_suite",
+                 runner: str = "local",
                  use_run: bool = True,
+                 mail_max_attach: int = 20,
+                 gdrive_enable: bool = False,
+                 gdrive_folder_id: str = None,
+                 gdrive_share_anyone: bool = False,
                  ):
         self.package = package
         self.script_dir = os.path.abspath(script_dir)
@@ -93,8 +99,8 @@ class QAEnv:
         self._poco_disabled_until = 0.0
 
         # Run 표준 정보
-        self.run_suite = (suite or "literacy").strip()
-        self.run_runner = (runner or os.environ.get("QA_RUNNER") or "local").strip()
+        self.run_suite = suite
+        self.run_runner = runner
 
         self.run_started_ts = time.time()
         self.run_started_at = _kst_now_iso()
@@ -105,6 +111,12 @@ class QAEnv:
         self.run_artifacts: Dict[str, str] = {}
         self.run_fail_logs: List[Dict[str, str]] = []
         self.run_warn_logs: List[Dict[str, str]] = []
+
+        self.mail_max_attach = mail_max_attach
+
+        self.gdrive_enable = gdrive_enable
+        self.gdrive_folder_id = gdrive_folder_id
+        self.gdrive_share_anyone = gdrive_share_anyone
 
         # ✅ 실패 누적 카운터(메인/서브 공통)
         self.total_fail: int = 0
@@ -1478,7 +1490,7 @@ class _PocoProxy:
           이미 env.poco가 있으면 그걸 즉시 사용한다.
     """
     def _handle(self):
-        env = use_env(None)
+        env = use_env()
         if env is not None and getattr(env, "poco", None) is not None:
             return env.poco
         # env.poco가 없을 때만 생성 경로로
@@ -1487,7 +1499,7 @@ class _PocoProxy:
     def __call__(self, *args, **kwargs):
         # ✅ selector 첫 인자가 "패키지:id/..." 형태면 env.package로 자동 치환
         if args and isinstance(args[0], str):
-            env = use_env(None)
+            env = use_env()
             if env is not None:
                 s = args[0]
                 # "com.xxx:id/yyy" 형태만 처리
@@ -2673,7 +2685,7 @@ def try_drag_with_roi(start_src, end_dst,
             log(f"[TRY_DRAG_ROI] changed={changed}")
 
         if desc:
-            step(f"{desc}: {'PASS ✅' if changed else 'WARN ⚠️(roi)'}")
+            step(f"{desc}: {'PASS ✅' if changed else 'MISS ⚠️(roi)'}")
         return bool(changed)
 
     except Exception as e:
@@ -3265,7 +3277,8 @@ def _get_drive_service():
     QA_GDRIVE_CREDENTIALS / QA_GDRIVE_TOKEN 기반으로 Drive service 생성.
     최초 1회는 브라우저 OAuth 승인 필요(InstalledAppFlow).
     """
-    if not _env_bool("QA_GDRIVE_ENABLE", False):
+    env = use_env()
+    if not env.gdrive_enable:
         return None
 
     cred_path = os.environ.get("QA_GDRIVE_CREDENTIALS", "").strip()
@@ -3320,7 +3333,7 @@ def drive_upload(path: str, *, folder_id: Optional[str]=None, make_anyone: bool=
     if service is None:
         # ✅ Drive 비활성화면 예외로 막지 말고, 알림만 남기고 스킵
         try:
-            step("[GDRIVE] 비활성화(QA_GDRIVE_ENABLE!=1) → 업로드 스킵")
+            step("[GDRIVE] 비활성화(GDRIVE_ENABLE=False) → 업로드 스킵")
         except Exception:
             pass
         return None
@@ -3370,6 +3383,8 @@ def send_mail_smtp(subject: str, body: str, attachments: list=None, *,
       QA_MAIL_TO   : 수신자 콤마/세미콜론구분 (예: a@b.com,c@d.com or a@b.com;c@d.com)
       QA_MAIL_SMTP : 호스트:포트 (기본 smtp.gmail.com:465, SSL)
     """
+    env = use_env()
+
     user = mail_env("QA_MAIL_USER")
     pwd  = mail_env("QA_MAIL_PASS")
     hostport = mail_env("QA_MAIL_SMTP","smtp.gmail.com:465")
@@ -3423,12 +3438,12 @@ def send_mail_smtp(subject: str, body: str, attachments: list=None, *,
     # ------------------------------
     # (옵션2) 첨부 용량 초과 시 Google Drive 업로드 후 링크로 대체
     # ------------------------------
-    max_mb = _env_int("QA_MAIL_MAX_ATTACH_MB", 20)
+    max_mb = env.mail_max_attach
     max_bytes = max_mb * 1024 * 1024
 
-    gdrive_enabled = _env_bool("QA_GDRIVE_ENABLE", False)
-    folder_id = os.environ.get("QA_GDRIVE_FOLDER_ID", "").strip() or None
-    share_anyone = _env_bool("QA_GDRIVE_SHARE_ANYONE", False)
+    gdrive_enabled = env.gdrive_enable
+    folder_id = env.gdrive_folder_id
+    share_anyone = env.gdrive_share_anyone
 
     # 첨부 전체 용량 계산(존재하는 파일만)
     att_paths = []
@@ -3701,7 +3716,7 @@ def run_flows(
       "final_recent": str or None  # 👈 추가
     }
     """
-    env = env or QAEnv()
+    env = use_env(env)
 
     # env 기본값 → 인자로 override 가능
     on_close = on_close or env.on_close
@@ -3799,35 +3814,40 @@ def run_flows(
             except Exception as e:
                 step(f"[WARN] 원본 airtest_log 폴더 삭제 실패: {e}", env=env)
 
-            # ✅ 포터블 번들을 zip으로 묶어서 Drive 업로드 (메일 첨부는 하지 않음)
-            try:
-                zip_path = _zip_any(portable_dir)
+            if env.gdrive_enable:
+                # ✅ 포터블 번들을 zip으로 묶어서 Drive 업로드 (메일 첨부는 하지 않음)
+                try:
+                    zip_path = _zip_any(portable_dir)
 
-                # ------------------------------------------------------------
-                # ✅ 런타임 강제 Drive ON, 공유설정, 폴더id (환경변수/위자드 적용 없이 "이번 실행"만)
-                # ------------------------------------------------------------
-                os.environ["QA_GDRIVE_ENABLE"] = "1"
-                os.environ["QA_GDRIVE_SHARE_ANYONE"] = "1"
-                os.environ["QA_GDRIVE_FOLDER_ID"] = "1l6y-Hbia0mkgN7wPfDwMVXNCHyCaOSKh"
+                    # credentials/token 경로가 환경변수에 없으면 qa_common/_secrets 기본 경로로 가정
+                    # common.py 위치: ...\Tools\qa_common\common.py 라는 전제
+                    common_dir = Path(__file__).resolve().parent  # ...\Tools\qa_common
+                    secrets_dir = common_dir / "_secrets"
 
-                # credentials/token 경로가 환경변수에 없으면 qa_common/_secrets 기본 경로로 가정
-                # common.py 위치: ...\Tools\qa_common\common.py 라는 전제
-                common_dir = Path(__file__).resolve().parent  # ...\Tools\qa_common
-                secrets_dir = common_dir / "_secrets"
+                    os.environ.setdefault("QA_GDRIVE_CREDENTIALS", str(secrets_dir / "gdrive_credentials.json"))
+                    os.environ.setdefault("QA_GDRIVE_TOKEN",       str(secrets_dir / "gdrive_token.json"))
 
-                os.environ.setdefault("QA_GDRIVE_CREDENTIALS", str(secrets_dir / "gdrive_credentials.json"))
-                os.environ.setdefault("QA_GDRIVE_TOKEN",       str(secrets_dir / "gdrive_token.json"))
+                    folder_id = env.gdrive_folder_id
+                    share_anyone = env.gdrive_share_anyone
 
-                folder_id = os.environ.get("QA_GDRIVE_FOLDER_ID", "").strip() or None
-                share_anyone = str(os.environ.get("QA_GDRIVE_SHARE_ANYONE", "0")).strip().lower() in ("1","true","yes","y","on")
+                    airtest_drive_link = drive_upload(zip_path, folder_id=folder_id, make_anyone=share_anyone)
 
-                airtest_drive_link = drive_upload(zip_path, folder_id=folder_id, make_anyone=share_anyone)
+                    if airtest_drive_link:
+                        step(f"[OK] Airtest 포터블 리포트 Drive 업로드 완료: {airtest_drive_link}", env=env)
 
-                if airtest_drive_link:
-                    step(f"[OK] Airtest 포터블 리포트 Drive 업로드 완료: {airtest_drive_link}", env=env)
+                    else:
+                        step("[GDRIVE] 업로드 스킵/실패 → 링크 없음", env=env)
 
-            except Exception as e:
-                step(f"[WARN] Airtest 포터블 리포트 Drive 업로드 실패: {e}", env=env)
+                    # ✅ 업로드 종료 후 zip은 즉시 정리(메일은 링크만 사용)
+                    try:
+                        if os.path.isfile(zip_path):
+                            os.remove(zip_path)
+                            step(f"[OK] Airtest 포터블 ZIP 삭제 완료(업로드 후): {zip_path}", env=env)
+                    except Exception as e:
+                        step(f"[WARN] Airtest 포터블 ZIP 삭제 실패: {e}", env=env)
+
+                except Exception as e:
+                    step(f"[WARN] Airtest 포터블 리포트 Drive 업로드 실패: {e}", env=env)
 
             # env에 저장(메일 본문/summary에서 사용)
             try:
@@ -4352,7 +4372,7 @@ def click_near_element(
 # ---------- 발견 후 클릭 (try 버전) ----------
 def try_find_click(
     *, target_element,
-    scroll_view=None, max_cycles=12,
+    scroll_view=None, max_cycles=20,
     direction="down", step_ratio=0.65, duration=0.5,
     methods_order: List[str] = ("poco", "global", "adb", "image", "coord"),
     anchor_key: str = "default", anchor_img: Optional[str] = None,
