@@ -1,13 +1,14 @@
 # =================================================
 # QA 자동화 스크립트 - 퍼펙트 문해 베이직 TC
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-06 - v1.0.6
+# 📅 Date: 2026-02-11 - v1.0.6
 #   - 게임 가이드 체크 선택형으로 수정
 #   - 주차 찾기 함수 추가 배치
 #   - E-Book 기능 사용 여부 체크 변수 추가
 #   - 탄탄 독해 훈련 플로우에 공통 기능함수 추가
 #   - 스위트 명칭 변경: basic_test → basic_tc_suite
 #   - 한 눈에 보는 문해 탐험 코스 개선: subflow 기능 적용
+#   - 공통 유틸 변수 생성
 # =================================================
 #   - 퍼펙트 문해 베이직 Test(BAT)용 자동화 스크립트
 #   - 목표 주차 및 E-Book 기능 사용 여부 설정
@@ -16,19 +17,13 @@
 __author__ = "Eden Kim"
 
 import os, sys
-
-# 이 스크립트가 있는 .air 폴더 경로
-CUR_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# 여기를 파이썬 모듈 탐색 경로에 강제로 올린다
-if CUR_DIR not in sys.path:
+# 실행 범용성을 위한 Import 경로 사전 설정
+CUR_DIR = os.path.dirname(os.path.abspath(__file__)) # 이 스크립트가 있는 .air 폴더 경로
+if CUR_DIR not in sys.path:                          # 여기를 파이썬 모듈 탐색 경로에 강제로 올린다
     sys.path.insert(0, CUR_DIR)
-
-# QA_TOOLKIT도 있으면 같이 올린다
-TOOLKIT = os.getenv("QA_TOOLKIT")
+TOOLKIT = os.getenv("QA_TOOLKIT")                    # QA_TOOLKIT도 있으면 같이 올린다
 if TOOLKIT and TOOLKIT not in sys.path:
     sys.path.insert(0, TOOLKIT)
-
 from airtest.core.api import *
 import literacy_runner as lt
 from literacy_runner import *
@@ -36,12 +31,18 @@ from content_actions import *
 from common import *
 from common import _get_resolution, _get_region_from_poco
 
+# ========== 공통 유틸 변수 ==========
+SUITE_NAME = "basic_tc_suite"     # 스위트 명칭
+SUITE_MAX_REPEAT = 1              # 최대 RUN 반복 횟수
+NEED_RESTART_APP = True           # 최초 앱 재시작 필요 여부
+NEED_APP_READY = True             # 앱 준비 완료 체크 필요 여부
+NEED_RESOURCE_MONITOR = True      # 리소스 모니터링 필요 여부(logcat_log, resource_log 저장 주체)
+NEED_ON_CLOSE = False             # 종료 시 처리 필요 여부
+STOP_ON_FAIL = False              # 실패 시 중단 여부
 
-# ========== 공통 변수 ==========
-TARGET_WEEK = "8주차"
-
-# ========== 유틸 변수 ==========
-EBOOK_ENABLED = True       # E-Book 기능 사용 여부
+# =========== 앱별 변수 ===========
+TARGET_WEEK = "10주차"             # 목표 주차
+EBOOK_ENABLED = False              # E-Book 기능 사용 여부
 
 # ========== 공통 함수 ==========
 # ----- def: 주차 찾기
@@ -1100,7 +1101,7 @@ def flow_main_menu():
         (flow_menu_study_report,   "학습 리포트"),
         (flow_menu_character_intro,"캐릭터 소개"),
         (flow_menu_settings,       "설정"),
-        (flow_menu_app_exit,      "앱 종료"),
+        # (flow_menu_app_exit,      "앱 종료"),
         group_desc="메뉴",
     )
 
@@ -1112,7 +1113,7 @@ def run_basic_tc_suite(serial=None):
         # ("교과서 어휘 게임", flow_voca_game),
         # ("오늘의 어휘", flow_today_voca),
         ("술술 읽기 훈련", flow_main_first),
-        ("탄탄 독해 훈련", flow_main_second),
+        # ("탄탄 독해 훈련", flow_main_second),
         # ("오늘의 책", flow_today_book),
         # ("문해 탐험 도서관", flow_literacy_library),
         # ("문해 탐험 모아보기", flow_all_contents),
@@ -1122,14 +1123,13 @@ def run_basic_tc_suite(serial=None):
     ]
     run_literacy_tc(
         flows, serial=serial,
-        suite="basic_tc_suite",
-        runner="literacy_runner",
-        repeat=1,
-        need_restart_app=True,
-        need_app_ready=True,
-        need_resource_monitor=True,
-        need_on_close=False,
-        stop_on_fail=False,
+        suite=SUITE_NAME,
+        repeat=SUITE_MAX_REPEAT,
+        need_restart_app=NEED_RESTART_APP,
+        need_app_ready=NEED_APP_READY,
+        need_resource_monitor=NEED_RESOURCE_MONITOR,
+        need_on_close=NEED_ON_CLOSE,
+        stop_on_fail=STOP_ON_FAIL,
         )
 
 if __name__ == "__main__":
