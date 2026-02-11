@@ -1,0 +1,10 @@
+/qa_common/__pycache__
+01_pidcat/run_pidcat_tmp.cmd
+01_bat2exe/settings
+99_scripts/*/*.txt
+/99_scripts/literacy_test.air/__pycache__
+_run_color_tmp.bat
+_run_color_tmp.cmd
+/00_install/setup_logs
+_run_color_tmp.cmd
+/result/*
