@@ -1,0 +1,267 @@
+--------- beginning of crash
+01-14 09:08:40.612  1010  1010 I libpq_sec: mtk-brm-commit-id:6bcc7ef73ccfbd111f080e05e1daecef627f7631
+01-14 09:08:40.612  1010  1010 I libpq_sec: mtk-brm-change-id:I962c31336c01811d03fbf5372e2503aac79f970a
+01-14 09:08:40.612  1010  1010 I libpq_sec: mtk-brm-merge-id:none
+01-14 09:08:40.807  1011  1011 I libpq_sec: mtk-brm-commit-id:6bcc7ef73ccfbd111f080e05e1daecef627f7631
+01-14 09:08:40.807  1011  1011 I libpq_sec: mtk-brm-change-id:I962c31336c01811d03fbf5372e2503aac79f970a
+01-14 09:08:40.807  1011  1011 I libpq_sec: mtk-brm-merge-id:none
+01-14 09:08:40.848  1101  1101 I libpq_sec: mtk-brm-commit-id:6bcc7ef73ccfbd111f080e05e1daecef627f7631
+01-14 09:08:40.848  1101  1101 I libpq_sec: mtk-brm-change-id:I962c31336c01811d03fbf5372e2503aac79f970a
+01-14 09:08:40.848  1101  1101 I libpq_sec: mtk-brm-merge-id:none
+01-14 09:08:41.069  1074  1156 I meow_lib: mtk-brm-commit-id:7114346e461031ab193cf6174fd4004b545b0627
+01-14 09:08:41.069  1074  1156 I meow_lib: mtk-brm-change-id:Ib5dfbafb114694454a6a3b9047f7901f8170c2e5
+01-14 09:08:41.069  1074  1156 I meow_lib: mtk-brm-merge-id:none
+01-14 09:08:41.082  1074  1156 I libged  : mtk-brm-commit-id:c18d9f72b1709fd25f7f2505cd64a751c4737e8a
+01-14 09:08:41.082  1074  1156 I libged  : mtk-brm-change-id:I0b34a2aa1546bad682934da708ff28d302950c49
+01-14 09:08:41.082  1074  1156 I libged  : mtk-brm-merge-id:none
+01-14 09:08:41.088  1074  1156 I libGLES_mali: mtk-brm-commit-id:adbd6476f4de24657ff1fb7cd51a3c887baa4afd
+01-14 09:08:41.088  1074  1156 I libGLES_mali: mtk-brm-change-id:Ia4831620148092a26d54b17eb13839b2f61f5fb1
+01-14 09:08:41.088  1074  1156 I libGLES_mali: mtk-brm-merge-id:none
+01-14 09:08:41.646  1222  1222 I libneuralnetworks_sl_driver: mtk-brm-commit-id:1bd74b295dfafcc49eb5596717f15991e8590d7d
+01-14 09:08:41.646  1222  1222 I libneuralnetworks_sl_driver: mtk-brm-change-id:Id92ecd9765e230a3eacff4211b61427c519a3722
+01-14 09:08:41.646  1222  1222 I libneuralnetworks_sl_driver: mtk-brm-merge-id:none
+01-14 09:08:41.649  1222  1222 I neuralnetworks_shim: mtk-brm-commit-id:25a38658d8fcdbb20664f319d3ecf9d75fd3654c
+01-14 09:08:41.649  1222  1222 I neuralnetworks_shim: mtk-brm-change-id:I98bca291cad1df955fc3a2dd4a672c689604df9b
+01-14 09:08:41.649  1222  1222 I neuralnetworks_shim: mtk-brm-merge-id:none
+01-14 09:08:41.661  1224  1224 I thermal_core: mtk-brm-commit-id:234641ae27aad1cfcf52a5ba536c107c965a52ab
+01-14 09:08:41.661  1224  1224 I thermal_core: mtk-brm-change-id:Ieb2106d5ec215adedae5ff15a92923dc35fdb2bc
+01-14 09:08:41.661  1224  1224 I thermal_core: mtk-brm-merge-id:none
+01-14 09:08:41.689  1222  1222 I cpu_nn  : mtk-brm-commit-id:e0b1e6a299e09326d1e3c00df0bee88777f15fb0
+01-14 09:08:41.689  1222  1222 I cpu_nn  : mtk-brm-change-id:Ia06225ca2806a5f28be95902c2303b12e9a90c38
+01-14 09:08:41.689  1222  1222 I cpu_nn  : mtk-brm-merge-id:none
+01-14 09:08:41.737  1222  1222 I cmdl    : mtk-brm-commit-id:83b79bc206164073c4933dac9048e8bbf2468a2f
+01-14 09:08:41.737  1222  1222 I cmdl    : mtk-brm-change-id:I3f996dc2e36f9014a83a3c7740956ca173b56f36
+01-14 09:08:41.737  1222  1222 I cmdl    : mtk-brm-merge-id:none
+01-14 09:08:41.738  1222  1222 I gpu_nn  : mtk-brm-commit-id:0b5fce9d2ecbb9be75db033475f121621364bbd0
+01-14 09:08:41.739  1222  1222 I gpu_nn  : mtk-brm-change-id:Icf488c65b434d1938ee3d916fb07216f278b708b
+01-14 09:08:41.739  1222  1222 I gpu_nn  : mtk-brm-merge-id:none
+01-14 09:08:41.807  1246  1246 I emdlogger: mtk-brm-commit-id:afccae5ba9c3c95e88ce474d5b5ed880dfa78a6a
+01-14 09:08:41.808  1246  1246 I emdlogger: mtk-brm-change-id:I28795e6bf614f6607482ea606f62aeab4a283858
+01-14 09:08:41.808  1246  1246 I emdlogger: mtk-brm-merge-id:none
+01-14 09:08:41.852  1292  1292 I libpq_sec: mtk-brm-commit-id:6bcc7ef73ccfbd111f080e05e1daecef627f7631
+01-14 09:08:41.852  1292  1292 I libpq_sec: mtk-brm-change-id:I962c31336c01811d03fbf5372e2503aac79f970a
+01-14 09:08:41.852  1292  1292 I libpq_sec: mtk-brm-merge-id:none
+01-14 09:08:42.293  1042  1042 I mcnr_algo: mtk-brm-commit-id:dd4929e6a71bd0be06b2d18234833692e8dec44f
+01-14 09:08:42.293  1042  1042 I mcnr_algo: mtk-brm-change-id:I4260c971d731b542818aac96725266c809617407
+01-14 09:08:42.293  1042  1042 I mcnr_algo: mtk-brm-merge-id:none
+01-14 09:08:42.414  1042  1042 I libpq_sec: mtk-brm-commit-id:6bcc7ef73ccfbd111f080e05e1daecef627f7631
+01-14 09:08:42.414  1042  1042 I libpq_sec: mtk-brm-change-id:I962c31336c01811d03fbf5372e2503aac79f970a
+01-14 09:08:42.414  1042  1042 I libpq_sec: mtk-brm-merge-id:none
+01-14 09:08:42.566   990   990 I meow_lib: mtk-brm-commit-id:7114346e461031ab193cf6174fd4004b545b0627
+01-14 09:08:42.566   990   990 I meow_lib: mtk-brm-change-id:Ib5dfbafb114694454a6a3b9047f7901f8170c2e5
+01-14 09:08:42.566   990   990 I meow_lib: mtk-brm-merge-id:none
+01-14 09:08:51.438  2747  2747 I thermal_core: mtk-brm-commit-id:74ef16098784dd698d10950c8fd3f47295ee3fc0
+01-14 09:08:51.438  2747  2747 I thermal_core: mtk-brm-change-id:I4b22c22d8511bdb8c07debbac82b1564676111e8
+01-14 09:08:51.438  2747  2747 I thermal_core: mtk-brm-merge-id:none
+01-14 09:11:44.671  1053  1053 I liboemcrypto: mtk-brm-commit-id:b0fa7aaf5241854e02adfc67f7894a16764c31b2
+01-14 09:11:44.671  1053  1053 I liboemcrypto: mtk-brm-change-id:I23fa55ba704bb5cc4c81324a184bb186bad80c05
+01-14 09:11:44.671  1053  1053 I liboemcrypto: mtk-brm-merge-id:none
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: FATAL EXCEPTION: main
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: Process: com.kyowon.literacy, PID: 24266
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: java.lang.IllegalStateException: You must either set a text or a view
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at com.android.internal.util.Preconditions.checkState(Preconditions.java:222)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.widget.Toast.show(Toast.java:316)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at com.kyowon.literacy.ui.intro.activity.IntroActivity$7.init(IntroActivity.java:737)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at com.kyowon.literacy.ui.intro.activity.IntroActivity$7.init(IntroActivity.java:680)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at com.kyowon.allng.admservice.manager.AllngDeviceManager$1.onServiceConnected(AllngDeviceManager.java:60)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2418)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2455)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+02-04 10:49:29.900 24266 24266 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: FATAL EXCEPTION: main
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: Process: com.kyowon.literacy, PID: 18997
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: java.lang.RuntimeException: Unable to pause activity {com.kyowon.literacy/com.kyowon.literacy.ui.learning.activity.LearningActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.kyowon.literacy.ui.readingassessment.fragment.ReadingAssessmentBaseFragment.onLearningPause()' on a null object reference
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:6626)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:6577)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:6529)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:60)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.servertransaction.ActivityTransactionItem.execute(ActivityTransactionItem.java:63)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleItem(TransactionExecutor.java:169)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:101)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3150)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.kyowon.literacy.ui.readingassessment.fragment.ReadingAssessmentBaseFragment.onLearningPause()' on a null object reference
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.kyowon.literacy.ui.readingassessment.fragment.ReadingAssessmentFragment.onLearningPause(ReadingAssessmentFragment.java:684)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.kyowon.literacy.ui.learning.fragment.BaseLearningFragment.onStateChanged(BaseLearningFragment.java:180)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.kyowon.literacy.ui.learning.activity.BaseLearningActivity.pause(BaseLearningActivity.java:201)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.kyowon.literacy.ui.learning.activity.BaseLearningActivity.onPause(BaseLearningActivity.java:193)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at com.kyowon.literacy.ui.learning.activity.LearningActivity.onPause(LearningActivity.java:346)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.Activity.performPause(Activity.java:9753)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1774)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:6616)
+02-05 10:42:30.781 18997 18997 E AndroidRuntime: 	... 15 more
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: FATAL EXCEPTION: main
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: Process: kr.co.kyowon.redpensmartlibrary, PID: 24859
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.checkStateLoss(FragmentManager.java:1844)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.enqueueAction(FragmentManager.java:1884)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at androidx.fragment.app.BackStackRecord.commitInternal(BackStackRecord.java:329)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at androidx.fragment.app.BackStackRecord.commit(BackStackRecord.java:294)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at androidx.fragment.app.DialogFragment.dismissInternal(DialogFragment.java:355)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at androidx.fragment.app.DialogFragment.dismiss(DialogFragment.java:307)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.dismiss(ToastDialog.java:92)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.dismissDialog(ToastDialog.java:83)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.lambda$initViews$0$ToastDialog(ToastDialog.java:79)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.-$$Lambda$ToastDialog$LASweBVBV1uwoeh5apFh7hMZHoM.run(Unknown Source:2)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+02-05 15:27:16.141 24859 24859 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: FATAL EXCEPTION: main
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: Process: kr.co.kyowon.redpensmartlibrary, PID: 25592
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{kr.co.kyowon.redpensmartlibrary/kr.co.kyowon.redpensmartlibrary.ui.main.activity.MainActivity}: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog: could not find Fragment constructor
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4710)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4941)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3150)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: Caused by: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog: could not find Fragment constructor
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.Fragment.instantiate(Fragment.java:628)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentContainer.instantiate(FragmentContainer.java:57)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager$3.instantiate(FragmentManager.java:483)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentStateManager.<init>(FragmentStateManager.java:85)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.restoreSaveState(FragmentManager.java:2728)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentController.restoreSaveState(FragmentController.java:198)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity$2.onContextAvailable(FragmentActivity.java:149)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.activity.contextaware.ContextAwareHelper.dispatchOnContextAvailable(ContextAwareHelper.java:99)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.activity.ComponentActivity.onCreate(ComponentActivity.java:362)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:273)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.base.BaseActivity.onCreate(BaseActivity.java:95)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9519)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9488)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1524)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4692)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	... 13 more
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: Caused by: java.lang.NoSuchMethodException: kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.<init> []
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at java.lang.Class.getConstructor0(Class.java:3385)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at java.lang.Class.getConstructor(Class.java:2477)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	at androidx.fragment.app.Fragment.instantiate(Fragment.java:613)
+02-05 15:27:16.348 25592 25592 E AndroidRuntime: 	... 27 more
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: FATAL EXCEPTION: main
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: Process: kr.co.kyowon.redpensmartlibrary, PID: 25687
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.checkStateLoss(FragmentManager.java:1844)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.enqueueAction(FragmentManager.java:1884)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at androidx.fragment.app.BackStackRecord.commitInternal(BackStackRecord.java:329)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at androidx.fragment.app.BackStackRecord.commit(BackStackRecord.java:294)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at androidx.fragment.app.DialogFragment.dismissInternal(DialogFragment.java:355)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at androidx.fragment.app.DialogFragment.dismiss(DialogFragment.java:307)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.dismiss(ToastDialog.java:92)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.dismissDialog(ToastDialog.java:83)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.lambda$initViews$0$ToastDialog(ToastDialog.java:79)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.common.dialog.-$$Lambda$ToastDialog$LASweBVBV1uwoeh5apFh7hMZHoM.run(Unknown Source:2)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+02-05 15:27:50.256 25687 25687 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: FATAL EXCEPTION: main
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: Process: kr.co.kyowon.redpensmartlibrary, PID: 25875
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{kr.co.kyowon.redpensmartlibrary/kr.co.kyowon.redpensmartlibrary.ui.main.activity.MainActivity}: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog: could not find Fragment constructor
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4710)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4941)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3150)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:10060)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: Caused by: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog: could not find Fragment constructor
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.Fragment.instantiate(Fragment.java:628)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentContainer.instantiate(FragmentContainer.java:57)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager$3.instantiate(FragmentManager.java:483)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentStateManager.<init>(FragmentStateManager.java:85)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.restoreSaveState(FragmentManager.java:2728)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentController.restoreSaveState(FragmentController.java:198)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity$2.onContextAvailable(FragmentActivity.java:149)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.activity.contextaware.ContextAwareHelper.dispatchOnContextAvailable(ContextAwareHelper.java:99)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.activity.ComponentActivity.onCreate(ComponentActivity.java:362)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:273)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at kr.co.kyowon.redpensmartlibrary.ui.base.BaseActivity.onCreate(BaseActivity.java:95)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9519)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9488)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1524)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4692)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	... 13 more
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: Caused by: java.lang.NoSuchMethodException: kr.co.kyowon.redpensmartlibrary.ui.common.dialog.ToastDialog.<init> []
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at java.lang.Class.getConstructor0(Class.java:3385)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at java.lang.Class.getConstructor(Class.java:2477)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	at androidx.fragment.app.Fragment.instantiate(Fragment.java:613)
+02-05 15:27:50.431 25875 25875 E AndroidRuntime: 	... 27 more
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: FATAL EXCEPTION: DefaultCameraCaptureSource
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: Process: kr.co.kyowon.videolesson.play, PID: 19097
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: java.lang.NullPointerException: Surface must not be null
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:174)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.hardware.camera2.params.OutputConfiguration.<init>(OutputConfiguration.java:675)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.hardware.camera2.params.OutputConfiguration.<init>(OutputConfiguration.java:354)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.hardware.camera2.impl.CameraDeviceImpl.createCaptureSession(CameraDeviceImpl.java:756)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at com.amazonaws.services.chime.sdk.meetings.audiovideo.video.capture.DefaultCameraCaptureSource$cameraDeviceStateCallback$1.onOpened(DefaultCameraCaptureSource.kt:303)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.hardware.camera2.impl.CameraDeviceImpl$ClientStateCallback$4.run(CameraDeviceImpl.java:386)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-11 09:23:19.908 19097 20094 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: FATAL EXCEPTION: DefaultCameraCaptureSource
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: Process: kr.co.kyowon.videolesson.play, PID: 20259
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: java.lang.NullPointerException: Surface must not be null
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:174)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.hardware.camera2.params.OutputConfiguration.<init>(OutputConfiguration.java:675)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.hardware.camera2.params.OutputConfiguration.<init>(OutputConfiguration.java:354)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.hardware.camera2.impl.CameraDeviceImpl.createCaptureSession(CameraDeviceImpl.java:756)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at com.amazonaws.services.chime.sdk.meetings.audiovideo.video.capture.DefaultCameraCaptureSource$cameraDeviceStateCallback$1.onOpened(DefaultCameraCaptureSource.kt:303)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.hardware.camera2.impl.CameraDeviceImpl$ClientStateCallback$4.run(CameraDeviceImpl.java:386)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-11 10:04:24.883 20259 23073 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: FATAL EXCEPTION: DefaultCameraCaptureSource
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: Process: kr.co.kyowon.videolesson.play, PID: 23211
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: java.lang.NullPointerException: Surface must not be null
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:174)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.hardware.camera2.params.OutputConfiguration.<init>(OutputConfiguration.java:675)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.hardware.camera2.params.OutputConfiguration.<init>(OutputConfiguration.java:354)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.hardware.camera2.impl.CameraDeviceImpl.createCaptureSession(CameraDeviceImpl.java:756)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at com.amazonaws.services.chime.sdk.meetings.audiovideo.video.capture.DefaultCameraCaptureSource$cameraDeviceStateCallback$1.onOpened(DefaultCameraCaptureSource.kt:303)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.hardware.camera2.impl.CameraDeviceImpl$ClientStateCallback$4.run(CameraDeviceImpl.java:386)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:273)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:363)
+02-11 10:12:40.571 23211 27478 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:85)

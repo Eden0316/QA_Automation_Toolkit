@@ -1,0 +1,47 @@
+{
+  "file": "resource_260211_1012.txt",
+  "range": {
+    "start": "2026-02-11 10:08:34",
+    "end": "2026-02-11 10:12:36"
+  },
+  "samples": 125,
+  "meta": {
+    "package": "kr.co.kyowon.videolesson.play",
+    "pid": 23211,
+    "serial": "R32Y800VMVD"
+  },
+  "criteria": {
+    "cpu_warn_percent": 480,
+    "cpu_crit_percent": 640,
+    "mem_warn_kb": 1334000,
+    "mem_crit_kb": 1624000,
+    "leak_suspect_kb_per_min": 50000
+  },
+  "cpu": {
+    "max": 185.0,
+    "min": 48.1,
+    "avg": 124.4912,
+    "p95": 171.0,
+    "warn_spans": [],
+    "crit_spans": []
+  },
+  "mem": {
+    "max": 1125244,
+    "min": 1000760,
+    "avg": 1072241.856,
+    "p95": 1121868.0,
+    "warn_spans": [],
+    "crit_spans": [],
+    "slope_kb_per_min": -20638.13665599925
+  },
+  "verdict": {
+    "overall": "PASS",
+    "notes": [
+      "이상 없음"
+    ]
+  },
+  "events": {
+    "count": 0,
+    "by_type": {}
+  }
+}

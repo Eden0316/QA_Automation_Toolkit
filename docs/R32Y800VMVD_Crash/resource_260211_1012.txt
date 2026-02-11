@@ -1,0 +1,1125 @@
+[2026-02-11 10:08:34]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 127.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,125,244 kB     1,125,244 kB         
+[2026-02-11 10:08:35]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 132.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,123,056 kB     1,123,056 kB         
+[2026-02-11 10:08:37]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 128.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,119,756 kB     1,119,756 kB         
+[2026-02-11 10:08:38]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 144.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,120,864 kB     1,120,864 kB         
+[2026-02-11 10:08:40]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 139.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,121,964 kB     1,121,964 kB         
+[2026-02-11 10:08:42]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 106.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,123,660 kB     1,123,660 kB         
+[2026-02-11 10:08:43]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 113.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,123,992 kB     1,123,992 kB         
+[2026-02-11 10:08:45]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 107.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,121,212 kB     1,121,212 kB         
+[2026-02-11 10:08:48]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 117.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,122,164 kB     1,122,164 kB         
+[2026-02-11 10:08:50]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 106.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,122,164 kB     1,122,164 kB         
+[2026-02-11 10:08:53]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 121.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,120,660 kB     1,120,660 kB         
+[2026-02-11 10:08:55]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 125.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,121,484 kB     1,121,484 kB         
+[2026-02-11 10:08:56]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 125.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,121,480 kB     1,121,480 kB         
+[2026-02-11 10:08:58]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 153.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,119,576 kB     1,119,576 kB         
+[2026-02-11 10:09:00]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 117.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,119,984 kB     1,119,984 kB         
+[2026-02-11 10:09:01]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 117.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,120,736 kB     1,120,736 kB         
+[2026-02-11 10:09:04]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,119,984 kB     1,119,984 kB         
+[2026-02-11 10:09:06]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 89.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,086,772 kB     1,086,772 kB         
+[2026-02-11 10:09:09]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 89.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,396 kB     1,055,396 kB         
+[2026-02-11 10:09:11]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,408 kB     1,055,408 kB         
+[2026-02-11 10:09:12]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,412 kB     1,055,412 kB         
+[2026-02-11 10:09:14]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 96.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,528 kB     1,055,528 kB         
+[2026-02-11 10:09:15]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,532 kB     1,055,532 kB         
+[2026-02-11 10:09:17]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,540 kB     1,055,540 kB         
+[2026-02-11 10:09:18]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.5 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,056,156 kB     1,056,156 kB         
+[2026-02-11 10:09:20]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 159.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,077,752 kB     1,077,752 kB         
+[2026-02-11 10:09:25]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 159.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,112,252 kB     1,112,252 kB         
+[2026-02-11 10:09:26]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 135.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,115,364 kB     1,115,364 kB         
+[2026-02-11 10:09:28]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 155.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,116,556 kB     1,116,556 kB         
+[2026-02-11 10:09:36]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,112,144 kB     1,112,144 kB         
+[2026-02-11 10:09:38]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 89.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,087,668 kB     1,087,668 kB         
+[2026-02-11 10:09:41]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.5 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,058,404 kB     1,058,404 kB         
+[2026-02-11 10:09:42]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 85.1 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,058,588 kB     1,058,588 kB         
+[2026-02-11 10:09:45]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.3 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,058,636 kB     1,058,636 kB         
+[2026-02-11 10:09:47]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 77.7 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,059,168 kB     1,059,168 kB         
+[2026-02-11 10:09:48]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,059,172 kB     1,059,172 kB         
+[2026-02-11 10:09:50]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.5 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,048,460 kB     1,048,460 kB         
+[2026-02-11 10:09:51]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,048,464 kB     1,048,464 kB         
+[2026-02-11 10:09:53]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,048,524 kB     1,048,524 kB         
+[2026-02-11 10:09:54]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,048,576 kB     1,048,576 kB         
+[2026-02-11 10:09:56]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,048,584 kB     1,048,584 kB         
+[2026-02-11 10:09:59]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 96.1 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,077,044 kB     1,077,044 kB         
+[2026-02-11 10:10:00]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.3 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,077,316 kB     1,077,316 kB         
+[2026-02-11 10:10:02]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 48.1 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,087,952 kB     1,087,952 kB         
+[2026-02-11 10:10:03]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 81.4 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,090,700 kB     1,090,700 kB         
+[2026-02-11 10:10:05]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 88.8 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,091,452 kB     1,091,452 kB         
+[2026-02-11 10:10:06]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 144.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,111,796 kB     1,111,796 kB         
+[2026-02-11 10:10:09]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,113,704 kB     1,113,704 kB         
+[2026-02-11 10:10:11]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,108,268 kB     1,108,268 kB         
+[2026-02-11 10:10:13]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 141.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,108,088 kB     1,108,088 kB         
+[2026-02-11 10:10:14]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 136.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,109,944 kB     1,109,944 kB         
+[2026-02-11 10:10:16]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 127.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,111,092 kB     1,111,092 kB         
+[2026-02-11 10:10:18]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 130.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,112,252 kB     1,112,252 kB         
+[2026-02-11 10:10:19]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 131.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,112,872 kB     1,112,872 kB         
+[2026-02-11 10:10:21]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 123.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,113,316 kB     1,113,316 kB         
+[2026-02-11 10:10:23]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 89.6 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,085,712 kB     1,085,712 kB         
+[2026-02-11 10:10:27]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.8 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,056,228 kB     1,056,228 kB         
+[2026-02-11 10:10:29]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 89.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,057,220 kB     1,057,220 kB         
+[2026-02-11 10:10:31]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 82.1 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,054,172 kB     1,054,172 kB         
+[2026-02-11 10:10:32]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,054,672 kB     1,054,672 kB         
+[2026-02-11 10:10:34]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,054,960 kB     1,054,960 kB         
+[2026-02-11 10:10:35]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,054,964 kB     1,054,964 kB         
+[2026-02-11 10:10:37]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,054,968 kB     1,054,968 kB         
+[2026-02-11 10:10:38]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,020 kB     1,055,020 kB         
+[2026-02-11 10:10:39]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,028 kB     1,055,028 kB         
+[2026-02-11 10:10:41]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 68.9 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,089,992 kB     1,089,992 kB         
+[2026-02-11 10:10:43]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 185.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,107,140 kB     1,107,140 kB         
+[2026-02-11 10:10:44]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 162.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,106,052 kB     1,106,052 kB         
+[2026-02-11 10:10:48]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 153.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,108,596 kB     1,108,596 kB         
+[2026-02-11 10:10:49]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,108,060 kB     1,108,060 kB         
+[2026-02-11 10:10:51]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,107,824 kB     1,107,824 kB         
+[2026-02-11 10:10:52]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 167.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,109,048 kB     1,109,048 kB         
+[2026-02-11 10:10:54]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 171.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,111,176 kB     1,111,176 kB         
+[2026-02-11 10:10:56]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 165.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,112,552 kB     1,112,552 kB         
+[2026-02-11 10:10:59]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 175.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,110,196 kB     1,110,196 kB         
+[2026-02-11 10:11:00]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 171.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,111,448 kB     1,111,448 kB         
+[2026-02-11 10:11:02]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 168.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,110,544 kB     1,110,544 kB         
+[2026-02-11 10:11:07]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 171.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,089,896 kB     1,089,896 kB         
+[2026-02-11 10:11:09]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,088,296 kB     1,088,296 kB         
+[2026-02-11 10:11:10]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 171.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,088,304 kB     1,088,304 kB         
+[2026-02-11 10:11:14]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 160.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,089,384 kB     1,089,384 kB         
+[2026-02-11 10:11:15]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 175.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,088,788 kB     1,088,788 kB         
+[2026-02-11 10:11:17]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,152 kB     1,055,152 kB         
+[2026-02-11 10:11:20]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 178.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,058,036 kB     1,058,036 kB         
+[2026-02-11 10:11:22]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,059,420 kB     1,059,420 kB         
+[2026-02-11 10:11:23]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 158.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,060,676 kB     1,060,676 kB         
+[2026-02-11 10:11:25]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 158.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,061,884 kB     1,061,884 kB         
+[2026-02-11 10:11:27]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 155.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,060,092 kB     1,060,092 kB         
+[2026-02-11 10:11:28]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 158.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,055,308 kB     1,055,308 kB         
+[2026-02-11 10:11:30]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.8 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,038,348 kB     1,038,348 kB         
+[2026-02-11 10:11:31]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.8 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,000,760 kB     1,000,760 kB         
+[2026-02-11 10:11:35]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 75.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,000,872 kB     1,000,872 kB         
+[2026-02-11 10:11:41]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 107.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,001,192 kB     1,001,192 kB         
+[2026-02-11 10:11:44]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 96.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,001,428 kB     1,001,428 kB         
+[2026-02-11 10:11:45]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 107.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,009,320 kB     1,009,320 kB         
+[2026-02-11 10:11:47]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 96.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,009,324 kB     1,009,324 kB         
+[2026-02-11 10:11:48]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,009,336 kB     1,009,336 kB         
+[2026-02-11 10:11:50]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 85.1 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,038,232 kB     1,038,232 kB         
+[2026-02-11 10:11:52]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 144.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,063,468 kB     1,063,468 kB         
+[2026-02-11 10:11:53]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 165.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,063,812 kB     1,063,812 kB         
+[2026-02-11 10:11:55]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 162.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,065,448 kB     1,065,448 kB         
+[2026-02-11 10:11:56]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 167.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,059,032 kB     1,059,032 kB         
+[2026-02-11 10:11:58]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,060,352 kB     1,060,352 kB         
+[2026-02-11 10:12:00]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 164.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,061,648 kB     1,061,648 kB         
+[2026-02-11 10:12:01]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,062,868 kB     1,062,868 kB         
+[2026-02-11 10:12:03]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 157.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,065,736 kB     1,065,736 kB         
+[2026-02-11 10:12:05]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 167.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,063,196 kB     1,063,196 kB         
+[2026-02-11 10:12:06]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 158.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,062,996 kB     1,062,996 kB         
+[2026-02-11 10:12:08]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 171.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,063,720 kB     1,063,720 kB         
+[2026-02-11 10:12:11]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 171.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,065,108 kB     1,065,108 kB         
+[2026-02-11 10:12:13]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 123.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,043,424 kB     1,043,424 kB         
+[2026-02-11 10:12:14]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 162.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,045,752 kB     1,045,752 kB         
+[2026-02-11 10:12:16]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 158.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,052,468 kB     1,052,468 kB         
+[2026-02-11 10:12:18]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 167.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,054,060 kB     1,054,060 kB         
+[2026-02-11 10:12:19]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 162.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,053,572 kB     1,053,572 kB         
+[2026-02-11 10:12:23]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 82.1 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,003,336 kB     1,003,336 kB         
+[2026-02-11 10:12:24]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 89.2 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,003,456 kB     1,003,456 kB         
+[2026-02-11 10:12:26]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 92.8 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,004,100 kB     1,004,100 kB         
+[2026-02-11 10:12:27]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 78.5 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,003,940 kB     1,003,940 kB         
+[2026-02-11 10:12:29]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,003,948 kB     1,003,948 kB         
+[2026-02-11 10:12:30]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,004,044 kB     1,004,044 kB         
+[2026-02-11 10:12:32]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,004,048 kB     1,004,048 kB         
+[2026-02-11 10:12:33]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 100.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,004,100 kB     1,004,100 kB         
+[2026-02-11 10:12:35]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 103.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,004,104 kB     1,004,104 kB         
+[2026-02-11 10:12:36]
+[Package] kr.co.kyowon.videolesson.play (PID: 23211)
+[CPU]
+PID USER %CPU ARGS (omitted in GUI mode)
+23211 u0_qa 0 0 0 0 0 S 130.0 kr.co.kyowon.videolesson.play
+
+[Memory]
+     PssTotal         VmRSS   Threads
+TOTAL    1,021,044 kB     1,021,044 kB         
