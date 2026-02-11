@@ -1,10 +1,11 @@
 # =================================================
 # QA 자동화 스크립트 - 퍼펙트 문해 TC 공통 러너
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-06 - v1.0.6
+# 📅 Date: 2026-02-10 - v1.0.6
 #   - TARGET_LEVEL 최적화
 #   - 러너 명칭 변경: literacy_test → literacy_runner
 #   - 템플릿 선택 로직 개선: pick_best_template() 적용
+#   - 글로벌 변수 정리, Google Drive 관련 설정 변수 생성
 # =================================================
 #   - Airtest + Poco 기반 안드로이드 앱 자동화 스크립트
 #   - 공통 함수 및 플로우 관리
@@ -24,28 +25,36 @@ from pathlib import Path
 # 공통 모듈 로딩 및 환경 변수 설정
 SCRIPT_DIR = os.getenv("QA_SCRIPT") or Path(__file__).resolve().parent.parent
 OUT_ROOT   = os.path.join(SCRIPT_DIR, "result")
-os.makedirs(OUT_ROOT, exist_ok=True)   # 폴더 없으면 생성, 이미 있으면 무시
+os.makedirs(OUT_ROOT, exist_ok=True)
 TOOLKIT = os.getenv("QA_TOOLKIT") or os.path.join(SCRIPT_DIR, "qa_common")
 if TOOLKIT and TOOLKIT not in sys.path: sys.path.insert(0, TOOLKIT)
 from common import *
 
 # 프로젝트별 설정
-PACKAGE    = "com.kyowon.literacy.store"
-TARGET_LEVEL = "3단계"
-
+PACKAGE    = "com.kyowon.literacy.store"    # 앱 패키지명
 # ✅ 이전/별칭 패키지들(기존 하드코딩 selector 대응용)
 PACKAGE_ALIASES = [
     "com.kyowon.literacy",
     "com.kyowon.literacy.store",
 ]
+
+RUNNER = "literacy_runner"                  # 공통 러너명
+SUITE = "runner_tc"                         # 기본 TC 스위트명(각 TC별 별도 설정)
+TARGET_LEVEL = "3단계"                       # 목표 레벨
+
 MAX_REPEAT = 2  # 플로우 전체 반복 횟수
 MAX_COUNT = 3   # 플로우내 스크롤탐색 최대 반복 횟수
 RESTART_DELAY = 3.0
 UI_MODE = "native" # unity / native
 # 메일 받는이 변경 시 사용 (None = 환경변수 적용)
-MAIL_TO    = None
-MAIL_CC    = "edenkim0316@gmail.com"
-MAIL_BCC   = None
+MAIL_TO         = None
+MAIL_CC         = None
+MAIL_BCC        = None
+MAIL_MAX_ATTACH = 20
+# Google Drive 관련 설정
+GDRIVE_ENABLE = True
+GDRIVE_FOLDER_ID = "1l6y-Hbia0mkgN7wPfDwMVXNCHyCaOSKh"
+GDRIVE_SHARE_ANYONE = True
 
 WORKER_ID = None
 POOL_NAME = f"{PACKAGE}_accounts"  # 결과: _accounts/패키지명_accounts.json
@@ -426,8 +435,8 @@ def run_literacy_tc(
     flows,
     serial=None,
     *,
-    suite: str = "basic",
-    runner: str = "literacy_runner",
+    suite: str = SUITE,
+    runner: str = RUNNER,
     repeat: int = MAX_REPEAT,
     need_account: bool = True,
     need_restart_app: bool = True,
@@ -458,11 +467,15 @@ def run_literacy_tc(
         on_ready=app_ready,
         on_close=logout,
         airtest_script=__file__,
-
         # ✅ Run Standard v1.0
         suite=suite,
         runner=runner,
         use_run=True,
+        mail_max_attach=MAIL_MAX_ATTACH,
+        # Google Drive 관련 설정
+        gdrive_enable=GDRIVE_ENABLE,
+        gdrive_folder_id=GDRIVE_FOLDER_ID,
+        gdrive_share_anyone=GDRIVE_SHARE_ANYONE
     )
 
     # ✅ selector 패키지 자동 치환을 위한 alias 등록
