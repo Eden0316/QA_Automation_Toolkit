@@ -8,7 +8,7 @@
 #   - 탄탄 독해 훈련 플로우에 공통 기능함수 추가
 #   - 스위트 명칭 변경: basic_test → basic_tc_suite
 #   - 한 눈에 보는 문해 탐험 코스 개선: subflow 기능 적용
-#   - 공통 유틸 변수 생성
+#   - 공통 유틸 변수 생성, Flow 정의 추가
 # =================================================
 #   - 퍼펙트 문해 베이직 Test(BAT)용 자동화 스크립트
 #   - 목표 주차 및 E-Book 기능 사용 여부 설정
@@ -43,6 +43,23 @@ STOP_ON_FAIL = False              # 실패 시 중단 여부
 # =========== 앱별 변수 ===========
 TARGET_WEEK = "10주차"             # 목표 주차
 EBOOK_ENABLED = False              # E-Book 기능 사용 여부
+
+# ====== Flow 정의 (미실행 flow는 주석처리) ======
+# 형식: ("표시명", "함수명")
+FLOWS = [
+    # ("나의 보상", "flow_my_reward"),
+    # ("학습리포트", "flow_study_report"),
+    # ("교과서 어휘 게임", "flow_voca_game"),
+    # ("오늘의 어휘", "flow_today_voca"),
+    ("술술 읽기 훈련", "flow_main_first"),
+    # ("탄탄 독해 훈련", "flow_main_second"),
+    # ("오늘의 책", "flow_today_book"),
+    # ("문해 탐험 도서관", "flow_literacy_library"),
+    # ("문해 탐험 모아보기", "flow_all_contents"),
+    ("차곡차곡 어휘 상자", "flow_voca_box"),
+    # ("한 눈에 보는 문해 탐험 코스", "flow_literacy_course"),
+    ("메뉴", "flow_main_menu"),
+]
 
 # ========== 공통 함수 ==========
 # ----- def: 주차 찾기
@@ -1105,22 +1122,19 @@ def flow_main_menu():
         group_desc="메뉴",
     )
 
+# ======== flow 등록 ============
+def _build_flows(flows_decl):
+    flows = []
+    for title, fn_name in flows_decl:
+        fn = globals().get(fn_name)
+        if not callable(fn):
+            raise ValueError(f"Flow function not found/callable: {fn_name}")
+        flows.append((title, fn))
+    return flows
+
 # ========= 실행 함수 ============
 def run_basic_tc_suite(serial=None):
-    flows = [
-        # ("나의 보상", flow_my_reward),
-        # ("학습리포트", flow_study_report),
-        # ("교과서 어휘 게임", flow_voca_game),
-        # ("오늘의 어휘", flow_today_voca),
-        ("술술 읽기 훈련", flow_main_first),
-        # ("탄탄 독해 훈련", flow_main_second),
-        # ("오늘의 책", flow_today_book),
-        # ("문해 탐험 도서관", flow_literacy_library),
-        # ("문해 탐험 모아보기", flow_all_contents),
-        ("차곡차곡 어휘 상자", flow_voca_box),
-        # ("한 눈에 보는 문해 탐험 코스", flow_literacy_course),
-        ("메뉴", flow_main_menu),
-    ]
+    flows = _build_flows(FLOWS)
     run_literacy_tc(
         flows, serial=serial,
         suite=SUITE_NAME,
