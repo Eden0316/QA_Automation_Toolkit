@@ -1,7 +1,7 @@
 # =================================================
 # QA 자동화 스크립트 - 퍼펙트 문해 TC 공통 러너
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-10 - v1.0.6
+# 📅 Date: 2026-02-12 - v1.0.6
 #   - TARGET_LEVEL 최적화
 #   - 러너 명칭 변경: literacy_test → literacy_runner
 #   - 템플릿 선택 로직 개선: pick_best_template() 적용
@@ -222,7 +222,7 @@ def app_ready(timeout=15, interval=0.5):
                     "4단계": "level4.png",
                 }
 
-                label, score = pick_best_template(badge, templates=templates, accept_threshold=0.45, debug=True)
+                label, score = pick_best_template(badge, templates=templates, accept_threshold=0.45, debug=False)
                 if label:
                     TARGET_LEVEL = label
                     step(f"{label} 감지(score={score:.3f}) → TARGET_LEVEL 설정")
@@ -395,7 +395,8 @@ def handle_exceptions(debug=False):
                 act_click(poco("com.kyowon.literacy:id/recordButton")),
                 lambda: poco("com.kyowon.literacy:id/completeButton").wait_for_appearance(timeout=120.0),
                 act_click(poco("com.kyowon.literacy:id/completeButton")),
-                act_click(poco("com.kyowon.literacy:id/finishButton"))
+                act_click(poco("com.kyowon.literacy:id/finishButton")),
+                act_sleep(3.0)
             ),
         },
         {
