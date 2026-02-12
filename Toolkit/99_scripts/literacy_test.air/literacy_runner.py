@@ -52,8 +52,8 @@ MAIL_CC         = None
 MAIL_BCC        = None
 MAIL_MAX_ATTACH = 20
 # Google Drive 관련 설정
-GDRIVE_ENABLE = True
-GDRIVE_FOLDER_ID = "1l6y-Hbia0mkgN7wPfDwMVXNCHyCaOSKh"
+GDRIVE_ENABLE = False
+GDRIVE_FOLDER_ID = None
 GDRIVE_SHARE_ANYONE = True
 
 WORKER_ID = None
