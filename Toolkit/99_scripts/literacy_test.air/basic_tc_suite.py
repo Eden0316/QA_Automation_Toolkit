@@ -1,7 +1,7 @@
 # =================================================
 # QA 자동화 스크립트 - 퍼펙트 문해 베이직 TC
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-02-11 - v1.0.6
+# 📅 Date: 2026-02-12 - v1.0.6
 #   - 게임 가이드 체크 선택형으로 수정
 #   - 주차 찾기 함수 추가 배치
 #   - E-Book 기능 사용 여부 체크 변수 추가
@@ -9,6 +9,7 @@
 #   - 스위트 명칭 변경: basic_test → basic_tc_suite
 #   - 한 눈에 보는 문해 탐험 코스 개선: subflow 기능 적용
 #   - 공통 유틸 변수 생성, Flow 정의 추가
+#   - 메뉴 오픈 시 대기 시간 추가
 # =================================================
 #   - 퍼펙트 문해 베이직 Test(BAT)용 자동화 스크립트
 #   - 목표 주차 및 E-Book 기능 사용 여부 설정
@@ -41,8 +42,8 @@ NEED_ON_CLOSE = False             # 종료 시 처리 필요 여부
 STOP_ON_FAIL = False              # 실패 시 중단 여부
 
 # =========== 앱별 변수 ===========
-TARGET_WEEK = "10주차"             # 목표 주차
-EBOOK_ENABLED = False              # E-Book 기능 사용 여부
+TARGET_WEEK = "4주차"             # 목표 주차
+EBOOK_ENABLED = True              # E-Book 기능 사용 여부
 
 # ====== Flow 정의 (미실행 flow는 주석처리) ======
 # 형식: ("표시명", "함수명")
@@ -363,9 +364,11 @@ def flow_today_voca():
 # ========== 훈련 서브 함수 ==========
 # ----- def: 훈련 메뉴 오픈 
 def training_menu_open():
+    time.sleep(1.0)
     if poco("com.kyowon.literacy:id/btn_alert_positive").exists():
         must_click(poco("com.kyowon.literacy:id/btn_alert_positive"), "어휘놀이 알림 닫기")
         time.sleep(5.0)
+    poco("com.kyowon.literacy:id/btnOpen").wait_for_appearance()
     must_click(poco("com.kyowon.literacy:id/btnOpen"), "메뉴 오픈")
     time.sleep(1.0)
 
