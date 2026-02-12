@@ -10,7 +10,8 @@
 #   - 리포트 첨부 파일 지원: Airtest 리포트 zip 압축 후 Google Drive 업로드 및 메일 전송 기능 추가
 #   - 템플릿 매칭 함수 수정: 컬러값 배제 후 매칭하는 옵션 추가하여 범용성 개선
 #   - Google Drive 관련 설정 QAEnv로 이관
-#   - use_env 인자 없이도 가용하게끔 수정
+#   - use_env() 인자 없이도 가용하게끔 수정
+#   - tap_images() 중복처리 반경 수정
 # ==========================================================
 #   - Airtest + Poco 기반 안드로이드 앱 자동화 공통 함수
 #   - 리소스 모니터링, 메일 발송, 안전 클릭/입력, 스크롤 등
@@ -5676,7 +5677,7 @@ def tap_images(
 
     max_taps: int = 100,
     interval: float = 0.25,
-    dedup_radius_px: int = 18,
+    dedup_radius_px: int = 40,
     timeout_sec: float = 120.0,
     tap_method: str = "adb",   # ✅ 기본 adb 탭
     env=None,  # ✅ click_core 처럼 예외 처리기(env.handle_exceptions) 연동
