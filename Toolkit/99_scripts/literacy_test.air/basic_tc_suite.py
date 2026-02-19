@@ -364,7 +364,7 @@ def flow_today_voca():
 # ========== 훈련 서브 함수 ==========
 # ----- def: 훈련 메뉴 오픈 
 def training_menu_open():
-    time.sleep(1.5)
+    time.sleep(2.5)
     if poco("com.kyowon.literacy:id/btn_alert_positive").exists():
         must_click(poco("com.kyowon.literacy:id/btn_alert_positive"), "어휘놀이 알림 닫기")
         time.sleep(5.0)
