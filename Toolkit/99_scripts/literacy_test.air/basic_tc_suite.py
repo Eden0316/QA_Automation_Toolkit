@@ -42,7 +42,7 @@ NEED_ON_CLOSE = False             # 종료 시 처리 필요 여부
 STOP_ON_FAIL = False              # 실패 시 중단 여부
 
 # =========== 앱별 변수 ===========
-TARGET_WEEK = "4주차"             # 목표 주차
+TARGET_WEEK = "6주차"             # 목표 주차
 EBOOK_ENABLED = True              # E-Book 기능 사용 여부
 
 # ====== Flow 정의 (미실행 flow는 주석처리) ======
@@ -364,11 +364,10 @@ def flow_today_voca():
 # ========== 훈련 서브 함수 ==========
 # ----- def: 훈련 메뉴 오픈 
 def training_menu_open():
-    time.sleep(1.0)
+    time.sleep(1.5)
     if poco("com.kyowon.literacy:id/btn_alert_positive").exists():
         must_click(poco("com.kyowon.literacy:id/btn_alert_positive"), "어휘놀이 알림 닫기")
         time.sleep(5.0)
-    poco("com.kyowon.literacy:id/btnOpen").wait_for_appearance()
     must_click(poco("com.kyowon.literacy:id/btnOpen"), "메뉴 오픈")
     time.sleep(1.0)
 
