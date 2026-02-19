@@ -8,3 +8,5 @@ _run_color_tmp.cmd
 /00_install/setup_logs
 _run_color_tmp.cmd
 /result/*
+/qa_common/_accounts
+/qa_common/_secrets
