@@ -45,6 +45,8 @@ Toolkit/
 │  ├─ common.py                   # Airtest / Poco 공통 유틸
 │  └─ _accounts/
 │     └─ *_accounts.json          # 앱별 계정 풀
+│  └─ _secrets/
+│     └─ gdrive_credentials.json  # Google Drive OAuth 클라이언트 ID
 │
 ├─ 99_scripts/                    # 앱별 자동화 스크립트
 │  ├─ literacy_test.air/
