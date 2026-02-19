@@ -45,6 +45,8 @@ Toolkit/
 │  ├─ common.py                   # Airtest / Poco 공통 유틸
 │  └─ _accounts/
 │     └─ *_accounts.json          # 앱별 계정 풀
+│  └─ _secrets/
+│     └─ gdrive_credentials.json  # Google Drive OAuth 클라이언트 ID
 │
 ├─ 99_scripts/                    # 앱별 자동화 스크립트
 │  ├─ literacy_test.air/
@@ -109,6 +111,7 @@ Toolkit/
 2. **Python 3.11.9 설치**  
    - 다운로드: https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
    - 설치 시 파이썬 환경 변수 등록(Add Python to environment variables) 옵션 체크(필수)
+   - 설치 경로에 띄어쓰기 불가(Program Files 내부 설치 하지 말것)
    - 기존 Python을 교체하지 않고 **개별 폴더에 설치**한 뒤, 이후 설정 단계에서 경로 지정 가능
 
 3. **Airtest 설치 (선택)**  
