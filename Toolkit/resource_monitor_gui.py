@@ -1,16 +1,6 @@
 # =============================================================
 # 🖥️ GUI Resource Monitor (Crash-aware, Tkinter + Matplotlib)
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-08-12 - v1.0.8
-#   - 콘솔로만 나가던 print() 출력을 GUI 로그창 + result\gui_console.log 로 회수
-#     (pythonw 실행 시 sys.stdout이 None이라 그냥 사라지던 문제)
-#   - 리포트 생성: 자식 프로세스 출력을 받아 로그창에 남기고, 산출물 존재까지 확인해
-#     성공/실패를 구분(기존에는 실패해도 "요청 완료"로 표시됨)
-#   - 자식 스크립트(event_tap/generate_report)를 console_python()으로 실행
-#     → pythonw로 띄우면 손자 adb가 새 콘솔 창을 만들던 문제 해결
-# 📅 Date: 2026-08-11 - v1.0.7
-#   - 고해상도 화면 흐림 해결: DPI 인식 선언 + Tk scaling/창크기/그래프 dpi 연동
-#   - adb 호출마다 깜빡이던 cmd 창 제거
 # 📅 Date: 2026-02-06 - v1.0.6
 #   - 앱 재실행 시 PID 갱신하여 Logcat 재실행
 #
@@ -33,73 +23,6 @@
 import os, sys, io, re, time, queue, threading, subprocess, math, ctypes, pathlib, csv, json, traceback, datetime as dt
 import zlib
 from dataclasses import dataclass
-
-# ---- 화면/프로세스 보정 (무거운 import 전에 먼저 처리해야 콘솔 깜빡임이 짧다) ----
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from qa_gui_util import (enable_dpi_awareness, apply_tk_scaling, scale_geometry,
-                         silence_console_windows, relaunch_without_console, console_python)
-
-relaunch_without_console()   # exe 런처가 py.exe로 실행해 딸려온 콘솔 창 제거
-# ⚠ Tk 창이 만들어지기 전에 확정되어야 한다.
-# adb를 초당 여러 번 호출하는 구조라, 콘솔 억제를 안 하면 검은 창이 계속 깜빡인다.
-UI_SCALE = enable_dpi_awareness()
-silence_console_windows()
-
-# ---- 콘솔 출력 회수 ----------------------------------------------------
-# 콘솔 창을 없앤 대신, print()로만 남던 메시지([slice] 저장 결과, [ktail]/[slice] 오류 등)를
-# GUI 로그창과 파일로 돌린다. 이 print들은 모듈 레벨 함수에 있어 GUI 객체에 접근할 수 없고,
-# pythonw로 실행되면 sys.stdout이 None이라 그냥 사라져 버린다 — 그래서 스트림을 갈아끼운다.
-_CONSOLE_LINES = queue.Queue()
-
-
-class _ConsoleTee(io.TextIOBase):
-    """stdout/stderr를 원래 스트림 + 파일 + GUI 로그큐로 복제한다."""
-
-    def __init__(self, orig, fh):
-        self._orig = orig
-        self._fh = fh
-        self._buf = ""
-
-    def write(self, s):
-        if not isinstance(s, str):
-            s = str(s)
-        for sink in (self._orig, self._fh):
-            if sink is not None:
-                try:
-                    sink.write(s)
-                    sink.flush()
-                except Exception:
-                    pass
-        self._buf += s
-        while "\n" in self._buf:
-            line, self._buf = self._buf.split("\n", 1)
-            if line.strip():
-                _CONSOLE_LINES.put(line.rstrip())
-        return len(s)
-
-    def flush(self):
-        for sink in (self._orig, self._fh):
-            if sink is not None:
-                try:
-                    sink.flush()
-                except Exception:
-                    pass
-
-
-def _install_console_tee():
-    """print()/stderr 출력을 GUI 로그창 큐와 gui_console.log로 함께 보낸다."""
-    fh = None
-    try:
-        out_dir = os.environ.get("RESULT_DIR") or os.path.join(os.getcwd(), "result")
-        os.makedirs(out_dir, exist_ok=True)
-        fh = open(os.path.join(out_dir, "gui_console.log"), "a", encoding="utf-8")
-        fh.write(f"\n===== {dt.datetime.now():%Y-%m-%d %H:%M:%S} 시작 =====\n")
-        fh.flush()
-    except Exception:
-        fh = None
-    sys.stdout = _ConsoleTee(sys.stdout, fh)
-    sys.stderr = _ConsoleTee(sys.stderr, fh)
-
 
 # ---- GUI/Plot ----
 import tkinter as tk
@@ -1153,8 +1076,7 @@ class EventTapProc:
             env["ADB_SERIAL"] = self.serial  # event_tap 내부 ADB 호출에 적용
             env["ANDROID_SERIAL"] = self.serial   # 👈 추가
         self.proc = subprocess.Popen(
-            # pythonw로 띄우면 손자 adb가 콘솔 창을 만든다 → console_python() 필수
-            [console_python(), path, "-p", self.pkg, "-o", self.out_dir],
+            [sys.executable, path, "-p", self.pkg, "-o", self.out_dir],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
@@ -1246,8 +1168,7 @@ class App(tk.Tk):
         self.initial_pid = None
         self._busy_count = 0
         self.title("QA Resource Monitor (GUI)")
-        apply_tk_scaling(self, UI_SCALE)
-        self.geometry(scale_geometry("1080x700", UI_SCALE))
+        self.geometry("1080x700")
         self.protocol("WM_DELETE_WINDOW", self.on_close)
         self._crash_flagged = False
 
@@ -1345,9 +1266,6 @@ class App(tk.Tk):
         # ---- flag watch: save.flag / report.flag 자동 감지 ----
         self._flag_last = {"save": 0.0, "report": 0.0}
         self._flag_timer_id = self.after(1000, self._check_flags)
-
-        # ---- 콘솔로만 나가던 print() 출력을 로그창으로 흘려보내기 ----
-        self.after(500, self._drain_console)
 
     # App 클래스 메서드로 추가 (기존 self._adb_log 옆)
     def _adb_log_prio(self, tag: str, msg: str, prio: str = "i"):
@@ -1541,9 +1459,7 @@ class App(tk.Tk):
         parent = parent or self
         frm = ttk.Frame(parent)
         frm.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-        # dpi는 배율을 곱하지 않는다 — matplotlib TkAgg 백엔드가 tk scaling을 읽어
-        # device_pixel_ratio로 이미 보정한다(_backend_tk.py). 여기서 또 곱하면 2배로 커진다.
-        self.fig = Figure(figsize=(8, 4), dpi=80)
+        self.fig = Figure(figsize=(8,4), dpi=80)
         self.ax1 = self.fig.add_subplot(111)
         self.ax2 = self.ax1.twinx()
         self.ax1.grid(True, alpha=0.25)
@@ -1649,22 +1565,6 @@ class App(tk.Tk):
         self.var_status.set(msg)
         # 상태 메시지도 로그창에 남김
         self.log(msg)
-
-    def _drain_console(self):
-        """콘솔로만 나가던 print() 출력을 로그창으로 옮겨 적는다.
-
-        logview가 아직 없으면 넘긴다 — log()의 폴백이 다시 print()를 호출해
-        큐로 되돌아오는 무한 루프를 막기 위함.
-        """
-        if getattr(self, "logview", None) is not None:
-            try:
-                while True:
-                    self.log(_CONSOLE_LINES.get_nowait())
-            except queue.Empty:
-                pass
-            except Exception:
-                pass
-        self.after(500, self._drain_console)
     
     def _selected_serial(self):
         """
@@ -1996,26 +1896,8 @@ class App(tk.Tk):
             pass
 
         try:
-            # 별도 프로세스라 stdout이 GUI로 자동 전달되지 않는다(콘솔도 없다) — 직접 받아 로그창에 남긴다.
-            # 특히 "[QAGrad] Dynamic thresholds ..."는 PASS/FAIL 판정 기준이라 남겨둘 가치가 있다.
-            r = subprocess.run(
-                [console_python(), gen, "-i", target_log_path, "-o", prefix],
-                check=False, capture_output=True,
-                text=True, encoding="utf-8", errors="replace",
-            )
-            out = ((r.stdout or "") + (r.stderr or "")).strip()
-            for line in out.splitlines():
-                if line.strip():
-                    self.log(f"[report] {line.rstrip()}")
-
-            # ⚠ generate_report는 "[Err] 파싱된 데이터가 없습니다" 같은 경우에도 그냥 return해서
-            # 종료 코드가 0이다. 코드만 믿지 말고 산출물이 실제로 생겼는지까지 확인한다.
-            if r.returncode != 0:
-                self.log_status(f"리포트 생성 실패 (종료 코드 {r.returncode}) — 로그창 확인")
-            elif "[Err]" in out or not os.path.exists(prefix):
-                self.log_status("리포트 생성 실패 — 산출물 없음, 로그창 확인")
-            else:
-                self.log_status(f"리포트 생성 완료: {os.path.basename(prefix)}")
+            subprocess.run([sys.executable, gen, "-i", target_log_path, "-o", prefix], check=False)
+            self.log_status("리포트 생성 요청 완료")
         except Exception as e:
             messagebox.showerror("리포트", str(e))
 
@@ -2248,9 +2130,6 @@ if __name__ == "__main__":
     # 4) os.environ에 ANDROID_SERIAL을 먼저 주입 → 하위 adb가 기본으로 이 시리얼 사용
     if ser:
         os.environ["ANDROID_SERIAL"] = ser  # 중요!
-
-    # 4-1) 콘솔 창이 없으므로 print() 출력을 로그창·파일로 돌린다 (RESULT_DIR 확정 후에 설치)
-    _install_console_tee()
 
     # 5) UI(app) 생성
     app = App()

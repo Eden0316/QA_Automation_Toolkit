@@ -1,10 +1,7 @@
 # ==========================================================
 # 🖥️ Tool: Logcat logfile GUI Color Viewer
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-08-11
-#   - 고해상도 화면 흐림 해결: DPI 인식 선언 + Tk scaling/창크기 연동
-#   - HTML 변환 호출 시 뜨던 cmd 창 제거
-# 📅 Date: 2026-01-07
+# 📅 Date: 2026-01-07 
 #   - run.log 전용 토큰 하이라이트 추가, 폰트 변경
 # ==========================================================
 # • 포맷: logcat -v epoch / threadtime(std) / 기타 텍스트
@@ -18,15 +15,6 @@ import tkinter.font as tkfont
 from datetime import datetime
 import zlib  # 태그 색상 해시용
 import subprocess  # ⬅ HTML 변환 스크립트 호출용
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from qa_gui_util import (enable_dpi_awareness, apply_tk_scaling, scale_geometry,
-                         silence_console_windows, relaunch_without_console, console_python)
-
-# ⚠ Tk 창(파일 선택 다이얼로그의 숨은 root 포함)이 만들어지기 전에 확정되어야 한다
-relaunch_without_console()   # exe 런처가 py.exe로 실행해 딸려온 콘솔 창 제거(먼저 처리)
-UI_SCALE = enable_dpi_awareness()
-silence_console_windows()
 
 # ── Color Palette ────────────────────────────────────────
 C = {
@@ -143,8 +131,7 @@ class LogViewer(tk.Tk):
         self.path = os.path.abspath(path)  # ⬅ 원본 로그 파일 경로 보관
         self.is_runlog = (os.path.basename(self.path).lower() == "run.log")
         self.title(f"Log Viewer - {os.path.basename(path)}")
-        apply_tk_scaling(self, UI_SCALE)
-        self.geometry(scale_geometry("1180x760", UI_SCALE))
+        self.geometry("1180x760")
 
         # UI 상단
         bar = ttk.Frame(self); bar.pack(side=tk.TOP, fill=tk.X)
@@ -432,7 +419,7 @@ class LogViewer(tk.Tk):
             return  # 사용자가 취소
 
         # 4) logfile_to_html 그대로 호출 (브라우저 오픈까지 맡김)
-        pyexe = console_python()   # pythonw로 띄우면 손자 프로세스가 콘솔 창을 만든다
+        pyexe = sys.executable or "python"
         try:
             subprocess.run(
                 [pyexe, "-u", conv, in_path, "-o", out_path],

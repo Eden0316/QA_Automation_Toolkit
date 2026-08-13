@@ -1,10 +1,6 @@
 # ==========================================================
 # 🛠️ Tool: QA Control Center - Multi-device QA execution, monitoring, and tooling hub
 # 👤 Author: Eden Kim
-# 📅 Date: 2026-08-11 - v1.0.6
-#   - 고해상도 화면 흐림 해결: DPI 인식 선언 + Tk scaling/창크기 연동
-#   - 불필요한 cmd 창 제거: adb 조회 시 깜빡임, scrcpy·리소스모니터·로그뷰어 실행 시 빈 콘솔
-#     (테스트 스크립트 실행 콘솔은 출력을 봐야 하므로 그대로 유지)
 # 📅 Date: 2026-01-08 - v1.0.5
 #   - python 하드코딩 QA_PYTHON 변수로 대체
 # ============================================================
@@ -27,16 +23,6 @@ import os, sys, subprocess, shutil, shlex
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from qa_gui_util import (enable_dpi_awareness, apply_tk_scaling, scale_geometry,
-                         silence_console_windows, relaunch_without_console, console_python,
-                         CREATE_NO_WINDOW)
-
-# ⚠ Tk 창이 만들어지기 전에 확정되어야 하므로 import 시점에 처리한다
-relaunch_without_console()   # exe 런처가 py.exe로 실행해 딸려온 콘솔 창 제거(먼저 처리)
-UI_SCALE = enable_dpi_awareness()
-silence_console_windows()
-
 CREATE_NEW_CONSOLE = getattr(subprocess, "CREATE_NEW_CONSOLE", 0)
 
 
@@ -55,15 +41,12 @@ def get_python_exe() -> str:
       2) sys.executable
       3) PATH의 python (최후 fallback)
     """
-    # ⚠ console_python()으로 감싼다 — 이 값은 테스트 스크립트 실행(콘솔에 컬러 출력)에도 쓰이고,
-    # 자식이 부르는 adb가 새 콘솔 창을 만들지 않게 하려면 콘솔 서브시스템 python.exe여야 한다.
-    # (relaunch_without_console() 이후 sys.executable은 pythonw.exe다)
     qa = (os.environ.get("QA_PYTHON") or "").strip().strip('"')
     if qa and os.path.exists(qa):
-        return console_python(qa)
+        return qa
 
     if sys.executable and os.path.exists(sys.executable):
-        return console_python(sys.executable)
+        return sys.executable
 
     return shutil.which("python") or "python"
 
@@ -273,8 +256,7 @@ class ColorRunnerGUI(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("QA Control Center - Tooling Hub")
-        apply_tk_scaling(self, UI_SCALE)
-        self.geometry(scale_geometry("740x320", UI_SCALE))
+        self.geometry("740x320")
 
         self.base_dir = get_base_dir()
         self.color_pipe_path = find_color_pipe(self.base_dir)
@@ -466,8 +448,7 @@ class ColorRunnerGUI(tk.Tk):
             return
 
         try:
-            # scrcpy는 자체 창을 띄우는 GUI라 콘솔이 필요 없다
-            subprocess.Popen([scrcpy, "-s", ser], creationflags=CREATE_NO_WINDOW)
+            subprocess.Popen([scrcpy, "-s", ser], creationflags=CREATE_NEW_CONSOLE)
         except Exception as e:
             messagebox.showerror("실행 오류", f"scrcpy 실행 실패: {e}")
             return
@@ -510,7 +491,7 @@ class ColorRunnerGUI(tk.Tk):
                 ],
                 cwd=self.base_dir,
                 env=env,
-                creationflags=CREATE_NO_WINDOW,   # 리소스 모니터는 GUI라 콘솔 불필요
+                creationflags=CREATE_NEW_CONSOLE,
             )
         except Exception as e:
             messagebox.showerror("실행 오류", f"리소스 모니터 실행 실패:\n{e}")
@@ -538,7 +519,7 @@ class ColorRunnerGUI(tk.Tk):
                 [get_python_exe(), viewer],
                 cwd=viewer_dir,
                 env=os.environ.copy(),
-                creationflags=CREATE_NO_WINDOW,   # 로그파일 뷰어는 GUI라 콘솔 불필요
+                creationflags=CREATE_NEW_CONSOLE,
             )
         except Exception as e:
             messagebox.showerror("실행 오류", f"로그파일 뷰어 실행 실패:\n{e}")

@@ -43,7 +43,7 @@ STOP_ON_FAIL = False              # 실패 시 중단 여부
 
 # =========== 앱별 변수 ===========
 TARGET_WEEK = "6주차"             # 목표 주차
-EBOOK_ENABLED = True              # E-Book 기능 사용 여부
+EBOOK_ENABLED = False              # E-Book 기능 사용 여부
 
 # ====== Flow 정의 (미실행 flow는 주석처리) ======
 # 형식: ("표시명", "함수명")
