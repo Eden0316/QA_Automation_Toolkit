@@ -1,6 +1,10 @@
 # ==========================================================
 # 🧪 Tool: QA Resource Report Generator
 # 👤 Author: Eden Kim
+# 📅 Date: 2026-08-12 - v1.0.7
+#   - x축 범위 확정 후 눈금 설정하도록 순서 교정 (MAXTICKS 경고 3회 → 0회, 결과물 변화 없음)
+#   - 눈금 회전을 tick_params로 이동(눈금 재계산에도 유지되는 축 단위 설정)
+#   - fontTools의 MERG 서브셋 안내 로그 억제(결과물 영향 없음)
 # 📅 Date: 2026-02-09 - v1.0.6
 #   - 리포트 생성 후 자동 오픈되지 않도록 수정
 # ==========================================================
@@ -13,8 +17,14 @@
 # • 주의: 입력 포맷(top 9번째=%CPU / "TOTAL <PSSKB>") 불일치 시 파싱 실패
 # ==========================================================
 # -*- coding: utf-8 -*-
-import os, re, math, json, csv, argparse, subprocess, platform
+import os, re, math, json, csv, argparse, subprocess, platform, logging
 os.environ.setdefault("MPLBACKEND", "Agg")  # ① 환경변수 경로보다 우선 적용
+
+# PDF에 한글 폰트(Malgun Gothic)를 심을 때 fontTools가 매번 남기는 안내:
+#   "MERG NOT subset; don't know how to subset; dropped"
+# MERG는 글리프 렌더링과 무관한 테이블이라 빠져도 결과물은 동일하다.
+# 리포트 로그만 어지럽히므로 ERROR 이상만 남긴다(진짜 폰트 오류는 그대로 보인다).
+logging.getLogger("fontTools").setLevel(logging.ERROR)
 import csv, datetime as dt, os
 import tkinter as tk
 from tkinter import filedialog, messagebox
@@ -184,8 +194,12 @@ def _set_time_ticks(ax, timestamps):
 
     ax.xaxis.set_major_locator(locator)
     ax.xaxis.set_major_formatter(fmt)
+
+    # 회전은 축 단위 설정(tick_params)으로 준다 — 눈금이 다시 계산돼도 유지되는 방식이다.
+    # (라벨 객체에 직접 주는 기존 방식도 이 그래프에서는 동작했지만, 눈금 개수가 바뀌는
+    #  상황까지 안전하게 가져가려면 이쪽이 맞다)
+    ax.tick_params(axis="x", labelrotation=20)
     for lbl in ax.get_xticklabels():
-        lbl.set_rotation(20)
         lbl.set_ha("right")
 
 
@@ -577,8 +591,13 @@ def generate_report(file_path, timestamps, cpu_values, mem_pss, output_path):
         # --- 1) 시계열 그래프 ---
         fig, ax1 = plt.subplots(figsize=(12, 5))
         ax1.grid(True, alpha=0.25)
-        _set_time_ticks(ax1, timestamps)
+        # ⚠ 순서 주의: x축 범위를 먼저 확정한 뒤에 눈금을 설정한다.
+        # 반대로 하면 아직 데이터가 없는 축(기본 범위 0~1 = 1970-01-01~02, 하루)에 대해
+        # _set_time_ticks 안의 get_xticklabels()가 30초 간격 눈금을 계산하면서
+        # 2881개를 만들려다 MAXTICKS 경고를 리포트당 3번 남긴다.
+        # (최종 그림은 정상이었고 눈금 계산이 헛도는 것뿐이지만, 로그가 지저분해진다)
         ax1.set_xlim(timestamps[0], timestamps[-1])
+        _set_time_ticks(ax1, timestamps)
 
         # CPU (좌축)
         ax1.set_xlabel("Timestamp")

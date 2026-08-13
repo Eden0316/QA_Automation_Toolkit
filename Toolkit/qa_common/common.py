@@ -2986,7 +2986,9 @@ def start_resource_monitor(env: Optional['QAEnv'] = None):
     # (선택) ENV로도 내려주면, GUI가 ENV를 읽는 구조여도 호환됨
     env_map["RESULT_DIR"] = env.out_dir
 
-    creation = getattr(subprocess, "CREATE_NEW_CONSOLE", 0)
+    # 리소스 모니터는 자체 GUI 창과 로그 뷰를 가지므로 별도 콘솔이 필요 없다
+    # (콘솔을 다시 보려면 CREATE_NEW_CONSOLE로 되돌리면 된다)
+    creation = 0x08000000  # CREATE_NO_WINDOW
     env._rm_proc = subprocess.Popen(
         args,
         creationflags=creation,

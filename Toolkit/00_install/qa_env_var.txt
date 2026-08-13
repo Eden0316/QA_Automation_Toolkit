@@ -1,0 +1,6 @@
+setx QA_TOOLKIT "C:\00_QA\Toolkit\qa_common"
+setx QA_SCRIPT "C:\00_QA\Toolkit"
+setx QA_MAIL_SMTP "smtp.gmail.com:465"
+setx QA_PYTHON_PATH_FIX "0"
+setx QA_PYTHON_PATH_MODE "KEEP"
+setx QA_PYTHON_EXCLUDE_WINDOWSAPPS "1"
