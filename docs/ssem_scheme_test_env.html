@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>쌤157 Scheme 환경별 테스트</title>
+<style>
+*{box-sizing:border-box} body{margin:0;background:#f6f7f9;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif}
+main{max-width:960px;margin:auto;padding:32px 16px 56px} h1{margin:0 0 10px;font-size:34px} .intro{color:#667085;line-height:1.7;margin-bottom:24px}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 28px} .legend span{background:white;border:1px solid #d9dee7;border-radius:999px;padding:6px 10px;font-size:13px}
+section{margin-top:32px} h2{font-size:22px} .grid{display:grid;gap:14px} .card{background:#fff;border:1px solid #d9dee7;border-radius:14px;padding:18px;box-shadow:0 4px 14px rgba(15,23,42,.05)}
+.head{display:flex;gap:10px;align-items:flex-start} .id{background:#eef2f6;border-radius:999px;padding:4px 8px;font-size:12px;font-weight:700;white-space:nowrap} h3{font-size:18px;margin:0}
+.env{display:grid;grid-template-columns:100px minmax(0,280px);gap:10px;align-items:center;margin:14px 0} select{min-height:42px;border:1px solid #cbd5e1;border-radius:9px;padding:8px 10px;background:#fff}
+.label{font-size:13px;font-weight:700;color:#64748b;margin-bottom:6px} code{display:block;background:#f1f5f9;border-radius:9px;padding:12px;overflow-wrap:anywhere;line-height:1.5}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px} .run,.copy{min-height:42px;border-radius:9px;padding:10px 16px;font-weight:700;font-size:14px;cursor:pointer}
+.run{background:#111827;color:#fff;text-decoration:none;border:1px solid #111827;display:inline-flex;align-items:center} .copy{background:#fff;color:#334155;border:1px solid #cbd5e1}
+.toast{display:none;position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#111827;color:#fff;padding:10px 14px;border-radius:9px;font-size:14px}
+@media(max-width:560px){h1{font-size:28px} .env{grid-template-columns:1fr} .actions{display:grid} .run,.copy{width:100%;justify-content:center}}
+</style>
+</head>
+<body>
+<main>
+<h1>쌤157 Scheme 환경별 테스트</h1>
+<p class="intro">각 케이스에서 실행 환경을 선택하세요. 선택한 환경에 따라 <b>scheme prefix만 변경</b>되며, 나머지 경로와 파라미터는 기존 테스트 URL과 동일합니다.<br><b>ℹ️ Android는 운영으로만</b> 실행하세요. 이 후 실행할 서버별 앱을 선택하시면 됩니다.</p>
+<div class="legend"><span>개발 ssemdev://</span><span>스테이징 ssemstag://</span><span>운영 ssem://</span></div>
+<section><h2>정상 케이스</h2><div class='grid'>
+<article class="card" data-base-url="ssem://run">
+  <div class="head"><span class="id">N-01</span><h3>앱 실행</h3></div>
+  <p><b>기대 동작:</b> 앱 실행</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run</code>
+  <div class="actions">
+    <a class="run" href="ssem://run">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article>
+<article class="card" data-base-url="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">
+  <div class="head"><span class="id">N-02</span><h3>인증서 연동화면 이동</h3></div>
+  <p><b>기대 동작:</b> 인증서 연동 화면으로 이동</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article>
+<article class="card" data-base-url="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.m_cpn_101_01&amp;ELE_TARGET=%2Fcomp%2Fcpn%2Fm_cpn_101.html">
+  <div class="head"><span class="id">N-03</span><h3>쿠폰함 페이지 이동</h3></div>
+  <p><b>기대 동작:</b> 쿠폰함 페이지로 이동</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.m_cpn_101_01&amp;ELE_TARGET=%2Fcomp%2Fcpn%2Fm_cpn_101.html</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.m_cpn_101_01&amp;ELE_TARGET=%2Fcomp%2Fcpn%2Fm_cpn_101.html">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article></div></section><section><h2>오류 케이스</h2><div class='grid'>
+<article class="card" data-base-url="ssem://run?scheme=openModal">
+  <div class="head"><span class="id">E-01</span><h3>실행액션은 정상이나, 파라미터가 누락</h3></div>
+  <p><b>기대 동작:</b> 동작 없음, 그냥 앱 실행</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=openModal</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=openModal">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article>
+<article class="card" data-base-url="ssem://run?scheme=&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">
+  <div class="head"><span class="id">E-02</span><h3>파라미터는 정상이나, 실행액션이 누락</h3></div>
+  <p><b>기대 동작:</b> 동작 없음, 그냥 앱 실행</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article>
+<article class="card" data-base-url="ssem://run?scheme=nothing&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">
+  <div class="head"><span class="id">E-03</span><h3>파라미터는 정상이나, 없는 실행액션을 요청한 경우</h3></div>
+  <p><b>기대 동작:</b> 동작 없음, 그냥 앱 실행</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=nothing&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=nothing&amp;ELE_NM=element%3A%2F%2F.is-cert-list-check&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article>
+<article class="card" data-base-url="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.nothing&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">
+  <div class="head"><span class="id">E-04</span><h3>실행액션은 정상이나, 매핑에 없는 파라미터를 요청</h3></div>
+  <p><b>기대 동작:</b> 알 수 없는 페이지 모달 표시</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.nothing&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.nothing&amp;ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article>
+<article class="card" data-base-url="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.cd80_t001&amp;ELE_TARGET=%2Fcomp%2Fmsg%2Fmsg_101_80.html">
+  <div class="head"><span class="id">E-05</span><h3>실행액션 정상 및 매핑 파라미터이나, 매핑 페이지 미존재</h3></div>
+  <p><b>기대 동작:</b> 404 페이지 표시</p>
+  <div class="env">
+    <label>실행 환경</label>
+    <select class="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+  <div class="label">실행 URL</div>
+  <code class="resolved">ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.cd80_t001&amp;ELE_TARGET=%2Fcomp%2Fmsg%2Fmsg_101_80.html</code>
+  <div class="actions">
+    <a class="run" href="ssem://run?scheme=openModal&amp;ELE_NM=element%3A%2F%2F.cd80_t001&amp;ELE_TARGET=%2Fcomp%2Fmsg%2Fmsg_101_80.html">선택 환경으로 실행</a>
+    <button type="button" class="copy">URL 복사</button>
+  </div>
+</article></div></section>
+</main>
+<div class="toast" id="toast">복사했습니다.</div>
+<script>
+const toast=document.getElementById('toast'); let timer;
+function showToast(){toast.style.display='block'; clearTimeout(timer); timer=setTimeout(()=>toast.style.display='none',1600);}
+function replaceScheme(base,scheme){return base.replace(/^ssem:\/\//,scheme+'://');}
+document.querySelectorAll('.card').forEach(card=>{
+ const base=card.dataset.baseUrl, sel=card.querySelector('.env-select'), resolved=card.querySelector('.resolved'), run=card.querySelector('.run'), copy=card.querySelector('.copy');
+ function sync(){const u=replaceScheme(base,sel.value); resolved.textContent=u; run.href=u; return u;}
+ sel.addEventListener('change',sync); sync();
+ copy.addEventListener('click',async()=>{const u=sync(); try{await navigator.clipboard.writeText(u)}catch(e){const t=document.createElement('textarea');t.value=u;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()} showToast();});
+});
+</script>
+</body>
+</html>
