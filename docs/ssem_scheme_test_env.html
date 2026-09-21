@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>쌤157 Scheme 환경별 테스트</title>
+<style>
+*{box-sizing:border-box} body{margin:0;background:#f6f7f9;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif}
+main{max-width:960px;margin:auto;padding:32px 16px 56px} h1{margin:0 0 10px;font-size:34px} .intro{color:#667085;line-height:1.7;margin-bottom:24px}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 28px} .legend span{background:white;border:1px solid #d9dee7;border-radius:999px;padding:6px 10px;font-size:13px}
+.card{background:#fff;border:1px solid #d9dee7;border-radius:14px;padding:18px;box-shadow:0 4px 14px rgba(15,23,42,.05)}
+.field{margin:0 0 16px} .label{font-size:13px;font-weight:700;color:#64748b;margin-bottom:6px}
+select,input[type=text]{width:100%;min-height:42px;border:1px solid #cbd5e1;border-radius:9px;padding:8px 10px;background:#fff;font-size:14px;color:#1f2937}
+input[type=text]{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.expect{background:#eef2f6;border-radius:9px;padding:10px 12px;font-size:14px;line-height:1.6}
+.expect b{color:#334155} .expect .id{font-weight:700;margin-right:6px}
+code{display:block;background:#f1f5f9;border-radius:9px;padding:12px;overflow-wrap:anywhere;line-height:1.5;font-size:13px}
+.note{margin-top:8px;font-size:13px;line-height:1.6;color:#b45309;display:none} .note.show{display:block}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px} .run,.copy{min-height:42px;border-radius:9px;padding:10px 16px;font-weight:700;font-size:14px;cursor:pointer}
+.run{background:#111827;color:#fff;text-decoration:none;border:1px solid #111827;display:inline-flex;align-items:center} .copy{background:#fff;color:#334155;border:1px solid #cbd5e1}
+.run.disabled{opacity:.45;pointer-events:none}
+.toast{display:none;position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#111827;color:#fff;padding:10px 14px;border-radius:9px;font-size:14px}
+@media(max-width:560px){h1{font-size:28px} .actions{display:grid} .run,.copy{width:100%;justify-content:center}}
+</style>
+</head>
+<body>
+<main>
+<h1>쌤157 Scheme 환경별 테스트</h1>
+<p class="intro">테스트 케이스를 선택하거나 URL을 직접 입력한 뒤 <b>선택 환경으로 실행</b>을 누르세요. 환경 선택은 <b>scheme prefix만 변경</b>하며, 나머지 경로와 파라미터는 그대로 유지됩니다.<br><b>ℹ️ Android는 운영으로만</b> 실행하세요. 이 후 실행할 서버별 앱을 선택하시면 됩니다.</p>
+<div class="legend"><span>개발 ssemdev://</span><span>스테이징 ssemstag://</span><span>운영 ssem://</span></div>
+
+<div class="card">
+  <div class="field">
+    <div class="label">테스트 케이스</div>
+    <select id="case-select">
+      <optgroup label="정상 케이스">
+        <option value="N-01">N-01 · 앱 실행</option>
+        <option value="N-02">N-02 · 인증서 연동화면 이동</option>
+        <option value="N-03">N-03 · 쿠폰함 페이지 이동</option>
+      </optgroup>
+      <optgroup label="오류 케이스">
+        <option value="E-01">E-01 · 실행액션은 정상이나, 파라미터가 누락</option>
+        <option value="E-02">E-02 · 파라미터는 정상이나, 실행액션이 누락</option>
+        <option value="E-03">E-03 · 파라미터는 정상이나, 없는 실행액션을 요청한 경우</option>
+        <option value="E-04">E-04 · 실행액션은 정상이나, 매핑에 없는 파라미터를 요청</option>
+        <option value="E-05">E-05 · 실행액션 정상 및 매핑 파라미터이나, 매핑 페이지 미존재</option>
+      </optgroup>
+      <optgroup label="기타">
+        <option value="custom">직접 입력</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <div class="field">
+    <div class="label">기대 동작</div>
+    <div class="expect" id="expect"></div>
+  </div>
+
+  <div class="field">
+    <div class="label">실행 환경</div>
+    <select id="env-select">
+      <option value="ssemdev">개발 (ssemdev://)</option>
+      <option value="ssemstag">스테이징 (ssemstag://)</option>
+      <option value="ssem" selected>운영 (ssem://)</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <div class="label">URL (직접 입력·수정 가능)</div>
+    <input type="text" id="url-input" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="ssem://run?scheme=openModal&amp;ELE_NM=...">
+    <div class="note" id="note"></div>
+  </div>
+
+  <div class="field">
+    <div class="label">실행 URL</div>
+    <code id="resolved"></code>
+  </div>
+
+  <div class="actions">
+    <a class="run" id="run" href="#">선택 환경으로 실행</a>
+    <button type="button" class="copy" id="copy">URL 복사</button>
+  </div>
+</div>
+</main>
+<div class="toast" id="toast">복사했습니다.</div>
+<script>
+// 케이스별 기본 URL은 운영(ssem://) 기준으로 두고, 실행 시점에 선택한 환경의 prefix로 바꾼다.
+const CASES = {
+ 'N-01': {expect:'앱 실행', url:'ssem://run'},
+ 'N-02': {expect:'인증서 연동 화면으로 이동', url:'ssem://run?scheme=openModal&ELE_NM=element%3A%2F%2F.is-cert-list-check&ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html'},
+ 'N-03': {expect:'쿠폰함 페이지로 이동', url:'ssem://run?scheme=openModal&ELE_NM=element%3A%2F%2F.m_cpn_101_01&ELE_TARGET=%2Fcomp%2Fcpn%2Fm_cpn_101.html'},
+ 'E-01': {expect:'동작 없음, 그냥 앱 실행', url:'ssem://run?scheme=openModal'},
+ 'E-02': {expect:'동작 없음, 그냥 앱 실행', url:'ssem://run?scheme=&ELE_NM=element%3A%2F%2F.is-cert-list-check&ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html'},
+ 'E-03': {expect:'동작 없음, 그냥 앱 실행', url:'ssem://run?scheme=nothing&ELE_NM=element%3A%2F%2F.is-cert-list-check&ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html'},
+ 'E-04': {expect:'알 수 없는 페이지 모달 표시', url:'ssem://run?scheme=openModal&ELE_NM=element%3A%2F%2F.nothing&ELE_TARGET=%2Fcomp%2Fmnu%2Fmnu_001.html'},
+ 'E-05': {expect:'404 페이지 표시', url:'ssem://run?scheme=openModal&ELE_NM=element%3A%2F%2F.cd80_t001&ELE_TARGET=%2Fcomp%2Fmsg%2Fmsg_101_80.html'}
+};
+
+const caseSel = document.getElementById('case-select');
+const envSel  = document.getElementById('env-select');
+const urlIn   = document.getElementById('url-input');
+const expect  = document.getElementById('expect');
+const resolved= document.getElementById('resolved');
+const runBtn  = document.getElementById('run');
+const note    = document.getElementById('note');
+const toast   = document.getElementById('toast');
+let timer;
+
+function showToast(){toast.style.display='block'; clearTimeout(timer); timer=setTimeout(()=>toast.style.display='none',1600);}
+
+// 환경 선택은 쌤157 스킴(ssem / ssemdev / ssemstag)에만 적용한다.
+// 그 외 스킴을 직접 입력한 경우에는 손대지 않고 입력값 그대로 실행한다.
+const SSEM_SCHEME = /^(ssem|ssemdev|ssemstag):\/\//i;
+function applyEnv(base, env){
+  return SSEM_SCHEME.test(base) ? base.replace(SSEM_SCHEME, env + '://') : base;
+}
+
+function sync(){
+  const base = urlIn.value.trim();
+  const url  = base ? applyEnv(base, envSel.value) : '';
+
+  resolved.textContent = url || '실행할 URL을 선택하거나 입력하세요.';
+  runBtn.href = url || '#';
+  runBtn.classList.toggle('disabled', !url);
+
+  const skipped = base && !SSEM_SCHEME.test(base);
+  note.textContent = skipped ? '쌤157 스킴(ssem / ssemdev / ssemstag)이 아니라 환경 선택이 적용되지 않습니다. 입력한 URL 그대로 실행됩니다.' : '';
+  note.classList.toggle('show', !!skipped);
+
+  return url;
+}
+
+function applyCase(){
+  const id = caseSel.value;
+  if (id === 'custom') {
+    expect.textContent = '직접 입력한 URL로 실행합니다.';
+  } else {
+    const c = CASES[id];
+    urlIn.value = c.url;
+    expect.innerHTML = '<span class="id">' + id + '</span><b>' + c.expect + '</b>';
+  }
+  sync();
+}
+
+// URL을 손대면 케이스 선택과 어긋나므로 "직접 입력"으로 표시를 바꾼다
+urlIn.addEventListener('input', () => {
+  const id = caseSel.value;
+  if (id !== 'custom' && urlIn.value.trim() !== CASES[id].url) {
+    caseSel.value = 'custom';
+    expect.textContent = '직접 입력한 URL로 실행합니다.';
+  }
+  sync();
+});
+
+caseSel.addEventListener('change', applyCase);
+envSel.addEventListener('change', sync);
+
+document.getElementById('copy').addEventListener('click', async () => {
+  const u = sync();
+  if (!u) return;
+  try { await navigator.clipboard.writeText(u); }
+  catch (e) { const t=document.createElement('textarea'); t.value=u; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); }
+  showToast();
+});
+
+applyCase();
+</script>
+</body>
+</html>
