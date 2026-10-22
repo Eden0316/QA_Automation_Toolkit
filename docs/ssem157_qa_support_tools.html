@@ -156,16 +156,28 @@
       display: block;
     }
 
-    #panel-history-delete { overflow: auto; padding: 24px; }
-    .history-content { max-width: 900px; margin: auto; }
-    .history-content h2 { margin-top: 0; }
-    .history-content label { display: block; margin: 20px 0 8px; font-weight: 700; }
-    .history-content select, .history-content textarea { width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 10px; font: inherit; }
-    .history-content textarea { min-height: 140px; overflow-wrap: anywhere; }
-    .history-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
-    .history-actions a, .history-actions button { padding: 12px 16px; border-radius: 10px; border: 1px solid var(--line); font: inherit; cursor: pointer; text-decoration: none; }
-    .history-actions a { background: var(--accent); color: white; }
-    .history-actions button { background: white; color: var(--text); }
+    /* 푸시 전송 탭과 같은 화면 폭·여백·카드·입력·버튼 스타일을 사용한다. */
+    #panel-history-delete { overflow: auto; background: #f6f7f9; color: #1f2937; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; }
+    .history-content { max-width: 900px; margin: auto; padding: 40px 16px 64px; }
+    .history-content h2 { margin: 0 0 10px; font-size: 34px; }
+    .history-desc { margin: 0 0 24px; color: #667085; line-height: 1.7; }
+    .history-card { background: #fff; border: 1px solid #d9dee7; border-radius: 16px; padding: 20px; box-shadow: 0 5px 18px rgba(15,23,42,.05); }
+    .history-content label { display: block; margin: 0 0 7px; font-weight: 700; }
+    .history-content select { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 10px; background: #fff; font-size: 15px; color: inherit; }
+    .history-summary { margin-top: 16px; padding: 10px 12px; border: 1px solid #e2e8f0; border-radius: 10px; background: #f8fafc; font-size: 13px; line-height: 1.5; }
+    .history-summary strong { display: block; color: #475569; margin-bottom: 2px; }
+    .history-content .history-preview-label { margin: 22px 0 8px; }
+    .history-content textarea { display: block; width: 100%; min-height: 140px; margin: 0; padding: 16px; border: 0; border-radius: 12px; background: #0f172a; color: #e2e8f0; font-family: Consolas, monospace; font-size: 13px; line-height: 1.65; overflow-wrap: anywhere; resize: vertical; }
+    .history-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+    .history-actions a, .history-actions button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 18px; border-radius: 10px; border: 1px solid #cbd5e1; font-size: 15px; font-weight: 700; cursor: pointer; text-decoration: none; }
+    .history-actions a { border-color: #111827; background: #111827; color: #fff; }
+    .history-actions button { background: #fff; color: #334155; }
+    #history-status { margin: 12px 0 0; color: #667085; font-size: 13px; line-height: 1.5; }
+    #history-status:empty { display: none; }
+    @media (max-width: 650px) {
+      .history-actions { display: grid; }
+      .history-actions a, .history-actions button { width: 100%; }
+    }
 
     iframe {
       display: block;
@@ -258,18 +270,20 @@
         </section>
       <section class="tool-panel" id="panel-history-delete">
         <div class="history-content">
-          <h2>자료수집 이력삭제</h2>
-          <p>개발 환경 · 선택한 HT_TIN의 자료수집 이력삭제 URL을 새 탭에서 실행한다.</p>
+          <h2>쌤157 자료수집 이력삭제</h2>
+          <p class="history-desc">HT_TIN을 선택하면 자료수집 이력삭제 URL이 생성됩니다. 개발 환경에서 새 탭으로 실행하거나 URL을 복사할 수 있습니다.</p>
+          <div class="history-card">
           <label for="history-customer">HT_TIN 선택</label>
           <select id="history-customer"></select>
-          <p>현재 선택: <strong id="history-selection"></strong></p>
-          <label for="history-url">생성 URL</label>
+          <div class="history-summary"><strong>선택된 HT_TIN</strong><span id="history-selection"></span></div>
+          <label class="history-preview-label" for="history-url">생성된 URL</label>
           <textarea id="history-url" readonly spellcheck="false"></textarea>
           <div class="history-actions">
             <a id="history-run" target="_blank" rel="noopener noreferrer">새 탭에서 실행</a>
             <button id="history-copy" type="button">URL 복사</button>
           </div>
           <p id="history-status" role="status" aria-live="polite"></p>
+          </div>
         </div>
       </section>
     </main>
