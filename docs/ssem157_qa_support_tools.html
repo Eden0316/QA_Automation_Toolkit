@@ -163,7 +163,7 @@
     .history-desc { margin: 0 0 24px; color: #667085; line-height: 1.7; }
     .history-card { background: #fff; border: 1px solid #d9dee7; border-radius: 16px; padding: 20px; box-shadow: 0 5px 18px rgba(15,23,42,.05); }
     .history-content label { display: block; margin: 0 0 7px; font-weight: 700; }
-    .history-content select { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 10px; background: #fff; font-size: 15px; color: inherit; }
+    .history-content select, .history-content input { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 10px; background: #fff; font-size: 15px; color: inherit; }
     .history-summary { margin-top: 16px; padding: 10px 12px; border: 1px solid #e2e8f0; border-radius: 10px; background: #f8fafc; font-size: 13px; line-height: 1.5; }
     .history-summary strong { display: block; color: #475569; margin-bottom: 2px; }
     .history-content .history-preview-label { margin: 22px 0 8px; }
@@ -275,6 +275,8 @@
           <div class="history-card">
           <label for="history-customer">HT_TIN 선택</label>
           <select id="history-customer"></select>
+          <label for="history-custom" style="margin-top:10px">HT_TIN 직접 입력</label>
+          <input id="history-custom" type="text" inputmode="numeric" placeholder="목록에 없는 HT_TIN 입력 (입력 시 우선 적용)">
           <div class="history-summary"><strong>선택된 HT_TIN</strong><span id="history-selection"></span></div>
           <label class="history-preview-label" for="history-url">생성된 URL</label>
           <textarea id="history-url" readonly spellcheck="false"></textarea>
@@ -304,19 +306,24 @@
         // 푸시 전송의 목록을 그대로 재사용해 두 탭의 고객 정보가 어긋나지 않게 한다.
         const pushDoc = new DOMParser().parseFromString(decodeBase64Utf8(toolHtml.push), "text/html");
         const select = document.getElementById("history-customer");
+        const custom = document.getElementById("history-custom");
         const source = pushDoc.getElementById("htTinSelect");
         for (const option of source.options) select.appendChild(option.cloneNode(true));
         const preview = document.getElementById("history-url");
         const status = document.getElementById("history-status");
         function updateHistoryUrl() {
+          const customValue = custom.value.trim();
+          const htTin = customValue || select.value;
           const url = "https://sadm.d.nux.kr/sadm/com/sve/admin/scr/dev_scr_hist_delete.nut?nut="
-            + encodeURIComponent(JSON.stringify({ HT_TIN: select.value }));
-          document.getElementById("history-selection").textContent = select.selectedOptions[0].textContent;
+            + encodeURIComponent(JSON.stringify({ HT_TIN: htTin }));
+          document.getElementById("history-selection").textContent = customValue
+            ? "직접 입력 — " + customValue : select.selectedOptions[0].textContent;
           preview.value = url;
           document.getElementById("history-run").href = url;
           status.textContent = "";
         }
         select.addEventListener("change", updateHistoryUrl);
+        custom.addEventListener("input", updateHistoryUrl);
         document.getElementById("history-copy").addEventListener("click", async () => {
           try {
             await navigator.clipboard.writeText(preview.value);
