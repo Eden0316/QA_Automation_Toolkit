@@ -158,7 +158,7 @@
     }
 
     /* 푸시 전송 탭과 같은 화면 폭·여백·카드·입력·버튼 스타일을 사용한다. */
-    #panel-history-delete, #panel-vlgn, #panel-svc-test { overflow: auto; background: #f6f7f9; color: #1f2937; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; }
+    #panel-history-delete, #panel-vlgn, #panel-svc-test, #panel-singo-init { overflow: auto; background: #f6f7f9; color: #1f2937; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; }
     .history-content { max-width: 900px; margin: auto; padding: 40px 16px 64px; }
     .history-content h2 { margin: 0 0 10px; font-size: 34px; }
     .history-desc { margin: 0 0 24px; color: #667085; line-height: 1.7; }
@@ -175,8 +175,8 @@
     .history-actions button { background: #fff; color: #334155; }
     #history-status { margin: 12px 0 0; color: #667085; font-size: 13px; line-height: 1.5; }
     #history-status:empty { display: none; }
-    #vlgn-status, #svc-status { margin: 12px 0 0; color: #667085; font-size: 13px; line-height: 1.5; }
-    #vlgn-status:empty, #svc-status:empty { display: none; }
+    #vlgn-status, #svc-status, #singo-status { margin: 12px 0 0; color: #667085; font-size: 13px; line-height: 1.5; }
+    #vlgn-status:empty, #svc-status:empty, #singo-status:empty { display: none; }
     .vlgn-steps { margin: 0 0 18px; padding: 14px 16px 14px 34px; border: 1px solid #e2e8f0; border-radius: 12px; background: #f8fafc; color: #334155; font-size: 14px; line-height: 1.8; }
     .vlgn-steps strong { color: #111827; }
     .vlgn-env { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -192,6 +192,7 @@
     .history-content .svc-field label { margin: 0 0 5px; font-size: 12px; font-weight: 600; color: #667085; }
     .svc-field.svc-inactive select { opacity: .45; }
     .svc-field.svc-active input { border-color: #f75f0c; box-shadow: 0 0 0 2px rgba(247,95,12,.15); }
+    .history-actions a.is-disabled { opacity: .45; pointer-events: none; }
     .svc-hint { margin: 0; color: #667085; font-size: 12px; }
     @media (max-width: 650px) {
       .history-actions { display: grid; }
@@ -279,6 +280,10 @@
         <button class="tab-button" data-tab="svc-test" type="button">
           <span class="tab-icon">⚙</span>
           <span>SVE 단위테스트</span>
+        </button>
+        <button class="tab-button" data-tab="singo-init" type="button">
+          <span class="tab-icon">↺</span>
+          <span>신고결과 취소</span>
         </button>
       </div>
     </nav>
@@ -404,6 +409,43 @@
           <p id="svc-status" role="status" aria-live="polite"></p>
           <label class="history-preview-label" for="svc-result">응답</label>
           <textarea id="svc-result" readonly spellcheck="false" placeholder="실행하면 응답이 여기에 표시됩니다."></textarea>
+          </div>
+        </div>
+      </section>
+      <section class="tool-panel" id="panel-singo-init">
+        <div class="history-content">
+          <h2>쌤157 신고결과 취소</h2>
+          <p class="history-desc">HT_TIN과 신고년월을 입력하면 신고결과 취소 URL이 생성됩니다. 개발 어드민(sadm.d.nux.kr)에 로그인된 브라우저에서 새 탭으로 실행하세요.</p>
+          <div class="history-card">
+          <fieldset class="svc-group">
+            <legend>HT_TIN</legend>
+            <div class="svc-pair">
+              <div class="svc-field">
+                <label for="singo-customer">목록에서 선택</label>
+                <select id="singo-customer"></select>
+              </div>
+              <div class="svc-field">
+                <label for="singo-custom">직접 입력</label>
+                <input id="singo-custom" type="text" inputmode="numeric" placeholder="목록에 없는 HT_TIN">
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="svc-group">
+            <legend>신고년월</legend>
+            <div class="svc-field">
+              <label for="singo-yyyymm">YYYYMM</label>
+              <input id="singo-yyyymm" type="text" inputmode="numeric" maxlength="6" value="202701" placeholder="예: 202701">
+            </div>
+          </fieldset>
+          <p class="svc-hint">HT_TIN 직접 입력 칸에 값이 있으면 목록 선택보다 우선 적용됩니다.</p>
+          <div class="history-summary"><strong>취소할 신고</strong><span id="singo-selection"></span></div>
+          <label class="history-preview-label" for="singo-url">생성된 URL</label>
+          <textarea id="singo-url" readonly spellcheck="false"></textarea>
+          <div class="history-actions">
+            <a id="singo-run" target="_blank" rel="noopener noreferrer">새 탭에서 실행</a>
+            <button id="singo-copy" type="button">URL 복사</button>
+          </div>
+          <p id="singo-status" role="status" aria-live="polite"></p>
           </div>
         </div>
       </section>
@@ -613,6 +655,51 @@
         loaded.add(id);
         return;
       }
+      if (id === "singo-init") {
+        // 이력삭제 탭과 같이 푸시 전송의 HT_TIN 목록을 재사용한다.
+        const pushDoc = new DOMParser().parseFromString(decodeBase64Utf8(toolHtml.push), "text/html");
+        const select = document.getElementById("singo-customer");
+        const custom = document.getElementById("singo-custom");
+        const yyyymm = document.getElementById("singo-yyyymm");
+        for (const option of pushDoc.getElementById("htTinSelect").options) select.appendChild(option.cloneNode(true));
+        const preview = document.getElementById("singo-url");
+        const status = document.getElementById("singo-status");
+        const run = document.getElementById("singo-run");
+        function updateSingoUrl() {
+          const customValue = custom.value.trim();
+          const htTin = customValue || select.value;
+          const ym = yyyymm.value.trim();
+          const validYm = /^\d{4}(0[1-9]|1[0-2])$/.test(ym);
+          select.parentElement.classList.toggle("svc-inactive", !!customValue);
+          custom.parentElement.classList.toggle("svc-active", !!customValue);
+          const url = "https://sadm.d.nux.kr/sadm/com/sve/admin/dev/SingoInit.nut?nut="
+            + encodeURIComponent(JSON.stringify({ HT_TIN: htTin, SINGO_YYYYMM: ym }));
+          document.getElementById("singo-selection").textContent = (customValue
+            ? "직접 입력 — " + customValue : select.selectedOptions[0].textContent) + "  /  신고년월 " + ym;
+          preview.value = url;
+          run.href = url;
+          run.classList.toggle("is-disabled", !validYm);
+          status.textContent = validYm ? "" : "신고년월은 YYYYMM 형식(예: 202701)으로 입력하세요.";
+        }
+        select.addEventListener("change", updateSingoUrl);
+        custom.addEventListener("input", updateSingoUrl);
+        yyyymm.addEventListener("input", updateSingoUrl);
+        document.getElementById("singo-copy").addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(preview.value);
+            status.textContent = "URL을 복사했습니다.";
+          } catch (e) {
+            preview.focus();
+            preview.select();
+            let copied = false;
+            try { copied = document.execCommand("copy"); } catch (ignored) {}
+            status.textContent = copied ? "URL을 복사했습니다." : "자동 복사가 차단됐습니다. 선택된 URL을 Ctrl+C로 복사하세요.";
+          }
+        });
+        updateSingoUrl();
+        loaded.add(id);
+        return;
+      }
       if (id === "history-delete") {
         // 푸시 전송의 목록을 그대로 재사용해 두 탭의 고객 정보가 어긋나지 않게 한다.
         const pushDoc = new DOMParser().parseFromString(decodeBase64Utf8(toolHtml.push), "text/html");
@@ -680,7 +767,7 @@
     let initial = "scheme";
     try {
       const saved = localStorage.getItem("ssem157QaActiveTab");
-      if (saved && (toolHtml[saved] || saved === "history-delete" || saved === "vlgn" || saved === "svc-test")) initial = saved;
+      if (saved && (toolHtml[saved] || saved === "history-delete" || saved === "vlgn" || saved === "svc-test" || saved === "singo-init")) initial = saved;
     } catch (e) {}
 
     activateTab(initial);
